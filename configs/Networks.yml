@@ -5,6 +5,7 @@ templates:
     tmdb_network: <<network>>
     sort_title: +<<collection_name>>
     sync_mode: sync
+    sonarr_add: false
 collections:
   HBO:
     template: { name: network, network: "49, 2593, 3186, 3308" }
