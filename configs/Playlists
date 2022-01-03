@@ -1,0 +1,11 @@
+playlists:  
+  Marvel Cinematic Universe - Chronological Order:
+    trakt_list: https://trakt.tv/users/username57/lists/marvel-cinematic-universe-mcu-timeline?sort=rank,asc
+    summary: "Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over..."
+    sync_mode: sync
+    libraries: Movies, TV Shows
+    
+  Star Wars: The Clone Wars - Chronological Order:
+    trakt_list_details: https://trakt.tv/users/mikenobbs/lists/star-wars-the-clone-wars?sort=rank,asc
+    sync_mode: sync
+    libraries: TV Shows
