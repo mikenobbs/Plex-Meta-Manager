@@ -1,3 +1,7 @@
+#######################################################
+#                Network Collections                  #
+#######################################################
+
 templates:
   network:
     optional:
@@ -8,6 +12,7 @@ templates:
     collection_order: alpha
     sync_mode: sync
     sonarr_add_missing: false
+
 collections:
   HBO:
     template: { name: network, network: "49, 2593, 3186, 3308" }
