@@ -468,10 +468,9 @@ collections:
   Spy Kids:
     template: {name: Collection, collection: 86486}
   Star Trek:
-    template: {name: Collection, collection: "115575, 115570, 151}
+    template: {name: Collection, collection: "115575, 115570, 151"}
   Star Wars:
     template: {name: Collection, collection: 10, movie: "348350, 330459"}
-    name_mapping: Star Wars Skywalker Saga
   Step Up:
     template: {name: Collection, collection: 86092}
   Stuart Little:
