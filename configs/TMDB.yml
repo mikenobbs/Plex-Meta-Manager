@@ -1,6 +1,7 @@
 ######################################################
 #                Movie Collections                   #
 ######################################################
+
 templates:
   Collection:
     optional:
@@ -10,6 +11,7 @@ templates:
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
+
 collections:
   101 Dalmatians:
     template: {name: Collection, collection: 100693}
