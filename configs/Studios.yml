@@ -7,9 +7,9 @@ templates:
     optional:
       - company
     tmdb_company: <<company>>
-    sort_title: +<<collection_name>>
+    sort_title: <<collection_name>>
     sync_mode: sync
-    smart_label: release.desc
+    collection_order: release
 
 collections:
   Studio Ghibli:
