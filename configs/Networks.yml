@@ -4,7 +4,7 @@ templates:
       - network
     tmdb_network: <<network>>
     sort_title: +<<collection_name>>
-    collection_mode: show
+    collection_mode: show_items
     collection_order: alpha
     sync_mode: sync
     sonarr_add_missing: false
