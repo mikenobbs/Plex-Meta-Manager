@@ -15,6 +15,9 @@ collections:
   Studio Ghibli:
     template: { name: Studio, company: 10342 }
     summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
+  Disney Pixar:
+    template: { name: Studio, company: 3 }
+    summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios owned by The Walt Disney Company. Pixar began in 1979 and was purchased by Disney in 2006 at a valuation of $7.4 billion. Pixar is best known for its feature films and animated shorts. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
   #Disney Animation:
     #template: { name: Studio }
     #imdb_list: https://www.imdb.com/list/ls059383351/
