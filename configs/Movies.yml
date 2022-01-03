@@ -9,11 +9,11 @@ collections:
     content_rating: 12
     collection_mode: default
     collection_order: release
-    radarr_add: true
+    radarr_add_missing: true
     
   Stand-Up:
     trakt_list_details: https://trakt.tv/users/mikenobbs/lists/stand-up?sort=released,desc
     content_rating: 18
     collection_mode: default
     collection_order: release
-    radarr_add: true
+    radarr_add_missing: true
