@@ -9,3 +9,4 @@ collections:
     content_rating: 12
     collection_mode: default
     collection_order: release
+    sonarr_add_missing: true
