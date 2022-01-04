@@ -62,7 +62,7 @@ collections:
     template: {name: Collection, collection: 120794}
   Batman (Adam West) Animation:
     template: {name: Collection, collection: 626517}
-  Bill & Ted's Most Excellent:
+  Bill & Ted:
     template: {name: Collection, collection: 91746}
   Blade:
     template: {name: Collection, collection: 735}
@@ -98,7 +98,7 @@ collections:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls021933730/
     summary: Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space.
-  Cornetto Trilogy:
+  The Cornetto Trilogy:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls068623110/
     summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
@@ -143,7 +143,7 @@ collections:
     template: {name: Collection, collection: 435259}
   Fantastic Four:
     template: {name: Collection, collection: 9744}
-  The Fast and the Furious:
+  Fast & Furious:
     template: {name: Collection, collection: "9485, 688042"}
   Fifty Shades:
     template: {name: Collection, collection: 344830}
@@ -239,18 +239,14 @@ collections:
     template: {name: Collection, collection: 391860}
   Kung Fu Panda:
     template: {name: Collection, collection: 77816}
-  Lady and the Tramp:
-    template: {name: Collection, collection: 97460}
   The Land Before Time:
     template: {name: Collection, collection: 19163}
   Legally Blonde:
     template: {name: Collection, collection: 86024}
   LEGO DC Comics Super Heroes:
     template: {name: Collection, collection: 386162}
-  The Lego Movie:
-    template: {name: Collection, collection: 325470}
-  Lego Star Wars:
-    template: {name: Collection, collection: 302331}
+  Lego:
+    template: {name: Collection, collection: "325470, 302331", movie: 324849}
   Lethal Weapon:
     template: {name: Collection, collection: 945}
   The Lord of the Rings:
@@ -267,8 +263,6 @@ collections:
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
   Marvel Rising:
     template: {name: Collection, collection: 627234}
-  Mary Poppins:
-    template: {name: Collection, collection: 527439}
   The Mask:
     template: {name: Collection, collection: 43072}
   The Matrix:
@@ -365,8 +359,6 @@ collections:
     template: {name: Collection, collection: 57129}
   Rush Hour:
     template: {name: Collection, collection: 90863}
-  Santa Paws:
-    template: {name: Collection, collection: 469648}
   Saw:
     template: {name: Collection, collection: 656}
   Scary Movie:
@@ -389,8 +381,6 @@ collections:
     template: {name: Collection, collection: 64748}
   The Smurfs:
     template: {name: Collection, collection: 134897}
-  Spider-Man (Avengers):
-    template: {name: Collection, collection: 531241}
   Spider-Man:
     template: {name: Collection, collection: 556}
   Spy Kids:
@@ -409,15 +399,13 @@ collections:
     template: {name: Collection, collection: 436295}
   Taken:
     template: {name: Collection, collection: 135483}
-  Tarzan:
-    template: {name: Collection, collection: 106768}
   Ted:
     template: {name: Collection, collection: 266672}
   Teenage Mutant Ninja Turtles:
     template: {name: Collection, collection: "1582, 401562", movie: 1273}
   Tekken:
     template: {name: Collection, collection: 294172}
-  The Terminator:
+  Terminator:
     template: {name: Collection, collection: 528}
   Tinker Bell:
     template: {name: Collection, collection: 315595}
@@ -451,8 +439,6 @@ collections:
     template: {name: Collection, collection: 529}
   Wayne's World:
     template: {name: Collection, collection: 8979}
-  Wonder Woman:
-    template: {name: Collection, collection: 468552}
   X-Men:
     template: {name: Collection, collection: "748, 453993, 448150", movie: 567604}
   xXx:
