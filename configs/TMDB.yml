@@ -9,8 +9,6 @@ templates:
       - movie
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
-    sync_mode: sync
-    collection_order: release
 
 collections:
   28 Days/Weeks Later:
