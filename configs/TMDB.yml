@@ -13,10 +13,6 @@ templates:
     collection_order: release
 
 collections:
-  101 Dalmatians:
-    template: {name: Collection, collection: 100693}
-  101 Dalmatians (Live-Action):
-    template: {name: Collection, collection: 124916}
   28 Days/Weeks Later:
     template: {name: Collection, collection: 1565}
     name_mapping: 28 Days-Weeks Later
@@ -26,10 +22,6 @@ collections:
     template: {name: Collection, collection: 11716}
   Air Bud:
     template: {name: Collection, collection: 97445}
-  Aladdin:
-    template: {name: Collection, collection: 86027}
-  Alice in Wonderland:
-    template: {name: Collection, collection: 261307}
   Alien:
     template: {name: Collection, collection: "8091, 135416"}
   All Dogs Go to Heaven:
@@ -46,20 +38,12 @@ collections:
     template: {name: Collection, collection: 86105}
   An American Tail:
     template: {name: Collection, collection: 8783}
-  Anaconda:
-    template: {name: Collection, collection: 105995, movie: 336560}
   Anchorman:
     template: {name: Collection, collection: 93791}
   The Angry Birds:
     template: {name: Collection, collection: 531315}
-  Ant-Man:
-    template: {name: Collection, collection: 422834}
-  Atlantis:
-    template: {name: Collection, collection: 100965}
   Austin Powers:
     template: {name: Collection, collection: 1006}
-  The Avengers:
-    template: {name: Collection, collection: 86311}
   Alien vs. Predator:
     template: {name: Collection, collection: 115762}
   Babe:
@@ -74,14 +58,10 @@ collections:
     template: {name: Collection, collection: 423173}
   Balto:
     template: {name: Collection, collection: 117693}
-  Bambi:
-    template: {name: Collection, collection: 87250}
   Batman:
     template: {name: Collection, collection: 120794}
   Batman (Adam West) Animation:
     template: {name: Collection, collection: 626517}
-  Beauty and the Beast:
-    template: {name: Collection, collection: 153010}
   Bill & Ted's Most Excellent:
     template: {name: Collection, collection: 91746}
   Blade:
@@ -90,16 +70,10 @@ collections:
     template: {name: Collection, collection: 422837}
   The Boondock Saints:
     template: {name: Collection, collection: 87186}
-  The Bourne:
+  Bourne:
     template: {name: Collection, collection: 31562}
   Bring It On:
     template: {name: Collection, collection: 430186}
-  Brother Bear:
-    template: {name: Collection, collection: 96472}
-  Captain America:
-    template: {name: Collection, collection: 131295}
-  Cars:
-    template: {name: Collection, collection: 87118}
   Charlie Brown:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls054850259/
@@ -112,8 +86,6 @@ collections:
     template: {name: Collection, collection: 420}
   The Chronicles of Riddick:
     template: {name: Collection, collection: 2794}
-  Cinderella:
-    template: {name: Collection, collection: 55419}
   Cinderella Story:
     template: {name: Collection, collection: 437451}
   Clash of the Titans:
@@ -152,14 +124,12 @@ collections:
     template: {name: Collection, collection: 1570}
   Dirty Harry:
     template: {name: Collection, collection: 10456}
-  Divergent:
+  The Divergent Series:
     template: {name: Collection, collection: 283579}
   A Dog's Purpose:
     template: {name: Collection, collection: 591028}
   Dumb and Dumber:
     template: {name: Collection, collection: 96665}
-  The Emperor's New Groove:
-    template: {name: Collection, collection: 178117}
   The Equalizer:
     template: {name: Collection, collection: 523855}
   Escape From ...:
@@ -169,8 +139,6 @@ collections:
     template: {name: Collection, collection: 525891}
   The Expendables:
     template: {name: Collection, collection: 126125}
-  Fantasia:
-    template: {name: Collection, collection: 55427}
   Fantastic Beasts:
     template: {name: Collection, collection: 435259}
   Fantastic Four:
@@ -185,14 +153,8 @@ collections:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls022264056/
     summary: A collection of films based off or closely associated with the Final Fantasy video games.
-  Finding Nemo:
-    template: {name: Collection, collection: 137697}
   The Flintstones:
     template: {name: Collection, collection: 351684}
-  The Fox and the Hound:
-    template: {name: Collection, collection: 100970}
-  Frozen:
-    template: {name: Collection, collection: 386382, movie: "326359, 460793"}
   G.I. Joe:
     template: {name: Collection, collection: 135468}
   Garfield:
@@ -205,12 +167,8 @@ collections:
     template: {name: Collection, collection: 2980, movie: 43074}
   The Godfather:
     template: {name: Collection, collection: 230}
-  A Goofy Movie:
-    template: {name: Collection, collection: 410261}
   Goosebumps:
     template: {name: Collection, collection: 508783}
-  Guardians of the Galaxy:
-    template: {name: Collection, collection: 284433}
   Grown Ups:
     template: {name: Collection, collection: 180546}
   The Hangover:
@@ -242,16 +200,12 @@ collections:
     template: {name: Collection, collection: 185103}
   How to Train Your Dragon:
     template: {name: Collection, collection: 89137}
-  The Hunchback of Notre Dame:
-    template: {name: Collection, collection: 97456}
   The Hunger Games:
     template: {name: Collection, collection: 131635}
   The Huntsman:
     template: {name: Collection, collection: 393379}
   Ice Age:
     template: {name: Collection, collection: 8354, movie: "79218, 717095, 387893"}
-  The Incredibles:
-    template: {name: Collection, collection: 468222}
   Independence Day:
     template: {name: Collection, collection: 304378}
   Indiana Jones:
@@ -259,8 +213,6 @@ collections:
   Ip Man:
     template: {name: Collection, collection: 70068, movie: "658009, 643413, 450001, 751391, 44249, 182127, 44865"}
     collection_order: alpha
-  Iron Man:
-    template: {name: Collection, collection: 131292}
   It:
     template: {name: Collection, collection: 477962}
   James Bond:
@@ -275,8 +227,6 @@ collections:
     template: {name: Collection, collection: 495527}
   Jump Street:
     template: {name: Collection, collection: 212562}
-  The Jungle Book:
-    template: {name: Collection, collection: 97459}
   Jurassic Park:
     template: {name: Collection, collection: 328, movie: 630322}
   The Karate Kid:
@@ -303,20 +253,12 @@ collections:
     template: {name: Collection, collection: 302331}
   Lethal Weapon:
     template: {name: Collection, collection: 945}
-  Lilo & Stitch:
-    template: {name: Collection, collection: 97461}
-  The Lion King:
-    template: {name: Collection, collection: 94032}
-  The Little Mermaid:
-    template: {name: Collection, collection: 33085}
   The Lord of the Rings:
     template: {name: Collection, collection: 119}
   Mad Max:
     template: {name: Collection, collection: 8945}
   Madagascar:
     template: {name: Collection, collection: 14740, movie: "161143, 25472, 270946"}
-  Maleficent:
-    template: {name: Collection, collection: 531331}
   Mall Cop:
     template: {name: Collection, collection: 328372}
   The Man with No Name:
@@ -346,8 +288,6 @@ collections:
   "Mission: Impossible":
     template: {name: Collection, collection: 87359}
     name_mapping: Mission Impossible
-  Monsters, Inc.:
-    template: {name: Collection, collection: 137696}
   MonsterVerse:
     template: {name: Collection, collection: 535313, movie: 293167}
   Monty Python:
@@ -356,11 +296,9 @@ collections:
     summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies
   Mortal Kombat:
     template: {name: Collection, collection: 9818, movie: 664767}
-  Mulan:
-    template: {name: Collection, collection: 87236}
   The Mummy:
     template: {name: Collection, collection: 1733}
-  The Muppet:
+  The Muppets:
     template: {name: Collection, collection: 256377}
   National Treasure:
     template: {name: Collection, collection: 52984}
@@ -388,18 +326,12 @@ collections:
     template: {name: Collection, collection: 179919}
   Pet Sematary:
     template: {name: Collection, collection: 10789, movie: 157433}
-  Peter Pan:
-    template: {name: Collection, collection: 55422}
   Pirates of the Caribbean:
     template: {name: Collection, collection: 295}
   Pitch Perfect:
     template: {name: Collection, collection: 306031}
-  Planes:
-    template: {name: Collection, collection: 270252}
   Planet of the Apes:
     template: {name: Collection, collection: 173710}
-  Pocahontas:
-    template: {name: Collection, collection: 136214}
   Pokémon:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls062687939/
@@ -414,8 +346,6 @@ collections:
     template: {name: Collection, collection: 256322}
   Rambo:
     template: {name: Collection, collection: 5039}
-  The Rescuers:
-    template: {name: Collection, collection: 57971}
   Resident Evil:
     template: {name: Collection, collection: 17255}
   "Resident Evil: Biohazard":
@@ -435,8 +365,6 @@ collections:
     template: {name: Collection, collection: 57129}
   Rush Hour:
     template: {name: Collection, collection: 90863}
-  The Santa Clause:
-    template: {name: Collection, collection: 53159}
   Santa Paws:
     template: {name: Collection, collection: 469648}
   Saw:
@@ -463,7 +391,7 @@ collections:
     template: {name: Collection, collection: 134897}
   Spider-Man (Avengers):
     template: {name: Collection, collection: 531241}
-  Spider-Man (Raimi):
+  Spider-Man:
     template: {name: Collection, collection: 556}
   Spy Kids:
     template: {name: Collection, collection: 86486}
@@ -475,7 +403,7 @@ collections:
     template: {name: Collection, collection: 86092}
   Stuart Little:
     template: {name: Collection, collection: 99727}
-  Superman (Original):
+  Superman:
     template: {name: Collection, collection: 8537}
   Surf's Up:
     template: {name: Collection, collection: 436295}
@@ -491,8 +419,6 @@ collections:
     template: {name: Collection, collection: 294172}
   The Terminator:
     template: {name: Collection, collection: 528}
-  Thor:
-    template: {name: Collection, collection: 131296}
   Tinker Bell:
     template: {name: Collection, collection: 315595}
   Tom and Jerry:
@@ -501,8 +427,6 @@ collections:
     summary: Tom and Jerry's animated feature-length films based on the series.
   Tomb Raider:
     template: {name: Collection, collection: "2467, 621142"}
-  Toy Story:
-    template: {name: Collection, collection: 10194, movie: 130925}
   Trainspotting:
     template: {name: Collection, collection: 424202}
   Transformers:
@@ -529,8 +453,6 @@ collections:
     template: {name: Collection, collection: 8979}
   Wonder Woman:
     template: {name: Collection, collection: 468552}
-  Wreck-It Ralph:
-    template: {name: Collection, collection: 404825}
   X-Men:
     template: {name: Collection, collection: "748, 453993, 448150", movie: 567604}
   xXx:
