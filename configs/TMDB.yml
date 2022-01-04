@@ -16,31 +16,21 @@ collections:
   28 Days/Weeks Later:
     template: {name: Collection, collection: 1565}
     poster_url: https://theposterdb.com/api/assets/24138
-    background_url: https://pro2-bar-s3-cdn-cf5.myportfolio.com/82eae4f0-7840-46b1-a8a2-d723a66224aa/62c19f77-026e-47bb-869c-333443900b11_rw_1920.jpg?h=52504d706bcd3f18ab9abf00b581be14
   "300":
     template: {name: Collection, collection: 125570}
     poster_url: https://theposterdb.com/api/assets/138689
-    background_url: 
   Addams Family:
     template: {name: Collection, collection: 11716}
-    poster_url:
-    background_url:
-  Air Bud:
-    template: {name: Collection, collection: 97445}
-    poster_url:
-    background_url:
+    poster_url: 
+  Addams Family (Animated):
+    template: {name: Collection, collection: 750822}
+    poster_url: https://theposterdb.com/api/assets/185949 
   Alien:
     template: {name: Collection, collection: "8091, 135416"}
-    poster_url:
-    background_url:
-  All Dogs Go to Heaven:
-    template: {name: Collection, collection: 140910}
-    poster_url:
-    background_url:
+    poster_url: https://theposterdb.com/api/assets/1213
   Almighty:
     template: {name: Collection, collection: 124949}
-    poster_url:
-    background_url:
+    poster_url: https://theposterdb.com/api/assets/51450
   Alvin and the Chipmunks:
     template: {name: Collection, collection: 167613}
     poster_url:
@@ -348,8 +338,7 @@ collections:
     background_url:
   The Hobbit:
     template: {name: Collection, collection: 121938}
-    poster_url:
-    background_url:
+    poster_url: https://theposterdb.com/api/assets/191452
   Home Alone:
     template: {name: Collection, collection: 9888}
     poster_url:
@@ -473,8 +462,7 @@ collections:
     background_url:
   The Lord of the Rings:
     template: {name: Collection, collection: 119}
-    poster_url:
-    background_url:
+    poster_url: https://theposterdb.com/api/assets/191453
   Mad Max:
     template: {name: Collection, collection: 8945}
     poster_url:
@@ -526,9 +514,9 @@ collections:
     poster_url:
     background_url:
   Middle-Earth:
-    template: {name: Collection, collection: }
-    poster_url:
-    background_url:
+    template: {name: Collection, collection: "121938, 119"}
+    summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
+    poster_url: https://theposterdb.com/api/assets/191451
   The Mighty Ducks:
     template: {name: Collection, collection: 10709}
     poster_url:
@@ -635,8 +623,7 @@ Power Rangers:
     background_url:
   Predator:
     template: {name: Collection, collection: 399}
-    poster_url:
-    background_url:
+    poster_url: https://theposterdb.com/api/assets/243
   The Princess Diaries:
     template: {name: Collection, collection: 107674}
     poster_url:
