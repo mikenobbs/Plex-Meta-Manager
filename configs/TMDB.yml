@@ -560,26 +560,21 @@ collections:
     imdb_list: https://www.imdb.com/list/ls062687939/
     summary: Pokémon is a media franchise created by video game designer Satoshi Tajiri that centers on fictional creatures called Pokémon. As of 2020, there have been 23 animated films and one live action film. The first nineteen animated films are based on the anime television series of the same name, with the original film being remade into the 22nd. The 20th, 21st and 23rd animated films are set in an alternate continuity to the anime.
     url_poster:
-    
-Power Rangers:
+  Power Rangers:
     template: {name: Collection, collection: 708816, movie: "305470, 306264"}
     url_poster:
-    
   Predator:
     template: {name: Collection, collection: 399}
     url_poster: https://theposterdb.com/api/assets/243
   The Princess Diaries:
     template: {name: Collection, collection: 107674}
     url_poster:
-    
   The Purge:
     template: {name: Collection, collection: 256322}
     url_poster:
-    
   Rambo:
     template: {name: Collection, collection: 5039}
     url_poster:
-    
   Resident Evil:
     template: {name: Collection, collection: 17255}
     url_poster:
