@@ -718,7 +718,7 @@ collections:
     template: {name: Collection, collection: 424202}
     url_poster:
   Transformers:
-    template: {name: Collection, collection: 8650}
+    template: {name: Collection, collection: 8650, movie: 424783}
     url_poster:
   The Transporter:
     template: {name: Collection, collection: 9518}
