@@ -18,7 +18,10 @@ collections:
   The Coen Brothers:
     template: {name: Person, person: "1223, 1224"}
     summary: "Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody. Their most acclaimed works include: Raising Arizona (1987), Miller's Crossing (1990), Fargo (1996), The Big Lebowski (1998), O Brother, Where Art Thou? (2000), No Country for Old Men (2007), Burn After Reading (2008), A Serious Man (2009), True Grit (2010), Inside Llewyn Davis (2013), and The Ballad of Buster Scruggs (2018)."
+    url_poster: https://theposterdb.com/api/assets/202034
   Quentin Tarantino:
     template: {name: Person, person: 138}
+    url_poster: https://theposterdb.com/api/assets/49975
   Wes Anderson:
     template: {name: Person, person: 5655}
+    url_poster: https://theposterdb.com/api/assets/48738
