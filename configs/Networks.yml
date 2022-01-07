@@ -63,3 +63,6 @@ collections:
   Adult Swim Shows:
     template: { name: network, network: "Adult Swim" }
     url_poster: 
+  Syfy:
+    template: { name: network, network: "77, 3701" }
+    url_poster:
