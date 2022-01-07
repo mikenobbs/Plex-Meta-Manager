@@ -6,13 +6,14 @@ templates:
   Person:
     smart_filter:
       any:
-        actor: tmdb
+        #actor: tmdb
         director: tmdb
-        writer: tmdb
-        producer: tmdb
+        #writer: tmdb
+        #producer: tmdb
       validate: false
     tmdb_person: <<person>>
     sort_title: <<collection_name>>
+    sort_by: release.desc
     
 collections: 
   The Coen Brothers:
