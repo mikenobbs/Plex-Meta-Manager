@@ -18,7 +18,7 @@ collections:
   ITV:
     template: { name: network, network: "ITV, ITV2, ITV3, ITV4, ITVBe, CITV" }
     url_poster: 
-  Sky Shows:
+  Sky:
     template: { name: network, network: "Sky 1, Sky Arts, Sky Atlantic, Sky Atlantic (UK), Sky Cinema, Sky Crime, Sky Documentaries, Sky Living, Sky Max, Sky Nature, Sky One, Sky Sports, Sky Two, Sky Witness, Sky1" }
     url_poster: 
   HBO:
