@@ -8,8 +8,7 @@ templates:
       - company
     tmdb_company: <<company>>
     sort_title: <<collection_name>>
-    sync_mode: sync
-    collection_order: release
+    smart_label: release.desc
 
 collections:
   Studio Ghibli:
