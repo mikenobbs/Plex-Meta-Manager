@@ -9,6 +9,7 @@ templates:
     tmdb_company: <<company>>
     sort_title: <<collection_name>>
     smart_label: release.asc
+    collection_mode: hide
 
 collections:
   Studio Ghibli:
