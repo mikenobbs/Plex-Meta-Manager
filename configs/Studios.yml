@@ -2,16 +2,6 @@
 #                Studio Collections                  #
 ######################################################
 
-#templates:
-  #Studio:
-    #optional:
-      #- company
-    #tmdb_company: <<company>>
-    #sort_title: <<collection_name>>
-    #smart_label: release.asc
-    #collection_mode: hide
-    
-    
 templates:
   Studio:
     smart_filter:
@@ -20,7 +10,7 @@ templates:
       any:
         studio: <<studio>>
     sort_title: <<collection_name>>
-    collection_mode: hide
+    collection_mode: hide_items
 
 collections:
   Studio Ghibli:
