@@ -12,9 +12,9 @@ collections:
   BBC:
     template: { name: network, network: "BBC, BBC America, BBC Choice, BBC First, BBC Four, BBC HD, BBC iPlayer, BBC One, BBC Two, BBC Three, BBC UKTV, CBBC, Cbeebies" }
     url_poster: 
-  Channel 4:
-    template: { name: network, network: "Channel 4, E4, More4, 4Seven, Film4" }
-    url_poster: 
+  #Channel 4:
+    #template: { name: network, network: "Channel 4, E4, More4, 4Seven, Film4" }
+    #url_poster: 
   ITV:
     template: { name: network, network: "ITV, ITV2, ITV3, ITV4, ITVBe, CITV" }
     url_poster: 
@@ -39,15 +39,15 @@ collections:
   NBC Universal:
     template: { name: network, network: "Bravo, CNBC, E!, MSNBC, NBC, Oxgen, Peacock, SyFy" }
     url_poster:
-  Starz:
-    template: { name: network, network: "Starz" }
-    url_poster:
+  #Starz:
+    #template: { name: network, network: "Starz" }
+    #url_poster:
   Amazon Prime:
     template: { name: network, network: "Amazon, Amazon Prime Video, Prime Video" }
     url_poster: 
-  YouTube:
-    template: { name: network, network: "YouTube, YouTube Premium" }
-    url_poster:
+  #YouTube:
+    #template: { name: network, network: "YouTube, YouTube Premium" }
+    #url_poster:
   FOX:
     template: { name: network, network: "FX, FOX, Fox Action Movies, Fox Business Network, Fox Kids, Fox Premium Series, FOX Sports 1, Fox Sports Networks" }
     url_poster:
