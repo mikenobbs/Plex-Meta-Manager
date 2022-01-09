@@ -4,11 +4,14 @@
 
 templates:
   Collection:
-    optional:
-      - collection
-      - movie
+    smart_filter:
+      any:
+        collection: tmdb
+        movie: tmdb
+      validate: false
     tmdb_collection_details: <<collection>>
-    tmdb_movie: <<movie>>
+    sort_title: <<collection_name>>
+    sort_by: release.desc
 
 collections:
   28 Days/Weeks Later:
