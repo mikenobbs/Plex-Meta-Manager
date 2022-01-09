@@ -5,8 +5,9 @@
 templates:
   Studio:
     optional:
-      -  include
-      -  exclude
+      - include
+      - exclude
+      - title
     smart_filter:
       sort_by: release.asc
       validate: false
@@ -15,6 +16,8 @@ templates:
         genre.not: <<exclude>>
         any:
           studio: <<studio>>
+          title: <<title>>
+          title.not: <<titlenot>>
     sort_title: <<collection_name>>
     collection_mode: hide_items
 
@@ -26,8 +29,8 @@ collections:
     template: { name: Studio, studio: Pixar }
     summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios owned by The Walt Disney Company. Pixar began in 1979 and was purchased by Disney in 2006 at a valuation of $7.4 billion. Pixar is best known for its feature films and animated shorts. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
   Disney Animation:
-    template: { name: Studio, studio: "Disney", include: animation }
+    template: { name: Studio, studio: "Disney", include: animation, titlenot: "Song of the South, Mary Poppins" }
     summary: Walt Disney Animation Studios, sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Walt Disney Studios lot in Burbank, California.
   Disney Live-Action:
-    template: { name: Studio, studio: "Disney", exclude: animation }
+    template: { name: Studio, studio: "Disney", exclude: animation, title: "Pirates of the Caribbean" }
     summary: Walt Disney Pictures is an American film production studio of The Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures.
