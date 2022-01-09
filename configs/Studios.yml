@@ -9,6 +9,8 @@ templates:
       validate: false
       any:
         studio: <<studio>>
+        genre: <<genre>>
+        genre.not: <<genre>>
     sort_title: <<collection_name>>
     collection_mode: hide_items
 
