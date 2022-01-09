@@ -9,8 +9,9 @@ templates:
     smart_filter:
       sort_by: release.asc
       validate: false
-    tmdb_collection_details: <<collection>>
-    tmdb_movie: <<movie>>
+      any:
+        tmdb_collection_details: <<collection>>
+        tmdb_movie: <<movie>>
     sort_title: <<collection_name>>
 
 collections:
