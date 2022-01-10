@@ -7,7 +7,6 @@ templates:
     optional:
       - include
       - exclude
-      - title
     smart_filter:
       sort_by: release.asc
       validate: false
@@ -16,9 +15,36 @@ templates:
         genre.not: <<exclude>>
         any:
           studio: <<studio>>
-          title: <<title>>
     sort_title: <<collection_name>>
     collection_mode: hide_items
+
+metadata:
+  Brave:
+    studio: Pixar
+  "Descendants: The Royal Wedding":
+    studio: Disney Television Animation
+  The Incredibles 2:
+    studio: Pixar
+  Onward:
+    studio: Pixar
+  "Pirates of the Caribbean: At World's End":
+    studio: Walt Disney Pictures
+  Soul:
+    studio: Pixar
+  Toy Story 4:
+    studio: Pixar
+  "Toy Story Toons: Partysaurus Rex":
+    studio: Pixar
+  Enchanted:
+    genre.not: animation
+  The Jungle Book (2016):
+    genre.not: animation
+  The Lion King (2019):
+    genre.not animation
+  Mary Poppins Returns:
+    genre.not: animation
+  Song of the South:
+    genre.not: animation
 
 collections:
   Studio Ghibli:
