@@ -17,7 +17,6 @@ templates:
         any:
           studio: <<studio>>
           title: <<title>>
-          title.not: <<titlenot>>
     sort_title: <<collection_name>>
     collection_mode: hide_items
 
