@@ -225,127 +225,97 @@ collections:
   G.I. Joe:
     template: {name: Collection, collection: 135468}
     url_poster:
-    
   Garfield:
     template: {name: Collection, collection: "86115, 373918"}
     url_poster:
-    
   George of the Jungle:
     template: {name: Collection, collection: 126221}
     url_poster:
-    
   Ghost Rider:
     template: {name: Collection, collection: 90306}
     url_poster:
-    
   Ghostbusters:
     template: {name: Collection, collection: 2980, movie: 43074}
     url_poster:
-    
   The Godfather:
     template: {name: Collection, collection: 230}
     url_poster:
-    
   Goosebumps:
     template: {name: Collection, collection: 508783}
     url_poster:
-    
   Grown Ups:
     template: {name: Collection, collection: 180546}
     url_poster:
-    
   The Hangover:
     template: {name: Collection, collection: 86119}
     url_poster:
-    
   Hannibal Lecter:
     template: {name: Collection, collection: 9743, movie: 11454}
     url_poster:
-    
   Harold & Kumar:
     template: {name: Collection, collection: 30663}
     url_poster:
-    
   Harry Potter:
     template: {name: Collection, collection: 1241}
     url_poster:
-    
   ... Has Fallen:
     template: {name: Collection, collection: 386534}
     url_poster:
-    
   Hellboy:
     template: {name: Collection, collection: 17235}
-    url_poster:
-    
+    url_poster: 
   High School Musical:
     template: {name: Collection, collection: 87253}
     url_poster:
-    
   The Hobbit:
     template: {name: Collection, collection: 121938}
     url_poster: https://theposterdb.com/api/assets/191452
   Home Alone:
     template: {name: Collection, collection: 9888}
     url_poster:
-    
   Honey, I Shrunk the Kids:
     template: {name: Collection, collection: 72119}
     url_poster:
-    
   Horrible Bosses:
     template: {name: Collection, collection: 280588}
     url_poster:
-    
   Hot Tub Time Machine:
     template: {name: Collection, collection: 313576}
     url_poster:
-    
   Hotel Transylvania:
     template: {name: Collection, collection: 185103}
     url_poster:
-    
   How to Train Your Dragon:
     template: {name: Collection, collection: 89137}
     url_poster:
-    
   The Hunger Games:
     template: {name: Collection, collection: 131635}
     url_poster:
-    
   The Huntsman:
     template: {name: Collection, collection: 393379}
     url_poster:
-    
   Ice Age:
     template: {name: Collection, collection: 8354, movie: "79218, 717095, 387893"}
     url_poster:
-    
   Independence Day:
     template: {name: Collection, collection: 304378}
     url_poster:
-    
   Indiana Jones:
     template: {name: Collection, collection: 84}
     url_poster:
-    
   Ip Man:
     template: {name: Collection, collection: 70068, movie: "658009, 643413, 450001, 751391, 44249, 182127, 44865"}
-    collection_order: alpha
+    smart_label: title.asc
     url_poster:
-    
   It:
     template: {name: Collection, collection: 477962}
     url_poster:
-    
   James Bond:
     template: {name: Collection, collection: 645}
     url_poster:
-    
   Jaws:
     template: {name: Collection, collection: 2366}
     url_poster:
-    
   Jay and Silent Bob:
     template: {name: Collection, collection: 726870}
     url_poster:
@@ -655,44 +625,34 @@ collections:
     
   The Smurfs:
     template: {name: Collection, collection: 134897}
-    url_poster:
-    
+    url_poster:  
   Spider-Man:
     template: {name: Collection, collection: 556}
-    url_poster:
-    
+    url_poster: 
   Spy Kids:
     template: {name: Collection, collection: 86486}
-    url_poster:
-    
+    url_poster:  
   Star Trek:
     template: {name: Collection, collection: "115575, 115570, 151"}
-    url_poster:
-    
+    url_poster:  
   Star Wars:
     template: {name: Collection, collection: 10, movie: "348350, 330459"}
-    url_poster:
-    
+    url_poster: 
   Step Up:
     template: {name: Collection, collection: 86092}
-    url_poster:
-    
+    url_poster:   
   Stuart Little:
     template: {name: Collection, collection: 99727}
-    url_poster:
-    
+    url_poster: 
   Superman:
     template: {name: Collection, collection: 8537}
     url_poster:
-    
   Surf's Up:
     template: {name: Collection, collection: 436295}
-    url_poster:
-    
+    url_poster:  
   Taken:
     template: {name: Collection, collection: 135483}
-    url_poster:
-    
+    url_poster:  
   Ted:
     template: {name: Collection, collection: 266672}
     url_poster:
