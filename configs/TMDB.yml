@@ -10,8 +10,8 @@ templates:
       sort_by: release.asc
       validate: false
       any:
-        tmdb_collection_details: <<collection>>
         tmdb_movie: <<movie>>
+    tmdb_collection_details: <<collection>>
     sort_title: <<collection_name>>
 
 collections:
