@@ -1,5 +1,5 @@
 ######################################################
-#               TMDB Movie Collections               #
+#                  Movie Collections                 #
 ######################################################
 
 templates:
@@ -15,6 +15,7 @@ templates:
 collections:
   28 Days/Weeks Later:
     template: {name: Collection, collection: 1565}
+    name_mapping: 28 Days-Weeks Later
     url_poster: https://theposterdb.com/api/assets/24138
   "300":
     template: {name: Collection, collection: 125570}
@@ -202,26 +203,21 @@ collections:
     url_poster:
   Fast & Furious:
     template: {name: Collection, collection: "9485, 688042"}
-    url_poster:
-    
+    url_poster: 
   Fifty Shades:
     template: {name: Collection, collection: 344830}
     url_poster:
-    
   Final Destination:
     template: {name: Collection, collection: 8864}
     url_poster:
-    
   Final Fantasy:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls022264056/
     summary: A collection of films based off or closely associated with the Final Fantasy video games.
     url_poster:
-    
   The Flintstones:
     template: {name: Collection, collection: 351684}
     url_poster:
-    
   G.I. Joe:
     template: {name: Collection, collection: 135468}
     url_poster:
@@ -319,214 +315,172 @@ collections:
   Jay and Silent Bob:
     template: {name: Collection, collection: 726870}
     url_poster:
-    
   John Wick:
     template: {name: Collection, collection: 404609}
-    url_poster:
-    
+    url_poster:  
   Jumanji:
     template: {name: Collection, collection: 495527}
-    url_poster:
-    
+    url_poster:  
   Jump Street:
     template: {name: Collection, collection: 212562}
     url_poster:
-    
   Jurassic Park:
     template: {name: Collection, collection: 328, movie: 630322}
     url_poster:
-    
   The Karate Kid:
     template: {name: Collection, collection: 8580, movie: 38575}
     url_poster:
-    
   Kick-Ass:
     template: {name: Collection, collection: 179892}
     url_poster:
-    
   Kill Bill:
     template: {name: Collection, collection: 2883}
     url_poster:
-    
   Kingsman:
     template: {name: Collection, collection: 391860}
     url_poster:
-    
   Kung Fu Panda:
     template: {name: Collection, collection: 77816}
     url_poster:
-    
   The Land Before Time:
     template: {name: Collection, collection: 19163}
     url_poster:
-    
   Legally Blonde:
     template: {name: Collection, collection: 86024}
     url_poster:
-    
   LEGO DC Comics Super Heroes:
     template: {name: Collection, collection: 386162}
     url_poster:
-    
   Lego:
     template: {name: Collection, collection: "325470, 302331", movie: 324849}
     url_poster:
-    
   Lethal Weapon:
     template: {name: Collection, collection: 945}
     url_poster:
-    
   The Lord of the Rings:
     template: {name: Collection, collection: 119}
     url_poster: https://theposterdb.com/api/assets/191453
   Mad Max:
     template: {name: Collection, collection: 8945}
     url_poster:
-    
   Madagascar:
     template: {name: Collection, collection: 14740, movie: "161143, 25472, 270946"}
     url_poster:
-    
   Mall Cop:
     template: {name: Collection, collection: 328372}
     url_poster:
-    
   The Man with No Name:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls023916334/
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
     url_poster:
-    
+  Marvel Cinematic Universe:
+    template: {name: Collection}
+    trakt_list: https://trakt.tv/users/username57/lists/marvel-cinematic-universe-mcu-timeline?sort=rank,asc
+    summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
+    content_rating: 12
+    radarr_add_missing: true
+    url_poster:
   Marvel Rising:
     template: {name: Collection, collection: 627234}
-    url_poster:
-    
+    url_poster:  
   The Mask:
     template: {name: Collection, collection: 43072}
-    url_poster:
-    
+    url_poster:  
   The Matrix:
     template: {name: Collection, collection: 2344}
-    url_poster:
-    
+    url_poster:  
   Maya the Bee:
     template: {name: Collection, collection: 522250}
-    url_poster:
-    
+    url_poster:  
   The Maze Runner:
     template: {name: Collection, collection: 295130}
-    url_poster:
-    
+    url_poster:  
   Mean Girls:
     template: {name: Collection, collection: 99606}
-    url_poster:
-    
+    url_poster:  
   Meet the Parents:
     template: {name: Collection, collection: 51509}
-    url_poster:
-    
+    url_poster:  
   Men In Black:
     template: {name: Collection, collection: 86055}
-    url_poster:
-    
+    url_poster:  
   Middle-Earth:
     template: {name: Collection, collection: "121938, 119"}
     summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
     url_poster: https://theposterdb.com/api/assets/191451
   The Mighty Ducks:
     template: {name: Collection, collection: 10709}
-    url_poster:
-    
+    url_poster:  
   "Mission: Impossible":
     template: {name: Collection, collection: 87359}
-    url_poster:
-    
+    name_mapping: Mission Impossible
+    url_poster:   
   MonsterVerse:
     template: {name: Collection, collection: 535313, movie: 293167}
-    url_poster:
-    
+    url_poster:  
   Monty Python:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls072012494/
     summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies
-    url_poster:
-    
+    url_poster:  
   Mortal Kombat:
     template: {name: Collection, collection: 9818, movie: 664767}
-    url_poster:
-    
+    url_poster: 
   The Mummy:
     template: {name: Collection, collection: 1733}
-    url_poster:
-    
+    url_poster: 
   The Muppets:
     template: {name: Collection, collection: 256377}
-    url_poster:
-    
+    url_poster: 
   National Treasure:
     template: {name: Collection, collection: 52984}
-    url_poster:
-    
+    url_poster:   
   Neighbors:
     template: {name: Collection, collection: 400700}
-    url_poster:
-    
+    url_poster: 
   The Neverending Story:
     template: {name: Collection, collection: 91430}
-    url_poster:
-    
+    url_poster:  
   Night at the Museum:
     template: {name: Collection, collection: 85943}
-    url_poster:
-    
+    url_poster:  
   Now You See Me:
     template: {name: Collection, collection: 382685}
-    url_poster:
-    
+    url_poster:  
   Ocean's:
     template: {name: Collection, collection: 304}
-    url_poster:
-    
+    url_poster:  
   Ong Bak:
     template: {name: Collection, collection: 94589}
-    url_poster:
-    
+    url_poster:  
   Oz:
     template: {name: Collection, collection: 627517, movie: "13155, 68728"}
-    url_poster:
-    
+    url_poster:  
   Pacific Rim:
     template: {name: Collection, collection: 363369}
-    url_poster:
-    
+    url_poster:  
   Paddington:
     template: {name: Collection, collection: 488924}
-    url_poster:
-    
+    url_poster:  
   Parasyte:
     template: {name: Collection, collection: 385386}
-    url_poster:
-    
+    url_poster:  
   Percy Jackson:
     template: {name: Collection, collection: 179919}
-    url_poster:
-    
+    url_poster:  
   Pet Sematary:
     template: {name: Collection, collection: 10789, movie: 157433}
-    url_poster:
-    
+    url_poster:  
   Pirates of the Caribbean:
     template: {name: Collection, collection: 295}
-    url_poster:
-    
+    url_poster:  
   Pitch Perfect:
     template: {name: Collection, collection: 306031}
-    url_poster:
-    
+    url_poster:  
   Planet of the Apes:
     template: {name: Collection, collection: 173710}
-    url_poster:
-    
+    url_poster:  
   Pokémon:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls062687939/
@@ -549,80 +503,62 @@ collections:
     url_poster:
   Resident Evil:
     template: {name: Collection, collection: 17255}
-    url_poster:
-    
+    url_poster: 
   "Resident Evil: Biohazard":
     template: {name: Collection, collection: 133352}
-    url_poster:
-    
+    name_mapping: Resident Evil Biohazard
+    url_poster:  
   Ride Along:
     template: {name: Collection, collection: 376650}
-    url_poster:
-    
+    url_poster:  
   Rio:
     template: {name: Collection, collection: 229932}
-    url_poster:
-    
+    url_poster:  
   Robert Langdon:
     template: {name: Collection, collection: 115776}
-    url_poster:
-    
+    url_poster:  
   RoboCop:
     template: {name: Collection, collection: 5547}
-    url_poster:
-    
+    url_poster: 
   Rocky:
     template: {name: Collection, collection: 1575}
-    url_poster:
-    
+    url_poster:  
   Rugrats:
     template: {name: Collection, collection: 57129}
-    url_poster:
-    
+    url_poster:  
   Rush Hour:
     template: {name: Collection, collection: 90863}
-    url_poster:
-    
+    url_poster:  
   Saw:
     template: {name: Collection, collection: 656}
-    url_poster:
-    
+    url_poster:  
   Scary Movie:
     template: {name: Collection, collection: 4246}
-    url_poster:
-    
+    url_poster:  
   The Scorpion King:
     template: {name: Collection, collection: 116669}
-    url_poster:
-    
+    url_poster:   
   Scream:
     template: {name: Collection, collection: 2602}
-    url_poster:
-    
+    url_poster:  
   The Secret Life of Pets:
     template: {name: Collection, collection: 427084}
-    url_poster:
-    
+    url_poster:  
   Shanghai Noon:
     template: {name: Collection, collection: 59567}
-    url_poster:
-    
+    url_poster: 
   Sherlock Holmes:
     template: {name: Collection, collection: 102322}
-    url_poster:
-    
+    url_poster:  
   The Shining:
     template: {name: Collection, collection: 530064}
-    url_poster:
-    
+    url_poster:  
   Shrek:
     template: {name: Collection, collection: 2150}
-    url_poster:
-    
+    url_poster: 
   Silent Hill:
     template: {name: Collection, collection: 64748}
-    url_poster:
-    
+    url_poster:   
   The Smurfs:
     template: {name: Collection, collection: 134897}
     url_poster:  
@@ -632,6 +568,12 @@ collections:
   Spy Kids:
     template: {name: Collection, collection: 86486}
     url_poster:  
+  Stand-Up:
+    template: {name: Collection}
+    trakt_list_details: https://trakt.tv/users/mikenobbs/lists/stand-up?sort=released,desc
+    content_rating: 18
+    radarr_add_missing: true
+    url_poster:
   Star Trek:
     template: {name: Collection, collection: "115575, 115570, 151"}
     url_poster:  
