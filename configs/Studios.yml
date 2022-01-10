@@ -40,7 +40,7 @@ metadata:
   The Jungle Book (2016):
     genre.not: animation
   The Lion King (2019):
-    genre.not animation
+    genre.not: animation
   Mary Poppins Returns:
     genre.not: animation
   Song of the South:
