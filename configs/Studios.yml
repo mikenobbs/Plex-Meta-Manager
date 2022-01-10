@@ -36,15 +36,19 @@ metadata:
   "Toy Story Toons: Partysaurus Rex":
     studio: Pixar
   Enchanted:
-    genre.not: animation
+    genre.remove: animation
   The Jungle Book (2016):
-    genre.not: animation
+    title: The Jungle Book
+    year: 2016
+    genre.remove: animation
   The Lion King (2019):
-    genre.not: animation
+    title: The Lion King
+    year: 2019
+    genre.remove: animation
   Mary Poppins Returns:
-    genre.not: animation
+    genre.remove: animation
   Song of the South:
-    genre.not: animation
+    genre.remove: animation
 
 collections:
   Studio Ghibli:
