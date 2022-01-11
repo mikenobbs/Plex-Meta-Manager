@@ -18,40 +18,6 @@ templates:
     sort_title: <<collection_name>>
     collection_mode: hide_items
 
-metadata:
-  Brave:
-    studio: Pixar
-  "The Chronicles of Narnia: The Voyage of the Dawn Treader":
-    studio: Walt Disney Pictures
-  "Descendants: The Royal Wedding":
-    studio: Disney Television Animation
-  The Incredibles 2:
-    studio: Pixar
-  Onward:
-    studio: Pixar
-  "Pirates of the Caribbean: At World's End":
-    studio: Walt Disney Pictures
-  Soul:
-    studio: Pixar
-  Toy Story 4:
-    studio: Pixar
-  "Toy Story Toons: Partysaurus Rex":
-    studio: Pixar
-  Enchanted:
-    genre.remove: animation
-  The Jungle Book (2016):
-    title: The Jungle Book
-    year: 2016
-    genre.remove: animation
-  The Lion King (2019):
-    title: The Lion King
-    year: 2019
-    genre.remove: animation
-  Mary Poppins Returns:
-    genre.remove: animation
-  Song of the South:
-    genre.remove: animation
-
 collections:
   Studio Ghibli:
     template: { name: Studio, studio: Studio Ghibli }
