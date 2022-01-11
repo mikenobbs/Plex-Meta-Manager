@@ -1,14 +1,10 @@
-#############################################
-#              Custom Metadata              #
-########
-
-
-
-
+######################################################
+#                   Custom Metadata                  #
+######################################################
 
 metadata:
   
- #Adjustments# 
+ #-Adjustments-# 
   Brave:
     studio: Pixar
   "The Chronicles of Narnia: The Voyage of the Dawn Treader":
@@ -42,7 +38,8 @@ metadata:
   Song of the South:
     genre.remove: animation
 
-#The Matrix
+#-Collections-#
+#-The Matrix-#
   The Animatrix:
     sort_title: Matrix 0
   The Matrix:
@@ -54,7 +51,7 @@ metadata:
   The Matrix Resurrections:
     sort_title: Matrix 4
 
-#Middle Earth
+#-Middle Earth-#
   "The Hobbit: An Unexpected Journey":
     sort_title: Middle Earth 1
   "The Hobbit: The Desolation of Smaug":
@@ -68,7 +65,7 @@ metadata:
   "The Lord of the Rings: The Return of the King":
     sort_title: Middle Earth 6
 
-#Wizarding World
+#-Wizarding World-#
   Fantastic Beasts and Where to Find Them:
     sort_title: Wizarding World 1
   "Fantastic Beasts: The Crimes of Grindlewald":
