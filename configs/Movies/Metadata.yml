@@ -1,54 +1,97 @@
-  # --- The Matrix Collection --- #
-  Animatrix:
+#############################################
+#              Custom Metadata              #
+########
+
+
+
+
+
+metadata:
+  
+ #Adjustments# 
+  Brave:
+    studio: Pixar
+  "The Chronicles of Narnia: The Voyage of the Dawn Treader":
+    studio: Walt Disney Pictures
+  "Descendants: The Royal Wedding":
+    studio: Disney Television Animation
+  The Incredibles 2:
+    studio: Pixar
+  Onward:
+    studio: Pixar
+  "Pirates of the Caribbean: At World's End":
+    studio: Walt Disney Pictures
+  Soul:
+    studio: Pixar
+  Toy Story 4:
+    studio: Pixar
+  "Toy Story Toons: Partysaurus Rex":
+    studio: Pixar
+  Enchanted:
+    genre.remove: animation
+  The Jungle Book (2016):
+    title: The Jungle Book
+    year: 2016
+    genre.remove: animation
+  The Lion King (2019):
+    title: The Lion King
+    year: 2019
+    genre.remove: animation
+  Mary Poppins Returns:
+    genre.remove: animation
+  Song of the South:
+    genre.remove: animation
+
+#The Matrix
+  The Animatrix:
     sort_title: Matrix 0
-  Matrix:
+  The Matrix:
     sort_title: Matrix 1
-  Matrix Reloaded:
+  The Matrix Reloaded:
     sort_title: Matrix 2
-  Matrix Revolutions:
+  The Matrix Revolutions:
     sort_title: Matrix 3
-  Matrix Resurrections:
+  The Matrix Resurrections:
     sort_title: Matrix 4
-  # --- The Matrix Collection --- #
-  # --- The Middle Earth Collection --- #
-  Der Hobbit - Eine unerwartete Reise:
+
+#Middle Earth
+  "The Hobbit: An Unexpected Journey":
     sort_title: Middle Earth 1
-  Der Hobbit - Smaugs Einöde:
+  "The Hobbit: The Desolation of Smaug":
     sort_title: Middle Earth 2
-  Der Hobbit - Die Schlacht der fünf Heere:
+  "The Hobbit: The Battle of the Five Armies":
     sort_title: Middle Earth 3
-  Der Herr der Ringe - Die Gefährten:
+  "The Lord of the Rings: The Fellowship of the Ring":
     sort_title: Middle Earth 4
-  Der Herr der Ringe - Die zwei Türme:
+  "The Lord of the Rings: The Two Towers":
     sort_title: Middle Earth 5
-  Der Herr der Ringe - Die Rückkehr des Königs:
+  "The Lord of the Rings: The Return of the King":
     sort_title: Middle Earth 6
-  # --- The Middle Earth Collection --- #
-  # --- Wizarding World --- #
-  Phantastische Tierwesen und wo sie zu finden sind:
+
+#Wizarding World
+  Fantastic Beasts and Where to Find Them:
     sort_title: Wizarding World 1
-  "Phantastische Tierwesen: Grindelwalds Verbrechen":
+  "Fantastic Beasts: The Crimes of Grindlewald":
     sort_title: Wizarding World 2
-  # Phantastische Tierwesen 3:
+  #"Fantastic Beasts: The Secrets of Dumbledore":
   #   sort_title: Wizarding World 3
-  # Phantastische Tierwesen 4:
+  #Fantastic Beasts 4:
   #   sort_title: Wizarding World 4
-  # Phantastische Tierwesen 5:
+  #Fantastic Beasts 5:
   #   sort_title: Wizarding World 5
-  Harry Potter und der Stein der Weisen:
+  Harry Potter and the Philosopher's Stone:
     sort_title: Wizarding World 6
-  Harry Potter und die Kammer des Schreckens:
+  Harry Potter and the Chamber of Secrets:
     sort_title: Wizarding World 7
-  Harry Potter und der Gefangene von Askaban:
+  Harry Potter and the Prisoner of Azkaban:
     sort_title: Wizarding World 8
-  Harry Potter und der Feuerkelch:
+  Harry Potter and the Goblet of Fire:
     sort_title: Wizarding World 9
-  Harry Potter und der Orden des Phönix:
+  Harry Potter and the Order of the Phoenix:
     sort_title: Wizarding World 10
-  Harry Potter und der Halbblutprinz:
+  Harry Potter and the Half-Blood Prince:
     sort_title: Wizarding World 11
-  Harry Potter und die Heiligtümer des Todes - Teil 1:
+  "Harry Potter and the Deathly Hallows: Part 1":
     sort_title: Wizarding World 12
-  Harry Potter und die Heiligtümer des Todes - Teil 2:
+  "Harry Potter and the Deathly Hallows: Part 2":
     sort_title: Wizarding World 13
-  # --- Wizarding World --- #
