@@ -389,6 +389,7 @@ collections:
     url_poster:  
   The Matrix:
     template: {name: Collection, collection: 2344}
+    smart_label: title.asc
     url_poster:  
   Maya the Bee:
     template: {name: Collection, collection: 522250}
@@ -408,6 +409,7 @@ collections:
   Middle-Earth:
     template: {name: Collection, collection: "121938, 119"}
     summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
+    smart_label: title.asc
     url_poster: https://theposterdb.com/api/assets/191451
   The Mighty Ducks:
     template: {name: Collection, collection: 10709}
@@ -652,6 +654,11 @@ collections:
     url_poster:    
   Wayne's World:
     template: {name: Collection, collection: 8979}
+    url_poster:   
+  Wizarding World:
+    template: {name: Collection, collection: "1241, 435259" }
+    summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
+    smart_label: title.asc
     url_poster:   
   X-Men:
     template: {name: Collection, collection: "748, 453993, 448150", movie: 567604}
