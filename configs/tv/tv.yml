@@ -7,6 +7,5 @@ collections:
     trakt_list: https://trakt.tv/users/username57/lists/marvel-cinematic-universe-mcu-timeline?sort=rank,asc
     summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
     content_rating: 12
-    collection_mode: default
-    collection_order: release
+    smart_label: release.asc
     sonarr_add_missing: true
