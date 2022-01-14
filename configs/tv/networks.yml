@@ -18,6 +18,9 @@ collections:
   #Channel 4:
     #template: { name: network, network: "Channel 4, E4, More4, 4Seven, Film4" }
     #url_poster: 
+  Channel 5:
+    template: { name: network, network: "Channel 5, Channel 5 (UK)" }
+    url_poster:
   ITV:
     template: { name: network, network: "ITV, ITV2, ITV3, ITV4, ITVBe, CITV" }
     url_poster: 
@@ -39,7 +42,7 @@ collections:
   Hulu:
     template: { name: network, network: "Hulu" }
     url_poster:
-  NBC Universal:
+  NBC:
     template: { name: network, network: "Bravo, CNBC, E!, MSNBC, NBC, Oxgen, Peacock, SyFy" }
     url_poster:
   #Starz:
@@ -68,4 +71,25 @@ collections:
     url_poster: 
   Syfy:
     template: { name: network, network: "Syfy" }
+    url_poster:
+  Paramount+:
+    template: { name: network, network: "CBS, CBS All Access, Paramount Network, Paramount+" }
+    url_poster:
+  AMC:
+    template: { name: network, network: "AMC" }
+    url_poster:
+  Nickelodeon:
+    template: { name: network, network: "Nickelodeon" }
+    url_poster:
+  The WB:
+    template: { name: network, network: "The WB" }
+    url_poster:
+  The CW:
+    template: { name: network, network: "The CW" }
+    url_poster:
+  PBS:
+    template: { name: network, network: "PBS, PBS Kids" }
+    url_poster:
+  Hallmark:
+    template: { name: network, network: "Hallmark Channel, Hallmark Movies Now" }
     url_poster:
