@@ -4,7 +4,6 @@
 
 templates:
   Collection:
-    smart_label: release.asc
     optional:
       - collection
       - movie
