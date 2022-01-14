@@ -14,7 +14,7 @@ templates:
 collections:
   BBC:
     template: { name: network, network: "BBC, BBC America, BBC Choice, BBC First, BBC Four, BBC HD, BBC iPlayer, BBC One, BBC Two, BBC Three, BBC UKTV, CBBC, Cbeebies" }
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/204360
   #Channel 4:
     #template: { name: network, network: "Channel 4, E4, More4, 4Seven, Film4" }
     #url_poster: 
@@ -32,7 +32,7 @@ collections:
     url_poster: 
   ABC:
     template: { name: network, network: "ABC, ABC (AU), ABS (US), ABC Comedy, ABC Family, ABC Me, ABC Spark, ABC.com, ABC1, ABC3" }
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/204356
   Showtime:
     template: { name: network, network: "Showtime" }
     url_poster: 
@@ -62,13 +62,13 @@ collections:
     url_poster: 
   Apple TV+:
     template: { name: network, network: "Apple Music, Apple TV+" }
-    url_poster:
+    url_poster: https://theposterdb.com/api/assets/204359
   Comedy Central:
     template: { name: network, network: "Comedy Central, Comedy Central (UK)" }
     url_poster: 
   Adult Swim:
     template: { name: network, network: "Adult Swim" }
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/204357
   Syfy:
     template: { name: network, network: "Syfy" }
     url_poster:
@@ -77,7 +77,7 @@ collections:
     url_poster:
   AMC:
     template: { name: network, network: "AMC" }
-    url_poster:
+    url_poster: https://theposterdb.com/api/assets/204358
   Nickelodeon:
     template: { name: network, network: "Nickelodeon" }
     url_poster:
