@@ -47,7 +47,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/204454
   #Starz:
     #template: { name: network, network: "Starz" }
-    #url_poster:
+    #url_poster: https://theposterdb.com/api/assets/204468
   Amazon Prime:
     template: { name: network, network: "Amazon, Amazon Prime Video, Prime Video" }
     url_poster: https://theposterdb.com/api/assets/204462
@@ -101,8 +101,6 @@ collections:
     https://theposterdb.com/api/assets/204452
   MTV:
     https://theposterdb.com/api/assets/204453
-  Starz:
-    https://theposterdb.com/api/assets/204468
   TLC:
     https://theposterdb.com/api/assets/204470
   truTV:
