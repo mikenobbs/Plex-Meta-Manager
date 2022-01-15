@@ -26,7 +26,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/204451
   Sky:
     template: { name: network, network: "Sky 1, Sky Arts, Sky Atlantic, Sky Atlantic (UK), Sky Cinema, Sky Crime, Sky Documentaries, Sky Living, Sky Max, Sky Nature, Sky One, Sky Sports, Sky Two, Sky Witness, Sky1" }
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/204467
   HBO:
     template: { name: network, network: "HBO, HBO Canada, HBO Europe, HBO Max" }
     url_poster: https://theposterdb.com/api/assets/204449
@@ -35,7 +35,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/204356
   Showtime:
     template: { name: network, network: "Showtime" }
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/204463
   Netflix:
     template: { name: network, network: "Netflix" }
     url_poster: https://theposterdb.com/api/assets/204455
@@ -50,7 +50,7 @@ collections:
     #url_poster:
   Amazon Prime:
     template: { name: network, network: "Amazon, Amazon Prime Video, Prime Video" }
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/204462
   #YouTube:
     #template: { name: network, network: "YouTube, YouTube Premium" }
     #url_poster:
@@ -71,7 +71,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/204357
   Syfy:
     template: { name: network, network: "Syfy" }
-    url_poster:
+    url_poster: https://theposterdb.com/api/assets/204469
   Paramount+:
     template: { name: network, network: "CBS, CBS All Access, Paramount Network, Paramount+" }
     url_poster: https://theposterdb.com/api/assets/204457
@@ -83,7 +83,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/204456
   The WB:
     template: { name: network, network: "The WB" }
-    url_poster:
+    url_poster: https://theposterdb.com/api/assets/204472
   The CW:
     template: { name: network, network: "The CW" }
     url_poster: https://theposterdb.com/api/assets/204375
@@ -95,7 +95,15 @@ collections:
     url_poster: https://theposterdb.com/api/assets/204448
   Bravo:
     https://theposterdb.com/api/assets/204367
+  Dave:
+    https://theposterdb.com/api/assets/204473
   Lifetime:
     https://theposterdb.com/api/assets/204452
   MTV:
     https://theposterdb.com/api/assets/204453
+  Starz:
+    https://theposterdb.com/api/assets/204468
+  TLC:
+    https://theposterdb.com/api/assets/204470
+  truTV:
+    https://theposterdb.com/api/assets/204471
