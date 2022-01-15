@@ -23,13 +23,13 @@ collections:
     url_poster: https://theposterdb.com/api/assets/204372
   ITV:
     template: { name: network, network: "ITV, ITV2, ITV3, ITV4, ITVBe, CITV" }
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/204451
   Sky:
     template: { name: network, network: "Sky 1, Sky Arts, Sky Atlantic, Sky Atlantic (UK), Sky Cinema, Sky Crime, Sky Documentaries, Sky Living, Sky Max, Sky Nature, Sky One, Sky Sports, Sky Two, Sky Witness, Sky1" }
     url_poster: 
   HBO:
     template: { name: network, network: "HBO, HBO Canada, HBO Europe, HBO Max" }
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/204449
   ABC:
     template: { name: network, network: "ABC, ABC (AU), ABS (US), ABC Comedy, ABC Family, ABC Me, ABC Spark, ABC.com, ABC1, ABC3" }
     url_poster: https://theposterdb.com/api/assets/204356
@@ -38,13 +38,13 @@ collections:
     url_poster: 
   Netflix:
     template: { name: network, network: "Netflix" }
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/204455
   Hulu:
     template: { name: network, network: "Hulu" }
-    url_poster:
+    url_poster: https://theposterdb.com/api/assets/204450
   NBC:
     template: { name: network, network: "Bravo, CNBC, E!, MSNBC, NBC, Oxgen, Peacock, SyFy" }
-    url_poster:
+    url_poster: https://theposterdb.com/api/assets/204454
   #Starz:
     #template: { name: network, network: "Starz" }
     #url_poster:
@@ -56,10 +56,10 @@ collections:
     #url_poster:
   FOX:
     template: { name: network, network: "FX, FOX, Fox Action Movies, Fox Business Network, Fox Kids, Fox Premium Series, FOX Sports 1, Fox Sports Networks" }
-    url_poster:
+    url_poster: https://theposterdb.com/api/assets/204447
   Disney+:
     template: { name: network, network: "Disney Channel, Disney Channel (UK), Disney Junior, Disney XD, Disney+, Disney+ Hostar" }
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/204376
   Apple TV+:
     template: { name: network, network: "Apple Music, Apple TV+" }
     url_poster: https://theposterdb.com/api/assets/204359
@@ -74,13 +74,13 @@ collections:
     url_poster:
   Paramount+:
     template: { name: network, network: "CBS, CBS All Access, Paramount Network, Paramount+" }
-    url_poster:
+    url_poster: https://theposterdb.com/api/assets/204457
   AMC:
     template: { name: network, network: "AMC" }
     url_poster: https://theposterdb.com/api/assets/204358
   Nickelodeon:
     template: { name: network, network: "Nickelodeon" }
-    url_poster:
+    url_poster: https://theposterdb.com/api/assets/204456
   The WB:
     template: { name: network, network: "The WB" }
     url_poster:
@@ -90,8 +90,12 @@ collections:
   PBS:
     template: { name: network, network: "PBS, PBS Kids" }
     url_poster:
-  Hallmark:
+  Hallmark: https://theposterdb.com/api/assets/204458
     template: { name: network, network: "Hallmark Channel, Hallmark Movies Now" }
-    url_poster:
+    url_poster: https://theposterdb.com/api/assets/204448
   Bravo:
     https://theposterdb.com/api/assets/204367
+  Lifetime:
+    https://theposterdb.com/api/assets/204452
+  MTV:
+    https://theposterdb.com/api/assets/204453
