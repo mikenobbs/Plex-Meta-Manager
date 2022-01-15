@@ -89,19 +89,25 @@ collections:
     url_poster: https://theposterdb.com/api/assets/204375
   PBS:
     template: { name: network, network: "PBS, PBS Kids" }
-    url_poster:
-  Hallmark: https://theposterdb.com/api/assets/204458
+    url_poster: https://theposterdb.com/api/assets/204458
+  Hallmark: 
     template: { name: network, network: "Hallmark Channel, Hallmark Movies Now" }
     url_poster: https://theposterdb.com/api/assets/204448
   Bravo:
-    https://theposterdb.com/api/assets/204367
+    template: { name: network, network: "Bravo" }
+    url_poster: https://theposterdb.com/api/assets/204367
   Dave:
-    https://theposterdb.com/api/assets/204473
+    template: { name: network, network: "Dave" }
+    url_poster: https://theposterdb.com/api/assets/204473
   Lifetime:
-    https://theposterdb.com/api/assets/204452
+    template: { name: network, network: "Lifetime" }
+    url_poster: https://theposterdb.com/api/assets/204452
   MTV:
-    https://theposterdb.com/api/assets/204453
+    template: { name: network, network: "MTV" }
+    url_poster: https://theposterdb.com/api/assets/204453
   TLC:
-    https://theposterdb.com/api/assets/204470
+    template: { name: network, network: "TLC" }
+    url_poster: https://theposterdb.com/api/assets/204470
   truTV:
-    https://theposterdb.com/api/assets/204471
+    template: { name: network, network: "truTV" }
+    url_poster: https://theposterdb.com/api/assets/204471
