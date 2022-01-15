@@ -17,10 +17,10 @@ collections:
     url_poster: https://theposterdb.com/api/assets/204360
   #Channel 4:
     #template: { name: network, network: "Channel 4, E4, More4, 4Seven, Film4" }
-    #url_poster: 
+    #url_poster: https://theposterdb.com/api/assets/204369
   Channel 5:
     template: { name: network, network: "Channel 5, Channel 5 (UK)" }
-    url_poster:
+    url_poster: https://theposterdb.com/api/assets/204372
   ITV:
     template: { name: network, network: "ITV, ITV2, ITV3, ITV4, ITVBe, CITV" }
     url_poster: 
@@ -65,7 +65,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/204359
   Comedy Central:
     template: { name: network, network: "Comedy Central, Comedy Central (UK)" }
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/204374
   Adult Swim:
     template: { name: network, network: "Adult Swim" }
     url_poster: https://theposterdb.com/api/assets/204357
@@ -86,10 +86,12 @@ collections:
     url_poster:
   The CW:
     template: { name: network, network: "The CW" }
-    url_poster:
+    url_poster: https://theposterdb.com/api/assets/204375
   PBS:
     template: { name: network, network: "PBS, PBS Kids" }
     url_poster:
   Hallmark:
     template: { name: network, network: "Hallmark Channel, Hallmark Movies Now" }
     url_poster:
+  Bravo:
+    https://theposterdb.com/api/assets/204367
