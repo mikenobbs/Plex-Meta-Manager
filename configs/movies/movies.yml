@@ -300,7 +300,7 @@ collections:
     url_poster:
   Ip Man:
     template: {name: Collection, collection: 70068, movie: "658009, 643413, 450001, 751391, 44249, 182127, 44865"}
-    smart_label: title.asc
+    collection_order: alpha
     url_poster:
   It:
     template: {name: Collection, collection: 477962}
@@ -408,7 +408,7 @@ collections:
   Middle-Earth:
     template: {name: Collection, collection: "121938, 119"}
     summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
-    smart_label: title.asc
+    collection_order: alpha
     url_poster: https://theposterdb.com/api/assets/191451
   The Mighty Ducks:
     template: {name: Collection, collection: 10709}
@@ -657,7 +657,7 @@ collections:
   Wizarding World:
     template: {name: Collection, collection: "1241, 435259" }
     summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
-    smart_label: title.asc
+    collection_order: alpha
     url_poster:   
   X-Men:
     template: {name: Collection, collection: "748, 453993, 448150", movie: 567604}
