@@ -235,6 +235,9 @@ collections:
   The Godfather:
     template: {name: Collection, collection: 230}
     url_poster:
+  The Good Witch:
+    template: {name: Collection, collection: 87251}
+    url_poster:
   Goosebumps:
     template: {name: Collection, collection: 508783}
     url_poster:
