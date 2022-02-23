@@ -339,7 +339,7 @@ collections:
     template: {name: Collection, collection: 2883}
     url_poster:
   Kingsman:
-    template: {name: Collection, collection: 391860}
+    template: {name: Collection, collection: 391860, movie: 476669}
     url_poster:
   Kung Fu Panda:
     template: {name: Collection, collection: 77816}
