@@ -376,13 +376,6 @@ collections:
     imdb_list: https://www.imdb.com/list/ls023916334/
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
     url_poster:
-  Marvel Cinematic Universe:
-    template: {name: Collection}
-    trakt_list: https://trakt.tv/users/username57/lists/marvel-cinematic-universe-mcu-timeline?sort=rank,asc
-    summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
-    content_rating: 12
-    radarr_add_missing: true
-    url_poster:
   Marvel Rising:
     template: {name: Collection, collection: 627234}
     url_poster:  
