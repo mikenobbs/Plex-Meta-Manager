@@ -80,19 +80,22 @@ metadata:
   "Solo: A Star Wars Story":
     sort_title: Star Wars 3.1
   "Rogue One: A Star Wars Story":
+    alt_titlt: Rogue One
     sort_title: Star Wars 3.2
   "Star Wars: A New Hope":
     alt_title: Star Wars
     sort_title: Star Wars 4
   "Star Wars: The Empire Strikes Back":
-    alt_title: The Empire Strikes Back
+    alt_title: "Star Wars: Episode V - The Empire Strikes Back"
     sort_title: Star Wars 5
   "Star Wars: Return of the Jedi":
     alt_title: Return of the Jedi
     sort_title: Star Wars 6
   "Star Wars: The Force Awakens":
+    alt_title: "Star Wars: Episode VII - The Force Awakens"
     sort_title: Star Wars 7
   "Star Wars: The Last Jedi":
+    alt_title: "Star Wars: Episode VIII - The Last Jedi"
     sort_title: Star Wars 8
   "Star Wars: The Rise of Skywalker":
     sort_title: Star Wars 9
