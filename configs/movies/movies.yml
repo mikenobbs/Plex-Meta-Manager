@@ -384,7 +384,6 @@ collections:
     url_poster:  
   The Matrix:
     template: {name: Collection, collection: 2344}
-    smart_label: title.asc
     url_poster:  
   Maya the Bee:
     template: {name: Collection, collection: 522250}
@@ -576,6 +575,7 @@ collections:
     url_poster:  
   Star Wars:
     template: {name: Collection, collection: 10, movie: "348350, 330459"}
+    collection_order: alpha
     url_poster: 
   Step Up:
     template: {name: Collection, collection: 86092}
