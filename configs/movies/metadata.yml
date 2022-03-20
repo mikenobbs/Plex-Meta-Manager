@@ -66,6 +66,36 @@ metadata:
     sort_title: Middle Earth 5
   "The Lord of the Rings: The Return of the King":
     sort_title: Middle Earth 6
+    
+#-Star Wars-#
+  "Star Wars: The Phantom Menace"
+    alt_title: "Star Wars: Episode I - The Phantom Menace"
+    sort_title: Star Wars 1
+  "Star Wars: Attack of the Clones"
+    alt_title: "Star Wars: Episode II - Attack of the Clones"
+    sort_title: Star Wars 2
+  "Star Wars: Revenge of the Sith"
+    alt_title: "Star Wars: Episode III - Revenge of the Sith"
+    sort_title: Star Wars 3
+  "Solo: A Star Wars Story"
+    sort_title: Star Wars 3.1
+  "Rogue One: A Star Wars Story"
+    sort_title: Star Wars 3.2
+  "Star Wars: A New Hope"
+    alt_title: Star Wars
+    sort_title: Star Wars 4
+  "Star Wars: The Empire Strikes Back"
+    alt_title: The Empire Strikes Back
+    sort_title: Star Wars 5
+  "Star Wars: Return of the Jedi"
+    alt_title: Return of the Jedi
+    sort_title: Star Wars 6
+  "Star Wars: The Force Awakens"
+    sort_title: Star Wars 7
+  "Star Wars: The Last Jedi"
+    sort_title: Star Wars 8
+  "Star Wars: The Rise of Skywalker"
+    sort_title: Star Wars 9
 
 #-Wizarding World-#
   Fantastic Beasts and Where to Find Them:
