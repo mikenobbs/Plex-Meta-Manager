@@ -384,6 +384,7 @@ collections:
     url_poster:  
   The Matrix:
     template: {name: Collection, collection: 2344}
+    collection_order: alpha
     url_poster:  
   Maya the Bee:
     template: {name: Collection, collection: 522250}
