@@ -8,7 +8,7 @@ templates:
       - include
       - exclude
     smart_filter:
-      sort_by: release.asc
+      collection_order: release.asc
       validate: false
       all:
         genre: <<include>>
