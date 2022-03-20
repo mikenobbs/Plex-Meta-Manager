@@ -6,14 +6,14 @@ templates:
   Director:
     smart_filter:
       director: tmdb
-      collection_order: release.asc
+      sort_by: release.asc
       validate: true
     tmdb_person: <<person>>
     sort_title: <<collection_name>>
   Writer:
     smart_filter:
       writer: tmdb
-      collection_order: release.asc
+      sort_by: release.asc
       validate: true
     tmdb_person: <<person>>
     sort_title: <<collection_name>>
