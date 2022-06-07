@@ -8,4 +8,3 @@ collections:
     summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
     content_rating: 12
     smart_label: release.asc
-    sonarr_add_missing: true
