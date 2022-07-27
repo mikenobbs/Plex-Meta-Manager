@@ -1,0 +1,29 @@
+templates:
+  collection:
+    optional:
+      - collection
+      - movie
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+    sort_title: <<collection_name>>
+    sync_mode: sync
+    collection_order: custom
+
+  tmdb_collection:
+    tmdb_collection_details: <<tmdb_collection>>
+    collection_order: release
+    sort_title: <<collection_name>>
+
+dynamic_collections:
+# Create collections based on the TMDb Collections associated with items in the library.
+  TMDb Collections:
+    template: tmdb_collection
+    type: tmdb_collection
+    exclude:
+      - "Monsters, Inc. Collection"
+      - "Pokémon: Detective Pikachu Collection"
+      - "Pokémon: Alternate Continuity Collection"
+      - "Star Trek: Alternate Reality Collection"
+      - "Star Trek: The Original Series Collection"
+      - "Star Trek: The Next Generation Collection"
+    remove_suffix: Collection
