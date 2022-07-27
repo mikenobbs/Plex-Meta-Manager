@@ -3,6 +3,13 @@
 ######################################################
 
 playlists:  
+  Buffyverse - Chronological Order:
+    trakt_list: https://trakt.tv/users/psaul3/lists/buffyverse
+    summary: The Buffyverse in chronological order.
+    cache_builders: 365
+    libraries: TV Shows
+    url_poster:
+  
   Marvel Cinematic Universe - Chronological Order:
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
     summary: Watch Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe, in chronological order.
