@@ -3,6 +3,9 @@
 ######################################################
 
 collections:
+  Buffyverse:
+    trakt_list: https://trakt.tv/users/psaul3/lists/buffyverse-3685939a-865c-40f3-ad40-c5e78288d912
+    summary: The Buffyverse refers to the shared fictional universe in which the television series Buffy the Vampire Slayer and Angel are set. This term, originally coined by fans, has since been used even in the titles of published works, and adopted by Joss Whedon, the creator of the fictional universe.
   Marvel Cinematic Universe:
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
     summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
