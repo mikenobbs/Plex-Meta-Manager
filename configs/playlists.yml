@@ -6,11 +6,13 @@ playlists:
   Marvel Cinematic Universe - Chronological Order:
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
     summary: Watch Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe, in chronological order.
+    cache_builders: 1
     libraries: Movies, TV Shows
     url_poster: https://mikenobbs.github.io/Plex-Meta-Manager/artwork/mcu-chronological.png
     
   "Star Wars: The Clone Wars - Chronological Order":
     trakt_list: https://trakt.tv/users/tomfin46/lists/star-wars-the-clone-wars-chronological-episode-order
     summary: The entire Clone Wars saga, culminating in the fall of the Jedi, in chronological order.
+    cache_builders: 365
     libraries: TV Shows
     url_poster: https://mikenobbs.github.io/Plex-Meta-Manager/artwork/clone-wars-chronological.png
