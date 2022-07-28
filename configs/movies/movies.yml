@@ -25,4 +25,52 @@ dynamic_collections:
     remove_suffix: Collection
 
 collections:
-  
+      summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
+    url_poster:  
+  The Matrix:
+    template: {name: Collection, collection: 2344}
+    collection_order: alpha
+    url_poster:  
+  Middle-Earth:
+    template: {name: Collection, collection: "121938, 119"}
+    summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
+    collection_order: alpha
+    url_poster: https://theposterdb.com/api/assets/191451   
+  MonsterVerse:
+    template: {name: Collection, collection: 535313, movie: 293167}
+    url_poster:  
+  Monty Python:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls072012494/
+    summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies
+    url_poster:  
+  Pokémon:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls062687939/
+    summary: Pokémon is a media franchise created by video game designer Satoshi Tajiri that centers on fictional creatures called Pokémon. As of 2020, there have been 23 animated films and one live action film. The first nineteen animated films are based on the anime television series of the same name, with the original film being remade into the 22nd. The 20th, 21st and 23rd animated films are set in an alternate continuity to the anime.
+  Stand-Up:
+    template: {name: Collection}
+    trakt_list_details: https://trakt.tv/users/mikenobbs/lists/stand-up?sort=released,desc
+    content_rating: 18
+    radarr_add_missing: true
+    url_poster:
+  Star Trek:
+    template: {name: Collection, collection: "115575, 115570, 151"}
+    url_poster:  
+  Star Wars:
+    template: {name: Collection, collection: 10, movie: "348350, 330459"}
+    collection_order: alpha
+  Tom and Jerry:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls022966050/
+    summary: Tom and Jerry's animated feature-length films based on the series.
+    url_poster:
+  Unbreakable:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls022101006/
+    summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
+  Wizarding World:
+    template: {name: Collection, collection: "1241, 435259" }
+    summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
+    collection_order: alpha
+    url_poster:
