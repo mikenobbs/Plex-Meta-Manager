@@ -1,134 +1,8 @@
-######################################################
-#                  Movie Collections                 #
-######################################################
-
-templates:
-  Collection:
-    optional:
-      - collection
-      - movie
-    tmdb_collection_details: <<collection>>
-    tmdb_movie: <<movie>>
-    sort_title: <<collection_name>>
-
-collections:
-  28 Days/Weeks Later:
-    template: {name: Collection, collection: 1565}
-    name_mapping: 28 Days-Weeks Later
-    url_poster: https://theposterdb.com/api/assets/24138
-  "300":
-    template: {name: Collection, collection: 125570}
-    url_poster: https://theposterdb.com/api/assets/138689
-  Addams Family:
-    template: {name: Collection, collection: 11716}
-    url_poster: 
-  Addams Family (Animated):
-    template: {name: Collection, collection: 750822}
-    url_poster: https://theposterdb.com/api/assets/185949 
-  Alien:
-    template: {name: Collection, collection: "8091, 135416"}
-    url_poster: https://theposterdb.com/api/assets/1213
-  Almighty:
-    template: {name: Collection, collection: 124949}
-    url_poster: https://theposterdb.com/api/assets/51450
-  Alvin and the Chipmunks:
-    template: {name: Collection, collection: 167613}
-    url_poster:
-  The Amazing Spider-Man:
-    template: {name: Collection, collection: 125574}
-    url_poster:
-  American Pie:
-    template: {name: Collection, collection: "2806, 298820"}
-    url_poster:
-  American Psycho:
-    template: {name: Collection, collection: 86105}
-    url_poster:
-  An American Tail:
-    template: {name: Collection, collection: 8783}
-    url_poster:
-  Anchorman:
-    template: {name: Collection, collection: 93791}
-    url_poster:
-  The Angry Birds:
-    template: {name: Collection, collection: 531315}
-    url_poster:
-  Austin Powers:
-    template: {name: Collection, collection: 1006}
-    url_poster:
-  Alien vs. Predator:
-    template: {name: Collection, collection: 115762}
-    url_poster:
-  Babe:
-    template: {name: Collection, collection: 9435}
-    url_poster:
-  Back to the Future:
-    template: {name: Collection, collection: 264}
-    url_poster:
-  Bad Boys:
-    template: {name: Collection, collection: 14890}
-    url_poster:
-  Bad Moms:
-    template: {name: Collection, collection: 487376}
-    url_poster:
-  Bad Santa:
-    template: {name: Collection, collection: 423173}
-    url_poster:
-  Balto:
-    template: {name: Collection, collection: 117693}
-    url_poster:
-  Batman:
-    template: {name: Collection, collection: 120794}
-    url_poster:
-  Batman (Adam West) Animation:
-    template: {name: Collection, collection: 626517}
-    url_poster:
-  Bill & Ted:
-    template: {name: Collection, collection: 91746}
-    url_poster:
-  Blade:
-    template: {name: Collection, collection: 735}
-    url_poster:
-  Blade Runner:
-    template: {name: Collection, collection: 422837}
-    url_poster:
-  The Boondock Saints:
-    template: {name: Collection, collection: 87186}
-    url_poster:
-  Bourne:
-    template: {name: Collection, collection: 31562}
-    url_poster:
-  Bring It On:
-    template: {name: Collection, collection: 430186}
-    url_poster:
   Charlie Brown:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls054850259/
     summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
-    url_poster:
-  Charlie's Angels:
-    template: {name: Collection, collection: 86029}
-    url_poster:
-  Cheaper by the Dozen:
-    template: {name: Collection, collection: 114783}
-    url_poster:
-  The Chronicles of Narnia:
-    template: {name: Collection, collection: 420}
-    url_poster:
-  The Chronicles of Riddick:
-    template: {name: Collection, collection: 2794}
-    url_poster:
-  Cinderella Story:
-    template: {name: Collection, collection: 437451}
-    url_poster:
-  Clash of the Titans:
-    template: {name: Collection, collection: 86780}
-    url_poster:
-  Clerks:
-    template: {name: Collection, collection: 182813}
-    url_poster:
-  Cloudy with a Chance of Meatballs:
-    template: {name: Collection, collection: 177467}
-    url_poster:
+    url_poster: 
   Cloverfield:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls021933730/
@@ -139,280 +13,28 @@ collections:
     imdb_list: https://www.imdb.com/list/ls068623110/
     summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
     url_poster:
-  Creed:
-    template: {name: Collection, collection: 553717}
-    url_poster:
-  Crocodile Dundee:
-    template: {name: Collection, collection: 9332}
-    url_poster:
-  The Croods:
-    template: {name: Collection, collection: 464577}
-    url_poster:
-  Crouching Tiger, Hidden Dragon:
-    template: {name: Collection, collection: 290973}
-    url_poster:
-  Daddy's Home:
-    template: {name: Collection, collection: 473971}
-    url_poster:
-  The Dark Knight:
-    template: {name: Collection, collection: 263}
-    url_poster:
-  Deadpool:
-    template: {name: Collection, collection: 448150, movie: 567604}
-    url_poster:
-  Death Race:
-    template: {name: Collection, collection: 86116}
-    url_poster:
-  Despicable Me:
-    template: {name: Collection, collection: "86066, 544669"}
-    url_poster:
-  Die Hard:
-    template: {name: Collection, collection: 1570}
-    url_poster:
-  Dirty Harry:
-    template: {name: Collection, collection: 10456}
-    url_poster:
-  The Divergent Series:
-    template: {name: Collection, collection: 283579}
-    url_poster:
-  A Dog's Purpose:
-    template: {name: Collection, collection: 591028}
-    url_poster:
-  Dumb and Dumber:
-    template: {name: Collection, collection: 96665}
-    url_poster:
-  The Equalizer:
-    template: {name: Collection, collection: 523855}
-    url_poster:
-  Escape From ...:
-    template: {name: Collection, collection: 115838}
-    name_mapping: Escape From
-    url_poster:
-  Escape Plan:
-    template: {name: Collection, collection: 525891}
-    url_poster:
-  The Expendables:
-    template: {name: Collection, collection: 126125}
-    url_poster:
-  Fantastic Beasts:
-    template: {name: Collection, collection: 435259}
-    url_poster:
-  Fantastic Four:
-    template: {name: Collection, collection: 9744}
-    url_poster:
-  Fast & Furious:
-    template: {name: Collection, collection: "9485, 688042"}
-    url_poster: 
-  Fifty Shades:
-    template: {name: Collection, collection: 344830}
-    url_poster:
-  Final Destination:
-    template: {name: Collection, collection: 8864}
-    url_poster:
   Final Fantasy:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls022264056/
     summary: A collection of films based off or closely associated with the Final Fantasy video games.
     url_poster:
-  The Flintstones:
-    template: {name: Collection, collection: 351684}
-    url_poster:
-  G.I. Joe:
-    template: {name: Collection, collection: 135468}
-    url_poster:
-  Garfield:
-    template: {name: Collection, collection: "86115, 373918"}
-    url_poster:
-  George of the Jungle:
-    template: {name: Collection, collection: 126221}
-    url_poster:
-  Ghost Rider:
-    template: {name: Collection, collection: 90306}
-    url_poster:
-  Ghostbusters:
-    template: {name: Collection, collection: 2980, movie: 43074}
-    url_poster:
-  The Godfather:
-    template: {name: Collection, collection: 230}
-    url_poster:
-  The Good Witch:
-    template: {name: Collection, collection: 87251}
-    url_poster:
-  Goosebumps:
-    template: {name: Collection, collection: 508783}
-    url_poster:
-  Grown Ups:
-    template: {name: Collection, collection: 180546}
-    url_poster:
-  The Hangover:
-    template: {name: Collection, collection: 86119}
-    url_poster:
-  Hannibal Lecter:
-    template: {name: Collection, collection: 9743, movie: 11454}
-    url_poster:
-  Harold & Kumar:
-    template: {name: Collection, collection: 30663}
-    url_poster:
-  Harry Potter:
-    template: {name: Collection, collection: 1241}
-    url_poster:
-  ... Has Fallen:
-    template: {name: Collection, collection: 386534}
-    url_poster:
-  Hellboy:
-    template: {name: Collection, collection: 17235}
-    url_poster: 
-  High School Musical:
-    template: {name: Collection, collection: 87253}
-    url_poster:
-  The Hobbit:
-    template: {name: Collection, collection: 121938}
-    url_poster: https://theposterdb.com/api/assets/191452
-  Home Alone:
-    template: {name: Collection, collection: 9888}
-    url_poster:
-  Honey, I Shrunk the Kids:
-    template: {name: Collection, collection: 72119}
-    url_poster:
-  Horrible Bosses:
-    template: {name: Collection, collection: 280588}
-    url_poster:
-  Hot Tub Time Machine:
-    template: {name: Collection, collection: 313576}
-    url_poster:
-  Hotel Transylvania:
-    template: {name: Collection, collection: 185103}
-    url_poster:
-  How to Train Your Dragon:
-    template: {name: Collection, collection: 89137}
-    url_poster:
-  The Hunger Games:
-    template: {name: Collection, collection: 131635}
-    url_poster:
-  The Huntsman:
-    template: {name: Collection, collection: 393379}
-    url_poster:
-  Ice Age:
-    template: {name: Collection, collection: 8354, movie: "79218, 717095, 387893"}
-    url_poster:
-  Independence Day:
-    template: {name: Collection, collection: 304378}
-    url_poster:
-  Indiana Jones:
-    template: {name: Collection, collection: 84}
-    url_poster:
   Ip Man:
     template: {name: Collection, collection: 70068, movie: "658009, 643413, 450001, 751391, 44249, 182127, 44865"}
     collection_order: alpha
-    url_poster:
-  It:
-    template: {name: Collection, collection: 477962}
-    url_poster:
-  James Bond:
-    template: {name: Collection, collection: 645}
-    url_poster:
-  Jaws:
-    template: {name: Collection, collection: 2366}
-    url_poster:
-  Jay and Silent Bob:
-    template: {name: Collection, collection: 726870}
-    url_poster:
-  John Wick:
-    template: {name: Collection, collection: 404609}
-    url_poster:  
-  Jumanji:
-    template: {name: Collection, collection: 495527}
-    url_poster:  
-  Jump Street:
-    template: {name: Collection, collection: 212562}
-    url_poster:
-  Jurassic Park:
-    template: {name: Collection, collection: 328, movie: 630322}
-    url_poster:
-  The Karate Kid:
-    template: {name: Collection, collection: 8580, movie: 38575}
-    url_poster:
-  Kick-Ass:
-    template: {name: Collection, collection: 179892}
-    url_poster:
-  Kill Bill:
-    template: {name: Collection, collection: 2883}
-    url_poster:
-  Kingsman:
-    template: {name: Collection, collection: 391860, movie: 476669}
-    url_poster:
-  Kung Fu Panda:
-    template: {name: Collection, collection: 77816}
-    url_poster:
-  The Land Before Time:
-    template: {name: Collection, collection: 19163}
-    url_poster:
-  Legally Blonde:
-    template: {name: Collection, collection: 86024}
-    url_poster:
-  LEGO DC Comics Super Heroes:
-    template: {name: Collection, collection: 386162}
-    url_poster:
-  Lego:
-    template: {name: Collection, collection: "325470, 302331", movie: 324849}
-    url_poster:
-  Lethal Weapon:
-    template: {name: Collection, collection: 945}
-    url_poster:
-  The Lord of the Rings:
-    template: {name: Collection, collection: 119}
-    url_poster: https://theposterdb.com/api/assets/191453
-  Mad Max:
-    template: {name: Collection, collection: 8945}
-    url_poster:
-  Madagascar:
-    template: {name: Collection, collection: 14740, movie: "161143, 25472, 270946"}
-    url_poster:
-  Mall Cop:
-    template: {name: Collection, collection: 328372}
-    url_poster:
   The Man with No Name:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls023916334/
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
-    url_poster:
-  Marvel Rising:
-    template: {name: Collection, collection: 627234}
-    url_poster:  
-  The Mask:
-    template: {name: Collection, collection: 43072}
     url_poster:  
   The Matrix:
     template: {name: Collection, collection: 2344}
     collection_order: alpha
     url_poster:  
-  Maya the Bee:
-    template: {name: Collection, collection: 522250}
-    url_poster:  
-  The Maze Runner:
-    template: {name: Collection, collection: 295130}
-    url_poster:  
-  Mean Girls:
-    template: {name: Collection, collection: 99606}
-    url_poster:  
-  Meet the Parents:
-    template: {name: Collection, collection: 51509}
-    url_poster:  
-  Men In Black:
-    template: {name: Collection, collection: 86055}
-    url_poster:  
   Middle-Earth:
     template: {name: Collection, collection: "121938, 119"}
     summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
     collection_order: alpha
-    url_poster: https://theposterdb.com/api/assets/191451
-  The Mighty Ducks:
-    template: {name: Collection, collection: 10709}
-    url_poster:  
-  "Mission: Impossible":
-    template: {name: Collection, collection: 87359}
-    name_mapping: Mission Impossible
-    url_poster:   
+    url_poster: https://theposterdb.com/api/assets/191451   
   MonsterVerse:
     template: {name: Collection, collection: 535313, movie: 293167}
     url_poster:  
@@ -421,150 +43,10 @@ collections:
     imdb_list: https://www.imdb.com/list/ls072012494/
     summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies
     url_poster:  
-  Mortal Kombat:
-    template: {name: Collection, collection: 9818, movie: 664767}
-    url_poster: 
-  The Mummy:
-    template: {name: Collection, collection: 1733}
-    url_poster: 
-  The Muppets:
-    template: {name: Collection, collection: 256377}
-    url_poster: 
-  National Treasure:
-    template: {name: Collection, collection: 52984}
-    url_poster:   
-  Neighbors:
-    template: {name: Collection, collection: 400700}
-    url_poster: 
-  The Neverending Story:
-    template: {name: Collection, collection: 91430}
-    url_poster:  
-  Night at the Museum:
-    template: {name: Collection, collection: 85943}
-    url_poster:  
-  Now You See Me:
-    template: {name: Collection, collection: 382685}
-    url_poster:  
-  Ocean's:
-    template: {name: Collection, collection: 304}
-    url_poster:  
-  Ong Bak:
-    template: {name: Collection, collection: 94589}
-    url_poster:  
-  Oz:
-    template: {name: Collection, collection: 627517, movie: "13155, 68728"}
-    url_poster:  
-  Pacific Rim:
-    template: {name: Collection, collection: 363369}
-    url_poster:  
-  Paddington:
-    template: {name: Collection, collection: 488924}
-    url_poster:  
-  Parasyte:
-    template: {name: Collection, collection: 385386}
-    url_poster:  
-  Percy Jackson:
-    template: {name: Collection, collection: 179919}
-    url_poster:  
-  Pet Sematary:
-    template: {name: Collection, collection: 10789, movie: 157433}
-    url_poster:  
-  Pirates of the Caribbean:
-    template: {name: Collection, collection: 295}
-    url_poster:  
-  Pitch Perfect:
-    template: {name: Collection, collection: 306031}
-    url_poster:  
-  Planet of the Apes:
-    template: {name: Collection, collection: 173710}
-    url_poster:  
   Pokémon:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls062687939/
     summary: Pokémon is a media franchise created by video game designer Satoshi Tajiri that centers on fictional creatures called Pokémon. As of 2020, there have been 23 animated films and one live action film. The first nineteen animated films are based on the anime television series of the same name, with the original film being remade into the 22nd. The 20th, 21st and 23rd animated films are set in an alternate continuity to the anime.
-    url_poster:
-  Power Rangers:
-    template: {name: Collection, collection: 708816, movie: "305470, 306264"}
-    url_poster:
-  Predator:
-    template: {name: Collection, collection: 399}
-    url_poster: https://theposterdb.com/api/assets/243
-  The Princess Diaries:
-    template: {name: Collection, collection: 107674}
-    url_poster:
-  The Purge:
-    template: {name: Collection, collection: 256322}
-    url_poster:
-  Rambo:
-    template: {name: Collection, collection: 5039}
-    url_poster:
-  Resident Evil:
-    template: {name: Collection, collection: 17255}
-    url_poster: 
-  "Resident Evil: Biohazard":
-    template: {name: Collection, collection: 133352}
-    name_mapping: Resident Evil Biohazard
-    url_poster:  
-  Ride Along:
-    template: {name: Collection, collection: 376650}
-    url_poster:  
-  Rio:
-    template: {name: Collection, collection: 229932}
-    url_poster:  
-  Robert Langdon:
-    template: {name: Collection, collection: 115776}
-    url_poster:  
-  RoboCop:
-    template: {name: Collection, collection: 5547}
-    url_poster: 
-  Rocky:
-    template: {name: Collection, collection: 1575}
-    url_poster:  
-  Rugrats:
-    template: {name: Collection, collection: 57129}
-    url_poster:  
-  Rush Hour:
-    template: {name: Collection, collection: 90863}
-    url_poster:  
-  Saw:
-    template: {name: Collection, collection: 656}
-    url_poster:  
-  Scary Movie:
-    template: {name: Collection, collection: 4246}
-    url_poster:  
-  The Scorpion King:
-    template: {name: Collection, collection: 116669}
-    url_poster:   
-  Scream:
-    template: {name: Collection, collection: 2602}
-    url_poster:  
-  The Secret Life of Pets:
-    template: {name: Collection, collection: 427084}
-    url_poster:  
-  Shanghai Noon:
-    template: {name: Collection, collection: 59567}
-    url_poster: 
-  Sherlock Holmes:
-    template: {name: Collection, collection: 102322}
-    url_poster:  
-  The Shining:
-    template: {name: Collection, collection: 530064}
-    url_poster:  
-  Shrek:
-    template: {name: Collection, collection: 2150}
-    url_poster: 
-  Silent Hill:
-    template: {name: Collection, collection: 64748}
-    url_poster:   
-  The Smurfs:
-    template: {name: Collection, collection: 134897}
-    url_poster:  
-  Spider-Man:
-    template: {name: Collection, collection: 556}
-    url_poster: 
-  Spy Kids:
-    template: {name: Collection, collection: 86486}
-    url_poster:  
   Stand-Up:
     template: {name: Collection}
     trakt_list_details: https://trakt.tv/users/mikenobbs/lists/stand-up?sort=released,desc
@@ -577,96 +59,17 @@ collections:
   Star Wars:
     template: {name: Collection, collection: 10, movie: "348350, 330459"}
     collection_order: alpha
-    url_poster: 
-  Step Up:
-    template: {name: Collection, collection: 86092}
-    url_poster:   
-  Stuart Little:
-    template: {name: Collection, collection: 99727}
-    url_poster: 
-  Superman:
-    template: {name: Collection, collection: 8537}
-    url_poster:
-  Surf's Up:
-    template: {name: Collection, collection: 436295}
-    url_poster:  
-  Taken:
-    template: {name: Collection, collection: 135483}
-    url_poster:  
-  Ted:
-    template: {name: Collection, collection: 266672}
-    url_poster:
-  Teenage Mutant Ninja Turtles:
-    template: {name: Collection, collection: "1582, 401562", movie: 1273}
-    url_poster:
-  Tekken:
-    template: {name: Collection, collection: 294172}
-    url_poster:
-  Terminator:
-    template: {name: Collection, collection: 528}
-    url_poster:
-  Tinker Bell:
-    template: {name: Collection, collection: 315595}
-    url_poster:
   Tom and Jerry:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls022966050/
     summary: Tom and Jerry's animated feature-length films based on the series.
     url_poster:
-  Tomb Raider:
-    template: {name: Collection, collection: "2467, 621142"}
-    url_poster:
-  Trainspotting:
-    template: {name: Collection, collection: 424202}
-    url_poster:
-  Transformers:
-    template: {name: Collection, collection: 8650, movie: 424783}
-    url_poster:
-  The Transporter:
-    template: {name: Collection, collection: 9518}
-    url_poster:
-  Tremors:
-    template: {name: Collection, collection: 91799}
-    url_poster:
-  Trolls:
-    template: {name: Collection, collection: 489724}
-    url_poster: 
-  TRON:
-    template: {name: Collection, collection: 63043, movie: 73362}
-    url_poster:
   Unbreakable:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls022101006/
     summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
-    url_poster: 
-  Underworld:
-    template: {name: Collection, collection: 2326}
-    url_poster:
-  Wall Street:
-    template: {name: Collection, collection: 52783}
-    url_poster:  
-  Wallace & Gromit:
-    template: {name: Collection, collection: 529}
-    url_poster:    
-  Wayne's World:
-    template: {name: Collection, collection: 8979}
-    url_poster:   
   Wizarding World:
     template: {name: Collection, collection: "1241, 435259" }
     summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
     collection_order: alpha
-    url_poster:   
-  X-Men:
-    template: {name: Collection, collection: "748, 453993, 448150", movie: 567604}
-    url_poster:   
-  xXx:
-    template: {name: Collection, collection: 52785}
-    url_poster:    
-  Zombieland:
-    template: {name: Collection, collection: 537982}
-    url_poster:  
-  Zoolander:
-    template: {name: Collection, collection: 352789}
-    url_poster:  
-  Zorro:
-    template: {name: Collection, collection: 1657}
+    url_poster:
