@@ -2,9 +2,12 @@
 #                  Chart Collections                 #
 ######################################################
 
+templates:
+  
+
 collections:
   IMDb Top 250:
     imdb_list: https://www.imdb.com/chart/top/
-    summary:
+    summary: The top 250 best movies of all time based on IMDb user ratings.
     collection_order: custom
     url_poster:
