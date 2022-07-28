@@ -22,13 +22,36 @@ dynamic_collections:
     type: tmdb_collection
     addons: 
       8091:       # Alien
-        - 135416    # Prometheus
+        - 135416  # Prometheus
       86066:      # Despicable Me
-        - 544669    # Minions
+        - 544669  # Minions
       9485:       # The Fast and the Furious
-        - 688042    # Hobbs & Shaw
+        - 688042  # Hobbs & Shaw
     exclude:
-      - "Monsters, Inc. Collection"
+      - 748401    # Aladdin (Live Action)
+      - 86027     # Aladdin
+      - 422834    # Ant-Man
+      - 87250     # Bambi
+      - 131295    # Captain America
+      - 87118     # Cars
+      - 618529    # Doctor Strange
+      - 137696    # Finding Nemo
+      - 386382    # Frozen
+      - 284433    # Guardians of the Galaxy
+      - 131292    # Iron Man
+      - 97460     # Lady and the Tramp
+      - 531331    # Maleficent
+      - 527439    # Mary Poppins
+      - 137696    # Monsters, Inc.
+      - 55422     # Peter Pan
+      - 531241    # Spider-Man (Avengers)
+      - 792425    # Team Thor
+      - 86311     # The Avengers
+      - 468222    # The Incredibles
+      - 57971     # The Rescuers
+      - 131296    # Thor
+      - 10194     # Toy Story
+      - 404825    # Wreck-It Ralph
     remove_suffix: Collection
 
 collections:
