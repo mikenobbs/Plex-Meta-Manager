@@ -20,6 +20,13 @@ dynamic_collections:
   TMDb Collections:
     template: tmdb_collection
     type: tmdb_collection
+    addons: 
+      8091:       # Alien
+        - 135416    # Prometheus
+      86066:      # Despicable Me
+        - 544669    # Minions
+      9485:       # The Fast and the Furious
+        - 688042    # Hobbs & Shaw
     exclude:
       - "Monsters, Inc. Collection"
     remove_suffix: Collection
@@ -62,9 +69,6 @@ collections:
     summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
     collection_order: alpha
     url_poster: https://theposterdb.com/api/assets/191451   
-  MonsterVerse:
-    template: {name: Collection, collection: 535313, movie: 293167}
-    url_poster:  
   Monty Python:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls072012494/
@@ -80,9 +84,6 @@ collections:
     content_rating: 18
     radarr_add_missing: true
     url_poster:
-  Star Trek:
-    template: {name: Collection, collection: "115575, 115570, 151"}
-    url_poster:  
   Star Wars:
     template: {name: Collection, collection: 10, movie: "348350, 330459"}
     collection_order: alpha
