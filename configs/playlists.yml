@@ -3,6 +3,7 @@
 ######################################################
 
 playlists:  
+
   Buffyverse - Chronological Order:
     trakt_list: https://trakt.tv/users/psaul3/lists/buffyverse
     summary: The Buffyverse in chronological order.
@@ -16,6 +17,16 @@ playlists:
     cache_builders: 1
     libraries: Movies, TV Shows
     url_poster: https://mikenobbs.github.io/Plex-Meta-Manager/artwork/mcu-chronological.png
+
+  The Simpsons Top 100 Episodes:
+    #collection_order: custom
+    #collection_level: episode
+    imdb_list:
+      url: https://www.imdb.com/search/title/?series=tt0096697&sort=user_rating,desc
+      limit: 100
+    summary: The top 100 episodes of The Simpsons based on IMDb user rating.
+    cache_builders: 1
+    libraries: TV Shows
     
   "Star Wars: The Clone Wars - Chronological Order":
     trakt_list: https://trakt.tv/users/tomfin46/lists/star-wars-the-clone-wars-chronological-episode-order
