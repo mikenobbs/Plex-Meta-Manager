@@ -9,11 +9,10 @@ collections:
   Marvel Cinematic Universe:
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
     summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
-  The Simpsons Top 100 Episodes:
-    collection_order: custom
-    collection_level: episode
-    sync_mode: sync
-    imdb_list:
-      url: https://www.imdb.com/search/title/?series=tt0096697&sort=user_rating,desc
-      limit: 100
-    summary: The top 100 episodes of The Simpsons based on IMDb user rating.
+  #The Simpsons Top 100 Episodes:
+    #collection_order: custom
+    #collection_level: episode
+    #imdb_list:
+      #url: https://www.imdb.com/search/title/?series=tt0096697&sort=user_rating,desc
+      #limit: 100
+    #summary: The top 100 episodes of The Simpsons based on IMDb user rating.
