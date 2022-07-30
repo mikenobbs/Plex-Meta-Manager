@@ -47,60 +47,60 @@ dynamic_collections:
         - 448150  # Deadpool
 
     exclude:
-      - 100693 # 101 Dalmatians (Animated)                                         
-      - 124916 # 101 Dalmatians (Live-Action) 
+      - 100693    # 101 Dalmatians (Animated)                                         
+      - 124916    # 101 Dalmatians (Live-Action) 
       - 748401    # Aladdin (Live Action)
       - 86027     # Aladdin
       - 312735    # Annie
       - 422834    # Ant-Man
       - 573693    # Aquaman
       - 87250     # Bambi
-      - 153010 # Beauty and the Beast                                                
-      - 529892 # Black Panther
+      - 153010    # Beauty and the Beast                                                
+      - 529892    # Black Panther
       - 131295    # Captain America
       - 623911    # Captain Marvel
       - 87118     # Cars
-      - 8819 # Casper                                                                   
-      - 55419 # Cinderella                                                              
-      - 837007 # Cruella                
+      - 8819      # Casper                                                                   
+      - 55419     # Cinderella                                                              
+      - 837007    # Cruella                
       - 618529    # Doctor Strange
-      - 178117 # The Emperor's New Groove                                               
-      - 531799 # Enchanted  
+      - 178117    # The Emperor's New Groove                                               
+      - 531799    # Enchanted  
       - 137697    # Finding Nemo
-      - 100970 # The Fox and the Hound
+      - 100970    # The Fox and the Hound
       - 386382    # Frozen
-      - 535313 # Godzilla
+      - 535313    # Godzilla
       - 284433    # Guardians of the Galaxy
-      - 978459 # Hercules (Disney)                                                       
-      - 97456 # The Hunchback of Notre Dame  
+      - 978459    # Hercules (Disney)                                                       
+      - 97456     # The Hunchback of Notre Dame  
       - 131292    # Iron Man
-      - 285564 # Jarhead                                                       
-      - 307637 # Jingle All the Way                                                     
-      - 97459 # The Jungle Book          
+      - 285564    # Jarhead                                                       
+      - 307637    # Jingle All the Way                                                     
+      - 97459     # The Jungle Book          
       - 97460     # Lady and the Tramp
-      - 97461 # Lilo & Stitch                                                             
-      - 94032 # The Lion King                                                               
-      - 762512 # The Lion King (Reboot)                                                     
-      - 33085 # The Little Mermaid             
+      - 97461     # Lilo & Stitch                                                             
+      - 94032     # The Lion King                                                               
+      - 762512    # The Lion King (Reboot)                                                     
+      - 33085     # The Little Mermaid             
       - 531331    # Maleficent
-      - 209131 # Man of Steel
+      - 209131    # Man of Steel
       - 527439    # Mary Poppins
-      - 2344 # The Matrix
+      - 2344      # The Matrix
       - 137696    # Monsters, Inc.
-      - 87236 # Mulan
+      - 87236     # Mulan
       - 55422     # Peter Pan
-      - 136214 # Pocahontas                                                                
-      - 768140 # Pokémon: Detective Pikachu                                                
-      - 53159 # The Santa Clause                                                          
-      - 912503 # Shang-Chi                                                                 
-      - 724848 # Shazam!    
+      - 136214    # Pocahontas                                                                
+      - 768140    # Pokémon: Detective Pikachu                                                
+      - 53159     # The Santa Clause                                                          
+      - 912503    # Shang-Chi                                                                 
+      - 724848    # Shazam!    
       - 531241    # Spider-Man (Avengers)
-      - 115575 # Star Trek: Alternate Reality                                          
-      - 151 # Star Trek: The Original Series                                               
-      - 115570 # Star Trek: The Next Generation                                           
-      - 10 # Star Wars                                                                    
-      - 531242 # Suicide Squad                                                              
-      - 729425 # Team Thor         
+      - 115575    # Star Trek: Alternate Reality                                          
+      - 151       # Star Trek: The Original Series                                               
+      - 115570    # Star Trek: The Next Generation                                           
+      - 10        # Star Wars                                                                    
+      - 531242    # Suicide Squad                                                              
+      - 729425    # Team Thor         
       - 792425    # Team Thor
       - 86311     # The Avengers
       - 468222    # The Incredibles
