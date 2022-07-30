@@ -45,8 +45,7 @@ dynamic_collections:
       748:        # X-Men
         - 453993  # The Wolverine
         - 448150  # Deadpool
-
-    exclude:
+      exclude:
       - 100693    # 101 Dalmatians (Animated)                                         
       - 124916    # 101 Dalmatians (Live-Action) 
       - 748401    # Aladdin (Live Action)
