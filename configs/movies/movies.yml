@@ -145,16 +145,11 @@ collections:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls023916334/
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
-    url_poster:  
-  Marvel Cinematic Universe:
-    template: {name: collection}
-    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
-    summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
-    url_poster: https://theposterdb.com/api/assets/188063
+    url_poster: https://theposterdb.com/api/assets/167514
   The Matrix:
     template: {name: collection, collection: 2344}
     collection_order: alpha
-    url_poster:  
+    url_poster: https://theposterdb.com/api/assets/16565
   Middle-Earth:
     template: {name: collection, collection: "121938, 119"}
     summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
@@ -174,14 +169,6 @@ collections:
     trakt_list_details: https://trakt.tv/users/mikenobbs/lists/stand-up?sort=released,desc
     content_rating: 18
     radarr_add_missing: true
-    url_poster:
-  Star Wars:
-    template: {name: collection, collection: 10, movie: "348350, 330459"}
-    collection_order: alpha
-  Tom and Jerry:
-    template: {name: collection}
-    imdb_list: https://www.imdb.com/list/ls022966050/
-    summary: Tom and Jerry's animated feature-length films based on the series.
     url_poster:
   Unbreakable:
     template: {name: collection}
