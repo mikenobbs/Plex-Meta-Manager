@@ -5,7 +5,7 @@
 overlays:
   IMDb-Top-250:
     overlay:
-      name: IMDb Top 250
+      name: IMDb-Top-250
     imdb_list: https://www.imdb.com/search/title/?groups=top_250&sort=user_rating
     horizontal_offset: 0
     horizontal_align: right
