@@ -6,7 +6,7 @@ overlays:
   IMDb-Top-100:
     imdb_list: https://www.imdb.com/search/title/?series=tt0096697&sort=user_rating,desc
     overlay_level: episode
-    horizontal_offset: 0
+    #horizontal_offset: 0
     horizontal_align: right
-    vertical_offset: 0
+    #vertical_offset: 0
     vertical_align: bottom
