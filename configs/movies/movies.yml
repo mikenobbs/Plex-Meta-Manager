@@ -40,6 +40,8 @@ dynamic_collections:
       627517:     # Oz
         - 13155   # Return to Oz
         - 68728   # Oz the Great and Powerful
+      86860:      # Scooby-Doo
+        - 633815  # The Mystery Begins
       8650:       # Transformers
         - 424783  # Bumblebee
       748:        # X-Men
@@ -91,6 +93,9 @@ dynamic_collections:
       - 136214    # Pocahontas                                                                
       - 768140    # Pokémon: Detective Pikachu                                                
       - 53159     # The Santa Clause                                                          
+      - 1006443   # Scooby-Doo
+      - 869205    # Scooby-Doo WWE
+      - 762458    # Scooby-Doo Zombie Island 
       - 912503    # Shang-Chi                                                                 
       - 724848    # Shazam!    
       - 531241    # Spider-Man (Avengers)
