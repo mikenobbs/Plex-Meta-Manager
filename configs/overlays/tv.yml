@@ -7,3 +7,4 @@ overlays:
     overlay:
       name: IMDb-Top-100
     imdb_list: https://www.imdb.com/search/title/?series=tt0096697&sort=user_rating,desc
+    limit: 100
