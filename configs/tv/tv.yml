@@ -2,8 +2,16 @@
 #                TV Show Collections                 #
 ######################################################
 
+templates:
+  collection:
+    optional:
+      - show
+    tmdb_show: <<show>>
+    sort_title: <<collection_name>>
+
 collections:
   Breaking Bad:
+    template: {name: collection; show: "23, 23, 23"}
     trakt_list: https://trakt.tv/users/all11/lists/breaking-bad
     summary: Breaking Bad follows Walter White, a middle-aged chemistry teacher, and his descent into the world of drugs and murder following a terminal cancer diagnosis. The show spawned a sequel movie and prequel show, both containing several key characters from Breaking Bad.
   Buffyverse:
