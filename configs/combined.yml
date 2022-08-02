@@ -16,6 +16,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/188063
   Scooby-Doo Animation:
     trakt_list_details: https://trakt.tv/users/mikenobbs/lists/scooby-doo-animation
+    tmdb_show: 205755
     url_poster: https://theposterdb.com/api/assets/161484
   Tom and Jerry:
     trakt_list_details: https://trakt.tv/users/mikenobbs/lists/tom-and-jerry
