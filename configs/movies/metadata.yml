@@ -4,7 +4,8 @@
 
 metadata:
   
-#-Studio-Adjustments-# 
+#-Adjustments-#
+#-Studio-# 
   Arrietty:
     studio: Studio Ghibli
   Brave:
@@ -75,7 +76,6 @@ metadata:
     genre.remove: animation
 
 #-Collections-#
-
 #-The Matrix-#
   The Animatrix:
     sort_title: Matrix 0
