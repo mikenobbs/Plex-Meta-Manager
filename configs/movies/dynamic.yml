@@ -110,3 +110,7 @@ dynamic_collections:
       - 404825    # Wreck-It Ralph
     remove_prefix: The
     remove_suffix: Collection
+    title_override:
+      9485: Fast & Furious
+      627517: The Wizard of Oz
+      
