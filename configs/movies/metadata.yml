@@ -4,7 +4,7 @@
 
 metadata:
   
- #-Studio-Adjustments-# 
+#-Studio-Adjustments-# 
   Arrietty:
     studio: Studio Ghibli
   Brave:
@@ -21,13 +21,13 @@ metadata:
     studio: Pixar
   Kiki's Delivery Service:
     studio: Studio Ghibli
-  "Laputa: Castle in the Sky"
+  "Laputa: Castle in the Sky":
     studio: Studio Ghibli
   Lightyear:
     studio: Pixar
-  My Neighbor Totoro
+  My Neighbor Totoro:
     studio: Studio Ghibli
-  "Nausicaä of the Valley of the Wind"
+  "Nausicaä of the Valley of the Wind":
     studio: Studio Ghibli
   Ocean Waves:
     studio: Studio Ghibli
@@ -41,7 +41,7 @@ metadata:
     studio: Studio Ghibli
   The Red Turtle:
     studio: Studio Ghibli
-  Spirited Away
+  Spirited Away:
     studio: Studio Ghibli
   Soul:
     studio: Pixar
@@ -57,7 +57,8 @@ metadata:
     studio: Studio Ghibli
   Whisper of the Heart:
     studio: Studio Ghibli
- #-Genre-Adjustments-#
+ 
+#-Genre-Adjustments-#
   Enchanted:
     genre.remove: animation
   The Jungle Book (2016):
@@ -74,6 +75,7 @@ metadata:
     genre.remove: animation
 
 #-Collections-#
+
 #-The Matrix-#
   The Animatrix:
     sort_title: Matrix 0
