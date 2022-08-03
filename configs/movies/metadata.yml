@@ -4,19 +4,45 @@
 
 metadata:
   
- #-Adjustments-# 
+ #-Studio-Adjustments-# 
+  Arrietty:
+    studio: Studio Ghibli
   Brave:
     studio: Pixar
+  The Cat Returns:
+    studio: Studio Ghibli
   "The Chronicles of Narnia: The Voyage of the Dawn Treader":
     studio: Walt Disney Pictures
   "Descendants: The Royal Wedding":
     studio: Disney Television Animation
+  Howl's Moving Castle:
+    studio: Studio Ghibli
   The Incredibles 2:
     studio: Pixar
+  Kiki's Delivery Service:
+    studio: Studio Ghibli
+  "Laputa: Castle in the Sky"
+    studio: Studio Ghibli
+  Lightyear:
+    studio: Pixar
+  My Neighbor Totoro
+    studio: Studio Ghibli
+  "Nausicaä of the Valley of the Wind"
+    studio: Studio Ghibli
+  Ocean Waves:
+    studio: Studio Ghibli
   Onward:
     studio: Pixar
   "Pirates of the Caribbean: At World's End":
     studio: Walt Disney Pictures
+  Ponyo:
+    studio: Studio Ghibli
+  Princess Mononoke:
+    studio: Studio Ghibli
+  The Red Turtle:
+    studio: Studio Ghibli
+  Spirited Away
+    studio: Studio Ghibli
   Soul:
     studio: Pixar
   Toy Story 4:
@@ -27,6 +53,11 @@ metadata:
     studio: Pixar
   Turning Red:
     studio: Pixar
+  When Marnie Was There:
+    studio: Studio Ghibli
+  Whisper of the Heart:
+    studio: Studio Ghibli
+ #-Genre-Adjustments-#
   Enchanted:
     genre.remove: animation
   The Jungle Book (2016):
