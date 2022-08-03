@@ -23,6 +23,8 @@ dynamic_collections:
     addons: 
       8091:       # Alien
         - 135416  # Prometheus
+      466463:     # Descendants
+        - 805411  # The Royal Wedding
       86066:      # Despicable Me
         - 544669  # Minions
       9485:       # The Fast and the Furious
@@ -118,6 +120,12 @@ dynamic_collections:
     remove_suffix: Collection
 
 collections:
+  Buffyverse:
+    template: {name: collection}
+    tmdb_movie: 10206
+    summary:
+    minimum_items: 1
+    url_poster:
   Charlie Brown:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls054850259/
