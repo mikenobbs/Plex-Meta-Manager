@@ -4,7 +4,7 @@
 
 templates:
   collection:
-    collection_mode: show
+    collection_mode: show_items
     sort_title: +<<collection_name>>
 
 collections:
