@@ -121,9 +121,8 @@ dynamic_collections:
 
 collections:
   Buffyverse:
-    template: {name: collection}
-    tmdb_movie: 10206
-    summary:
+    template: {name: collection, movie: 10206}
+    summary: The Buffyverse refers to the shared fictional universe in which the television series Buffy the Vampire Slayer and Angel are set. This term, originally coined by fans, has since been used even in the titles of published works, and adopted by Joss Whedon, the creator of the fictional universe.
     minimum_items: 1
     url_poster:
   Charlie Brown:
