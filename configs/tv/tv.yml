@@ -27,11 +27,11 @@ collections:
     summary:
     url_poster: https://theposterdb.com/api/assets/161484
   Star Trek:
-    template: {name: collection, show: ""}
+    template: {name: collection, show: "253, 655, 67198, 1855, 580, 103516, 85949, 106393, 85948, 314, 82491, 1992"}
     summary:
     url_poster: https://theposterdb.com/api/assets/21270
   Star Wars:
-    template: {name: collection, show: ""}
+    template: {name: collection, show: "4194, 60554, 105971, 114478, 3122, 79093, 101978, 71412, 198109, 92830, 85536, 115036, 83867, 82856, 114461, 114479"}
     summary:
     url_poster: https://theposterdb.com/api/assets/152792
   Tom and Jerry:
@@ -39,6 +39,6 @@ collections:
     summary:
     url_poster: https://theposterdb.com/api/assets/165722
   The Walking Dead:
-    template: {name: collection, show: ""}
+    template: {name: collection, show: "1402, 62286, 129035, 94305, 136248, 206586"}
     summary:
     url_poster: https://theposterdb.com/api/assets/176383
