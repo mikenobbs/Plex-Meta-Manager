@@ -11,6 +11,8 @@ templates:
   charts:
     smart_label:
       sort_by: audience_rating.desc
+      all:
+        label: <<smart_label>>
       validate: true
     sort_title: +<<collection_name>>
 
