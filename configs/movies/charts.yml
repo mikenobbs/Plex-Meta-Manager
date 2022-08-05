@@ -2,15 +2,21 @@
 #                  Chart Collections                 #
 ######################################################
 
+#templates:
+  #collection:
+    #collection_mode: show_items
+    #sort_title: +<<collection_name>>
+
 templates:
-  collection:
-    collection_mode: show_items
+  charts:
+    smart_label:
+      sort_by: audience_rating.desc
+      validate: true
     sort_title: +<<collection_name>>
 
 collections:
   IMDb Top 250:
-    template: {name: collection}
+    template: {name: charts}
     imdb_chart: top_movies
     summary: The top 250 best movies of all time based on IMDb user ratings.
-    collection_order: custom
     url_poster:
