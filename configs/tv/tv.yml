@@ -11,6 +11,9 @@ templates:
       all:
         any:
           title: <<title>>
+          studio: <<studio>>
+      sort_by: release.asc
+    tmdb_show: <<show>>
     sort_title: <<collection_name>>
   hide:
     optional:
@@ -42,7 +45,7 @@ collections:
     summary:
     url_poster: https://theposterdb.com/api/assets/21270
   Star Wars:
-    template: {name: collection, title: Star Wars, show: "4194, 60554, 105971, 114478, 3122, 79093, 101978, 71412, 198109, 92830, 85536, 115036, 83867, 82856, 114461, 114479"}
+    template: {name: collection, title: Star Wars, show: "198109, 92830, 85536, 115036, 83867, 82856, 114461, 114479"}
     summary:
     url_poster: https://theposterdb.com/api/assets/152792
   Tom and Jerry:
@@ -50,6 +53,6 @@ collections:
     summary:
     url_poster: https://theposterdb.com/api/assets/165722
   The Walking Dead:
-    template: {name: collection, show: "1402, 62286, 129035, 94305, 136248, 206586"}
+    template: {name: collection, title: The Walking Dead, show: 194583}
     summary:
     url_poster: https://theposterdb.com/api/assets/176383
