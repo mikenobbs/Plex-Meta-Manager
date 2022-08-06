@@ -34,7 +34,7 @@ collections:
     summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
     url_poster: https://theposterdb.com/api/assets/188063
   Scooby-Doo! Animation:
-    template: {name: collection, title: "Scooby-Doo!"}
+    template: {name: collection, title: Scooby-Doo}
     summary:
     url_poster: https://theposterdb.com/api/assets/161484
   Star Trek:
@@ -42,7 +42,7 @@ collections:
     summary:
     url_poster: https://theposterdb.com/api/assets/21270
   Star Wars:
-    template: {name: collection, title: Star Wars ,show: "4194, 60554, 105971, 114478, 3122, 79093, 101978, 71412, 198109, 92830, 85536, 115036, 83867, 82856, 114461, 114479"}
+    template: {name: collection, title: Star Wars, show: "4194, 60554, 105971, 114478, 3122, 79093, 101978, 71412, 198109, 92830, 85536, 115036, 83867, 82856, 114461, 114479"}
     summary:
     url_poster: https://theposterdb.com/api/assets/152792
   Tom and Jerry:
