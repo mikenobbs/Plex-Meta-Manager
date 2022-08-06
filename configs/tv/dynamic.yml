@@ -1,0 +1,15 @@
+######################################################
+#                 Dynamic Collections                #
+######################################################
+
+templates:
+  trakt_collection:
+    trakt_list_details: <<value>>
+    sort_title: <<collection_name>>
+
+dynamic_collections:
+  #Create collections based on the Trakt lists associated with the authenticated user.
+  Trakt List Collections:
+    template: trakt_collection
+    type: trakt_user_lists
+    data: me
