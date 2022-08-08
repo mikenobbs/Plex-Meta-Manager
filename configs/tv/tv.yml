@@ -1,21 +1,9 @@
 ######################################################
-#                TV Show Collections                 #
+#             Hidden TV Show Collections             #
 ######################################################
 
 templates:
   collection:
-    optional:
-      - show
-    plex_search:
-      validate: true
-      all:
-        any:
-          title: <<title>>
-          studio: <<studio>>
-      sort_by: release.asc
-    tmdb_show: <<show>>
-    sort_title: <<collection_name>>
-  hide:
     optional:
       - show
     tmdb_show: <<show>>
@@ -24,35 +12,6 @@ templates:
     sort_title: <<collection_name>>
 
 collections:
-  Breaking Bad:
-    template: {name: collection, show: "1396, 60059, 90746, 158704"}
-    summary: Breaking Bad follows Walter White, a middle-aged chemistry teacher, and his descent into the world of drugs and murder following a terminal cancer diagnosis. The show spawned a sequel movie and prequel show, both containing several key characters from Breaking Bad.
-  Buffyverse:
-    template: {name: collection, show: "95, 2426, 65316"}
-    summary: The Buffyverse refers to the shared fictional universe in which the television series Buffy the Vampire Slayer and Angel are set. This term, originally coined by fans, has since been used even in the titles of published works, and adopted by Joss Whedon, the creator of the fictional universe.
-    url_poster: https://theposterdb.com/api/assets/249937
-  Marvel Cinematic Universe:
-    template: {name: collection, show: "118924, 114695"}
-    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
-    summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
-    url_poster: https://theposterdb.com/api/assets/188063
-  Scooby-Doo! Animation:
-    template: {name: collection, title: Scooby-Doo}
-    summary:
-    url_poster: https://theposterdb.com/api/assets/161484
-  Star Trek:
-    template: {name: collection, title: Star Trek}
-    summary:
-    url_poster: https://theposterdb.com/api/assets/21270
-  Star Wars:
-    template: {name: collection, title: Star Wars, show: "198109, 92830, 85536, 115036, 83867, 82856, 114461, 114479"}
-    summary:
-    url_poster: https://theposterdb.com/api/assets/152792
-  Tom and Jerry:
-    template: {name: collection, title: Tom and Jerry}
-    summary:
-    url_poster: https://theposterdb.com/api/assets/165722
-  The Walking Dead:
-    template: {name: collection, title: The Walking Dead, show: 194583}
-    summary:
-    url_poster: https://theposterdb.com/api/assets/176383
+  :
+    template: {name: collection, show:  }
+  
