@@ -14,13 +14,9 @@ templates:
 collections:
   Netflix:
     template: { name: network, network: "Netflix" }
-    url_poster: https://theposterdb.com/api/assets/204455
   Amazon Prime:
     template: { name: network, network: "Amazon, Amazon Prime Video, Prime Video" }
-    url_poster: https://theposterdb.com/api/assets/204462
   Disney+:
     template: { name: network, network: "Disney Channel, Disney Channel (UK), Disney Junior, Disney XD, Disney+, Disney+ Hostar" }
-    url_poster: https://theposterdb.com/api/assets/204376
   Apple TV+:
     template: { name: network, network: "Apple Music, Apple TV+" }
-    url_poster: https://theposterdb.com/api/assets/204359
