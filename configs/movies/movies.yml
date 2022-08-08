@@ -17,27 +17,22 @@ collections:
     summary: The Buffyverse refers to the shared fictional universe in which the television series Buffy the Vampire Slayer and Angel are set. This term, originally coined by fans, has since been used even in the titles of published works, and adopted by Joss Whedon, the creator of the fictional universe.
     minimum_items: 1
     collection_mode: hide
-    url_poster:
   Charlie Brown:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls054850259/
     summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
-    url_poster: 
   Cloverfield:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls021933730/
     summary: Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space.
-    url_poster:
   The Cornetto Trilogy:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls068623110/
     summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
-    url_poster:
   Final Fantasy:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls022264056/
     summary: A collection of films based off or closely associated with the Final Fantasy video games.
-    url_poster:
   Ip Man:
     template: {name: collection, collection: 70068, movie: "658009, 643413, 450001, 751391, 44249, 182127, 44865"}
     collection_order: alpha
@@ -45,21 +40,17 @@ collections:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls023916334/
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
-    url_poster: https://theposterdb.com/api/assets/167514
   The Matrix:
     template: {name: collection, collection: 2344}
     collection_order: alpha
-    url_poster: https://theposterdb.com/api/assets/16565
   Middle-Earth:
     template: {name: collection, collection: "121938, 119"}
     summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
-    collection_order: alpha
-    url_poster: https://theposterdb.com/api/assets/191451   
+    collection_order: alpha   
   Monty Python:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls072012494/
     summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies
-    url_poster:  
   Pokémon:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls062687939/
@@ -67,9 +58,7 @@ collections:
   Stand-Up:
     template: {name: collection}
     trakt_list_details: https://trakt.tv/users/mikenobbs/lists/stand-up?sort=released,desc
-    content_rating: 18
     radarr_add_missing: true
-    url_poster:
   Unbreakable:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls022101006/
@@ -78,4 +67,3 @@ collections:
     template: {name: collection, collection: "1241, 435259" }
     summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
     collection_order: alpha
-    url_poster:
