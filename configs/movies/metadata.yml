@@ -12,23 +12,39 @@ metadata:
     studio: Studio Ghibli
   Brave:
     studio: Pixar
+  A Bug's Life:
+    studio: Pixar
   Camp Rock:
     studio: Walt Disney Pictures
+  Cars:
+    studio: Pixar
+  Cars 2:
+    studio: Pixar
   The Cat Returns:
     studio: Studio Ghibli
   "The Chronicles of Narnia: The Voyage of the Dawn Treader":
     studio: Walt Disney Pictures
+  Coco:
+    studio: Pixar
   "Descendants: The Royal Wedding":
     studio: Disney Television Animation
   Howl's Moving Castle:
     studio: Studio Ghibli
+  The Incredibles:
+    studio: Pixar
   The Incredibles 2:
+    studio: Pixar
+  Inside Out:
     studio: Pixar
   Kiki's Delivery Service:
     studio: Studio Ghibli
   "Laputa: Castle in the Sky":
     studio: Studio Ghibli
   Lightyear:
+    studio: Pixar
+  Luca:
+    studio: Pixar
+  Monsters University:
     studio: Pixar
   My Neighbor Totoro:
     studio: Studio Ghibli
@@ -44,11 +60,15 @@ metadata:
     studio: Studio Ghibli
   Princess Mononoke:
     studio: Studio Ghibli
+  Ratatouille:
+    studio: Pixar
   The Red Turtle:
     studio: Studio Ghibli
   Spirited Away:
     studio: Studio Ghibli
   Soul:
+    studio: Pixar
+  Toy Story 3:
     studio: Pixar
   Toy Story 4:
     studio: Pixar
@@ -58,12 +78,20 @@ metadata:
     studio: Pixar
   Turning Red:
     studio: Pixar
+  WALL•E
+    studio: Pixar
   When Marnie Was There:
     studio: Studio Ghibli
   Whisper of the Heart:
     studio: Studio Ghibli
+  The Wind Rises:
+    studio: Studio Ghibli
+  Zombies 3:
+    studio: Disney+
  
 #-Genre-Adjustments-#
+  "Chip 'n Dale: Rescue Rangers"
+    genre.remove: animation
   Enchanted:
     genre.remove: animation
   The Jungle Book (2016):
