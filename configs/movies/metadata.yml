@@ -90,7 +90,7 @@ metadata:
     studio: Disney+
  
 #-Genre-Adjustments-#
-  "Chip 'n Dale: Rescue Rangers"
+  "Chip 'n Dale: Rescue Rangers":
     genre.remove: animation
   Enchanted:
     genre.remove: animation
