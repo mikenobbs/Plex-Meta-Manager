@@ -31,6 +31,8 @@ dynamic_collections:
         - 161143  # Madly Madagascar
         - 10258   # Penguins Christmas Caper
         - 270946  # Penguins of Madagascar
+      1733:       # The Mummy
+        - 9334    # The Scorpion King
       627517:     # Oz
         - 13155   # Return to Oz
         - 68728   # Oz the Great and Powerful
@@ -50,6 +52,7 @@ dynamic_collections:
       - 422834    # Ant-Man
       - 573693    # Aquaman
       - 87250     # Bambi
+      - 785583    # Batman the Long Halloween
       - 153010    # Beauty and the Beast                                                
       - 529892    # Black Panther
       - 131295    # Captain America
@@ -92,6 +95,7 @@ dynamic_collections:
       - 762458    # Scooby-Doo Zombie Island 
       - 912503    # Shang-Chi                                                                 
       - 724848    # Shazam!    
+      - 334996    # Son of Batman
       - 531241    # Spider-Man (Avengers)
       - 115575    # Star Trek: Alternate Reality                                          
       - 151       # Star Trek: The Original Series                                               
@@ -111,7 +115,11 @@ dynamic_collections:
     remove_prefix: The
     remove_suffix: Collection
     title_override:
-      9485: Fast & Furious
-      627517: The Wizard of Oz
+      86066: Despicable Me & Minions
       263: The Dark Knight
-      
+      9485: Fast & Furious
+      87251: The Good Witch
+      1733: The Mummy
+      86860: Scooby-Doo!
+      275402: SpongeBob SquarePants
+      627517: The Wizard of Oz
