@@ -6,106 +6,106 @@ metadata:
   
 #-Adjustments-#
 #-Studio-# 
-  Around the World in 80 Days:
-    studio: Walt Disney Pictures
+  #Around the World in 80 Days:
+    #studio: Walt Disney Pictures
   Arrietty:
     studio: Studio Ghibli
-  Brave:
-    studio: Pixar
-  A Bug's Life:
-    studio: Pixar
-  Camp Rock:
-    studio: Walt Disney Pictures
-  Cars:
-    studio: Pixar
-  Cars 2:
-    studio: Pixar
+  #Brave:
+    #studio: Pixar
+  #A Bug's Life:
+    #studio: Pixar
+  #Camp Rock:
+    #studio: Walt Disney Pictures
+  #Cars:
+    #studio: Pixar
+  #Cars 2:
+    #studio: Pixar
   The Cat Returns:
     studio: Studio Ghibli
-  "The Chronicles of Narnia: The Voyage of the Dawn Treader":
-    studio: Walt Disney Pictures
-  Coco:
-    studio: Pixar
-  "Descendants: The Royal Wedding":
-    studio: Disney Television Animation
+  #"The Chronicles of Narnia: The Voyage of the Dawn Treader":
+    #studio: Walt Disney Pictures
+  #Coco:
+    #studio: Pixar
+  #"Descendants: The Royal Wedding":
+    #studio: Disney Television Animation
   Howl's Moving Castle:
     studio: Studio Ghibli
-  The Incredibles:
-    studio: Pixar
-  The Incredibles 2:
-    studio: Pixar
-  Inside Out:
-    studio: Pixar
+  #The Incredibles:
+    #studio: Pixar
+  #The Incredibles 2:
+    #studio: Pixar
+  #Inside Out:
+    #studio: Pixar
   Kiki's Delivery Service:
     studio: Studio Ghibli
   "Laputa: Castle in the Sky":
     studio: Studio Ghibli
-  Lightyear:
-    studio: Pixar
-  Luca:
-    studio: Pixar
-  Monsters University:
-    studio: Pixar
+  #Lightyear:
+    #studio: Pixar
+  #Luca:
+    #studio: Pixar
+  #Monsters University:
+    #studio: Pixar
   My Neighbor Totoro:
     studio: Studio Ghibli
   "Nausicaä of the Valley of the Wind":
     studio: Studio Ghibli
   Ocean Waves:
     studio: Studio Ghibli
-  Onward:
-    studio: Pixar
-  "Pirates of the Caribbean: At World's End":
-    studio: Walt Disney Pictures
+  #Onward:
+    #studio: Pixar
+  #"Pirates of the Caribbean: At World's End":
+    #studio: Walt Disney Pictures
   Ponyo:
     studio: Studio Ghibli
   Princess Mononoke:
     studio: Studio Ghibli
-  Ratatouille:
-    studio: Pixar
+  #Ratatouille:
+    #studio: Pixar
   The Red Turtle:
     studio: Studio Ghibli
   Spirited Away:
     studio: Studio Ghibli
-  Soul:
-    studio: Pixar
-  Toy Story 3:
-    studio: Pixar
-  Toy Story 4:
-    studio: Pixar
-  "Toy Story Toons: Partysaurus Rex":
-    studio: Pixar
-  "Toy Story Toons: Small Fry":
-    studio: Pixar
-  Turning Red:
-    studio: Pixar
-  "WALL•E":
-    studio: Pixar
+  #Soul:
+    #studio: Pixar
+  #Toy Story 3:
+    #studio: Pixar
+  #Toy Story 4:
+    #studio: Pixar
+  #"Toy Story Toons: Partysaurus Rex":
+    #studio: Pixar
+  #"Toy Story Toons: Small Fry":
+    #studio: Pixar
+  #Turning Red:
+    #studio: Pixar
+  #"WALL•E":
+    #studio: Pixar
   When Marnie Was There:
     studio: Studio Ghibli
   Whisper of the Heart:
     studio: Studio Ghibli
   The Wind Rises:
     studio: Studio Ghibli
-  Zombies 3:
-    studio: Disney+
+  #Zombies 3:
+    #studio: Disney+
  
 #-Genre-Adjustments-#
-  "Chip 'n Dale: Rescue Rangers":
-    genre.remove: animation
-  Enchanted:
-    genre.remove: animation
-  The Jungle Book (2016):
-    title: The Jungle Book
-    year: 2016
-    genre.remove: animation
-  The Lion King (2019):
-    title: The Lion King
-    year: 2019
-    genre.remove: animation
-  Mary Poppins Returns:
-    genre.remove: animation
-  Song of the South:
-    genre.remove: animation
+  #"Chip 'n Dale: Rescue Rangers":
+    #genre.remove: animation
+  #Enchanted:
+    #genre.remove: animation
+  #The Jungle Book (2016):
+    #title: The Jungle Book
+    #year: 2016
+    #genre.remove: animation
+  #The Lion King (2019):
+    #title: The Lion King
+    #year: 2019
+    #genre.remove: animation
+  #Mary Poppins Returns:
+    #genre.remove: animation
+  #Song of the South:
+    #genre.remove: animation
 
 #-Collections-#
 #-The Matrix-#
