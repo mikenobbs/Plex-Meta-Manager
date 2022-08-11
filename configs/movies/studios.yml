@@ -14,7 +14,8 @@ templates:
         #genre.not: <<exclude>>
         #any:
           #studio: <<studio>>
-    collection_order: released.asc
+    collection_order: custom 
+    sort_by: released.asc
     sort_title: <<collection_name>>
 
 collections:
