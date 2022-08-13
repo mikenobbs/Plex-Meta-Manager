@@ -24,6 +24,14 @@ dynamic_collections:
       8354:       # Ice Age
         - 387893  # Great Egg-Scapade
         - 79218   # Mammoth Christmas
+      70068:      # Ip Man
+        - 658009  # Kung Fu Master
+        - 643413  # Four Kings
+        - 450001  # Master Z
+        - 751391  # Crisis Time
+        - 44249   # Legend is Born
+        - 182127  # Final Fight
+        - 44865   # The Grandmaster
       328:        # Jurassic Park
         - 630322  # Battle at Big Rock
       14740:      # Madagascar
@@ -38,6 +46,9 @@ dynamic_collections:
         - 68728   # Oz the Great and Powerful
       86860:      # Scooby-Doo
         - 633815  # The Mystery Begins
+      10:         # Star Wars
+        - 348350  # Solo
+        - 330459  # Rogue One
       8650:       # Transformers
         - 424783  # Bumblebee
       748:        # X-Men
@@ -99,8 +110,7 @@ dynamic_collections:
       - 531241    # Spider-Man (Avengers)
       - 115575    # Star Trek: Alternate Reality                                          
       - 151       # Star Trek: The Original Series                                               
-      - 115570    # Star Trek: The Next Generation                                           
-      - 10        # Star Wars                                                                    
+      - 115570    # Star Trek: The Next Generation                                                                                                             
       - 531242    # Suicide Squad                                                              
       - 729425    # Team Thor         
       - 792425    # Team Thor
@@ -120,6 +130,7 @@ dynamic_collections:
       263: The Dark Knight
       9485: Fast & Furious
       87251: The Good Witch
+      2344: The Matrix
       1733: The Mummy
       86860: Scooby-Doo!
       275402: SpongeBob SquarePants
