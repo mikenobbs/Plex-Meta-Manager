@@ -24,7 +24,14 @@ playlists:
     imdb_list:
       url: https://www.imdb.com/search/title/?series=tt0096697&sort=user_rating,desc
       limit: 100
-    summary: The top 100 episodes of The Simpsons based on IMDb user rating.
+    summary: The top 100 episodes of The Simpsons based on IMDb user ratings.
+    cache_builders: 1
+    libraries: TV Shows
+
+  South Park Top 100 Episodes:
+    imdb_list:
+      url: https://www.imdb.com/search/title/?series=tt0121955&sort=user_rating,desc
+    summary: The top 100 episodes of South Park based on IMDb user ratings.
     cache_builders: 1
     libraries: TV Shows
     
