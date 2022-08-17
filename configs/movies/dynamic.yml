@@ -46,9 +46,6 @@ dynamic_collections:
         - 68728   # Oz the Great and Powerful
       86860:      # Scooby-Doo
         - 633815  # The Mystery Begins
-      10:         # Star Wars
-        - 348350  # Solo
-        - 330459  # Rogue One
       8650:       # Transformers
         - 424783  # Bumblebee
       748:        # X-Men
@@ -110,7 +107,8 @@ dynamic_collections:
       - 531241    # Spider-Man (Avengers)
       - 115575    # Star Trek: Alternate Reality                                          
       - 151       # Star Trek: The Original Series                                               
-      - 115570    # Star Trek: The Next Generation                                                                                                             
+      - 115570    # Star Trek: The Next Generation  
+      - 10        # Star Wars                                                                                                           
       - 531242    # Suicide Squad                                                              
       - 729425    # Team Thor         
       - 792425    # Team Thor
@@ -121,6 +119,7 @@ dynamic_collections:
       - 123694    # Timon and Pumbaa
       - 10194     # Toy Story
       - 109608    # Van Helsing
+      - 468552    # Wonder Woman
       - 404825    # Wreck-It Ralph
     remove_prefix: The
     remove_suffix: Collection
@@ -130,7 +129,6 @@ dynamic_collections:
       263: The Dark Knight
       9485: Fast & Furious
       87251: The Good Witch
-      2344: The Matrix
       1733: The Mummy
       86860: Scooby-Doo!
       275402: SpongeBob SquarePants
