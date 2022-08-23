@@ -4,7 +4,10 @@
 
 templates:
   tmdb_collection:
+    optional:
+      - movie
     tmdb_collection_details: <<tmdb_collection>>
+    tmdb_movie: <<movie>>
     sort_title: <<collection_name>>
 
 dynamic_collections:
@@ -15,42 +18,37 @@ dynamic_collections:
     addons: 
       8091:       # Alien
         - 135416  # Prometheus
-      466463:     # Descendants
-        - 805411  # The Royal Wedding
+      
       86066:      # Despicable Me
         - 544669  # Minions
       9485:       # The Fast and the Furious
         - 688042  # Hobbs & Shaw
-      8354:       # Ice Age
-        - 387893  # Great Egg-Scapade
-        - 79218   # Mammoth Christmas
-      70068:      # Ip Man
-        - 658009  # Kung Fu Master
-        - 643413  # Four Kings
-        - 450001  # Master Z
-        - 751391  # Crisis Time
-        - 44249   # Legend is Born
-        - 182127  # Final Fight
-        - 44865   # The Grandmaster
-      328:        # Jurassic Park
-        - 630322  # Battle at Big Rock
-      14740:      # Madagascar
-        - 25472   # Merry Madagascar
-        - 161143  # Madly Madagascar
-        - 10258   # Penguins Christmas Caper
-        - 270946  # Penguins of Madagascar
-      1733:       # The Mummy
-        - 9334    # The Scorpion King
-      627517:     # Oz
-        - 13155   # Return to Oz
-        - 68728   # Oz the Great and Powerful
+      
+      
       86860:      # Scooby-Doo
         - 633815  # The Mystery Begins
-      8650:       # Transformers
-        - 424783  # Bumblebee
+      
       748:        # X-Men
         - 453993  # The Wolverine
         - 448150  # Deadpool
+    template_variables:
+      movie:
+        # Descendants: The Royal Wedding
+        466463: 805411
+        # Ice Age: Great Egg-Scapade, Mammoth Christmas
+        8354: 387893, 79218
+        # Ip Man: Kung Fu Master, Four Kings, Master Z, Crisis Time, Legend is Born, Final Fight, The Grandmaster
+        70068: 658009, 643413, 450001, 751391, 44249, 182127, 44865
+        # Jurassic Park: Battle at Big Rock
+        328: 630332
+        # Madagascar: Merry Madagascar, Madly Madagascar, Penguins Christmas Caper, Penguins of Madagascar    
+        14740: 25472, 161143, 10258, 270946
+        # The Mummy: The Scorpion King
+        1733: 9334
+        # Oz: Return to Oz, Oz the Great and Powerful
+        627517: 13155, 68728
+        # Transformers: Bumblebee
+        8650: 424783
     exclude:
       - 100693    # 101 Dalmatians (Animated)                                         
       - 124916    # 101 Dalmatians (Live-Action) 
