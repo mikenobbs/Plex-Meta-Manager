@@ -6,9 +6,12 @@ templates:
   tmdb_collection:
     optional:
       - movie
+      - sort_title
+      - collection_order
     tmdb_collection_details: <<tmdb_collection>>
     tmdb_movie: <<movie>>
-    sort_title: <<collection_name>>
+    sort_title: <<sort_title>>
+    collection_order: <<collection_order>>
 
 dynamic_collections:
   #Create collections based on the TMDb Collections associated with items in the library.
@@ -27,6 +30,19 @@ dynamic_collections:
       748:        # X-Men
         - 453993  # The Wolverine
         - 448150  # Deadpool
+    remove_prefix: The
+    remove_suffix: Collection
+    title_override:
+      948485: The Batman
+      86066: Despicable Me & Minions
+      263: The Dark Knight
+      9485: Fast & Furious
+      87251: The Good Witch
+      2344: The Matrix
+      1733: The Mummy
+      86860: Scooby-Doo!
+      275402: SpongeBob SquarePants
+      627517: The Wizard of Oz
     template_variables:
       movie:
         # Descendants: The Royal Wedding
@@ -45,6 +61,16 @@ dynamic_collections:
         627517: 13155, 68728
         # Transformers: Bumblebee
         8650: 424783
+      sort_title:
+        948485: Batman, The
+        263: Dark Knight, The
+        87251: Good Witch, The
+        2344: Matrix, The
+        1733: Mummy, The
+        627517: Wizard of Oz, The
+      collection_order:
+        2344: alpha  # Matrix
+        10: alpha    # Star Wars
     exclude:
       - 100693    # 101 Dalmatians (Animated)                                         
       - 124916    # 101 Dalmatians (Live-Action) 
@@ -115,15 +141,3 @@ dynamic_collections:
       - 109608    # Van Helsing
       - 468552    # Wonder Woman
       - 404825    # Wreck-It Ralph
-    remove_prefix: The
-    remove_suffix: Collection
-    title_override:
-      948485: The Batman
-      86066: Despicable Me & Minions
-      263: The Dark Knight
-      9485: Fast & Furious
-      87251: The Good Witch
-      1733: The Mummy
-      86860: Scooby-Doo!
-      275402: SpongeBob SquarePants
-      627517: The Wizard of Oz
