@@ -59,9 +59,6 @@ collections:
     template: {name: collection}
     trakt_list_details: https://trakt.tv/users/mikenobbs/lists/stand-up?sort=released,desc
     radarr_add_missing: true
-  Star Wars:
-    template: {name: collection, collection: 10, movie: "348350, 330459" }
-    collection_order: alpha
   Unbreakable:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls022101006/
