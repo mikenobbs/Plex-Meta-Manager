@@ -18,16 +18,12 @@ dynamic_collections:
     addons: 
       8091:       # Alien
         - 135416  # Prometheus
-      
       86066:      # Despicable Me
         - 544669  # Minions
       9485:       # The Fast and the Furious
         - 688042  # Hobbs & Shaw
-      
-      
       86860:      # Scooby-Doo
         - 633815  # The Mystery Begins
-      
       748:        # X-Men
         - 453993  # The Wolverine
         - 448150  # Deadpool
