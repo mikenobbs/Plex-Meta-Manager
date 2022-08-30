@@ -3,6 +3,21 @@
 ######################################################
 
 collections:
+  Buffyverse:
+    trakt_list: https://trakt.tv/users/psaul3/lists/buffyverse
+    summary: The Buffyverse refers to the shared fictional universe in which the television series Buffy the Vampire Slayer and Angel are set. This term, originally coined by fans, has since been used even in the titles of published works, and adopted by Joss Whedon, the creator of the fictional universe.
+
+  Dexter:
+    tmdb_show_details: "1405, 49530, 131927"
+
   Marvel Cinematic Universe:
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
     summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
+
+  Planet Earth:
+    trakt_list: https://trakt.tv/users/bobnxn/lists/planet-earth-stylee
+    summary: Planet Earth is a television and film documentary franchise produced and broadcast by the BBC. The franchise began in 2001 with the success of The Blue Planet, and has spawned several series since.
+
+  The Whoniverse:
+    trakt_list: https://trakt.tv/users/aero_serg/lists/whoniverse
+    summary: The Whoniverse is the non-narrative name given to the fictional setting of the television series Doctor Who, Torchwood, The Sarah Jane Adventures and Class as well as other related media. The word, a portmanteau of the words Who and universe, was originally used to describe the show's production and fanbase.
