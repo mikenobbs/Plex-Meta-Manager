@@ -14,7 +14,6 @@ templates:
     collection_order: <<collection_order>>
 
 dynamic_collections:
-  #Create collections based on the TMDb Collections associated with items in the library.
   TMDb Collections:
     template: tmdb_collection
     type: tmdb_collection
