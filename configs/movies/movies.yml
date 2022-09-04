@@ -7,9 +7,12 @@ templates:
     optional:
       - collection
       - movie
+      - sort
+      - order
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
-    sort_title: <<collection_name>>
+    sort_title: <<sort>>
+    collection_order: <<order>>
 
 collections:
   Buffyverse:
@@ -26,27 +29,24 @@ collections:
     imdb_list: https://www.imdb.com/list/ls021933730/
     summary: Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space.
   The Cornetto Trilogy:
-    template: {name: collection}
+    template: {name: collection, sort: "Cornetto Trilogy, The" }
     imdb_list: https://www.imdb.com/list/ls068623110/
     summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
-    sort_title: Cornetto Trilogy
   Final Fantasy:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls022264056/
     summary: A collection of films based off or closely associated with the Final Fantasy video games.
   The Man with No Name:
-    template: {name: collection}
+    template: {name: collection, sort: "Man with No Name, The" }
     imdb_list: https://www.imdb.com/list/ls023916334/
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
-    sort_title: Man with No Name
   Marvel Cinematic Universe:
     template: {name: collection, movie: "413279, 441829, 505945" }
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
     summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
   Middle-Earth:
-    template: {name: collection, collection: "121938, 119"}
+    template: {name: collection, collection: "121938, 119", order: alpha }
     summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
-    collection_order: alpha   
   Monty Python:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls072012494/
@@ -64,6 +64,5 @@ collections:
     imdb_list: https://www.imdb.com/list/ls022101006/
     summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
   Wizarding World:
-    template: {name: collection, collection: "1241, 435259" }
+    template: {name: collection, collection: "1241, 435259", order: alpha }
     summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
-    collection_order: alpha
