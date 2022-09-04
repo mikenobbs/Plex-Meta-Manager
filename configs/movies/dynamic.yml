@@ -55,12 +55,16 @@ dynamic_collections:
         328: 630332
         # Madagascar: Merry Madagascar, Madly Madagascar, Penguins Christmas Caper, Penguins of Madagascar    
         14740: 25472, 161143, 10258, 270946
+        # Matrix: Animatrix
+        2344: 55931
         # The Mummy: The Scorpion King
         1733: 9334
         # Oceans: Oceans Eight
         304: 402900
         # Oz: Return to Oz, Oz the Great and Powerful
         627517: 13155, 68728
+        # Star Wars: Rogue One, Solo
+        10: 330456, 348350
         # Transformers: Bumblebee
         8650: 424783
       sort_title:
@@ -113,7 +117,6 @@ dynamic_collections:
       - 531331    # Maleficent
       - 209131    # Man of Steel
       - 527439    # Mary Poppins
-      - 2344      # The Matrix
       - 137696    # Monsters, Inc.
       - 87236     # Mulan
       - 55422     # Peter Pan
@@ -129,8 +132,7 @@ dynamic_collections:
       - 531241    # Spider-Man (Avengers)
       - 115575    # Star Trek: Alternate Reality                                          
       - 151       # Star Trek: The Original Series                                               
-      - 115570    # Star Trek: The Next Generation  
-      - 10        # Star Wars                                                                                                           
+      - 115570    # Star Trek: The Next Generation                                                                                                          
       - 531242    # Suicide Squad                                                              
       - 729425    # Team Thor         
       - 792425    # Team Thor
