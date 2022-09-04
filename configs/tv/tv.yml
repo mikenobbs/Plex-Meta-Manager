@@ -2,13 +2,26 @@
 #                   TV Collections                   #
 ######################################################
 
+templates:
+  collection:
+    optional:
+      - show
+      - sort
+    tmdb_show: <<show>>
+    sort_title: <<sort>>
+
 collections:
   Buffyverse:
-    trakt_list: https://trakt.tv/users/psaul3/lists/buffyverse
+    template: {name: collection, show: "95, 2426, 65316" }
     summary: The Buffyverse refers to the shared fictional universe in which the television series Buffy the Vampire Slayer and Angel are set. This term, originally coined by fans, has since been used even in the titles of published works, and adopted by Joss Whedon, the creator of the fictional universe.
 
   Dexter:
-    tmdb_show_details: "1405, 49530, 131927"
+    template: {name: collection, show "1405, 49530, 131927" }
+    summary:Dexter is an American crime drama television series. Set in Miami, the series centers on Dexter Morgan, a forensic technician specializing in bloodstain pattern analysis for the fictional Miami Metro Police Department, who leads a secret parallel life as a vigilante serial killer, hunting down murderers who have not been adequately punished by the justice system due to corruption or legal technicalities. The show's first season was derived from the novel Darkly Dreaming Dexter (2004), the first in a series of novels by Jeff Lindsay. Subsequent seasons evolved independently of Lindsay's works. Eight years after the series finale, Dexter returned in the limited series Dexter: New Blood.
+
+  Doctor Who:
+    template: {name: collection, show: "121, 57243" }
+    summary: Doctor Who is a British science-fiction television programme broadcast by the BBC since 1963. The programme depicts the adventures of a Time Lord called the Doctor, an extraterrestrial being who appears to be human. The Doctor explores the universe in a time-travelling space ship called the TARDIS. The TARDIS exterior appears as a blue British police box, which was a common sight in Britain in 1963 when the series first aired. With various companions, the Doctor combats foes, works to save civilisations, and helps people in need.
 
   Marvel Cinematic Universe:
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
@@ -18,6 +31,4 @@ collections:
     trakt_list: https://trakt.tv/users/bobnxn/lists/planet-earth-stylee
     summary: Planet Earth is a television and film documentary franchise produced and broadcast by the BBC. The franchise began in 2001 with the success of The Blue Planet, and has spawned several series since.
 
-  The Whoniverse:
-    trakt_list: https://trakt.tv/users/aero_serg/lists/whoniverse
-    summary: The Whoniverse is the non-narrative name given to the fictional setting of the television series Doctor Who, Torchwood, The Sarah Jane Adventures and Class as well as other related media. The word, a portmanteau of the words Who and universe, was originally used to describe the show's production and fanbase.
+  
