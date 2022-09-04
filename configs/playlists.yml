@@ -5,7 +5,7 @@
 playlists:  
 
   Buffyverse - Chronological Order:
-    trakt_list: https://trakt.tv/users/psaul3/lists/buffyverse
+    trakt_list: https://trakt.tv/users/psaul3/lists/buffyverse?sort=rank,asc
     summary: The Buffyverse in chronological order.
     cache_builders: 365
     libraries: TV Shows
