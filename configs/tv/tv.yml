@@ -11,13 +11,21 @@ templates:
     sort_title: <<sort>>
 
 collections:
+  Back in Time for...:
+    template: {name: collection }
+    trakt_list_details: https://trakt.tv/users/mikenobbs/lists/back-in-time-for?sort=released,desc
+
+  Breaking Bad:
+    template: {name: collection, show: "" }
+    summary: 
+
   Buffyverse:
     template: {name: collection, show: "95, 2426, 65316" }
     summary: The Buffyverse refers to the shared fictional universe in which the television series Buffy the Vampire Slayer and Angel are set. This term, originally coined by fans, has since been used even in the titles of published works, and adopted by Joss Whedon, the creator of the fictional universe.
 
   Dexter:
     template: {name: collection, show "1405, 49530, 131927" }
-    summary:Dexter is an American crime drama television series. Set in Miami, the series centers on Dexter Morgan, a forensic technician specializing in bloodstain pattern analysis for the fictional Miami Metro Police Department, who leads a secret parallel life as a vigilante serial killer, hunting down murderers who have not been adequately punished by the justice system due to corruption or legal technicalities. The show's first season was derived from the novel Darkly Dreaming Dexter (2004), the first in a series of novels by Jeff Lindsay. Subsequent seasons evolved independently of Lindsay's works. Eight years after the series finale, Dexter returned in the limited series Dexter: New Blood.
+    summary: Dexter is an American crime drama television series. Set in Miami, the series centers on Dexter Morgan, a forensic technician specializing in bloodstain pattern analysis for the fictional Miami Metro Police Department, who leads a secret parallel life as a vigilante serial killer, hunting down murderers who have not been adequately punished by the justice system due to corruption or legal technicalities. The show's first season was derived from the novel Darkly Dreaming Dexter (2004), the first in a series of novels by Jeff Lindsay. Subsequent seasons evolved independently of Lindsay's works. Eight years after the series finale Dexter returned in the limited series Dexter: New Blood.
 
   Doctor Who:
     template: {name: collection, show: "121, 57243" }
@@ -28,7 +36,10 @@ collections:
     summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
 
   Planet Earth:
+    template: {name: collection, show: "" }
     trakt_list: https://trakt.tv/users/bobnxn/lists/planet-earth-stylee
     summary: Planet Earth is a television and film documentary franchise produced and broadcast by the BBC. The franchise began in 2001 with the success of The Blue Planet, and has spawned several series since.
 
-  
+  The Walking Dead:
+    template: {name: collection, show: "", sort: "Walking Dead, The" }
+    summary: 
