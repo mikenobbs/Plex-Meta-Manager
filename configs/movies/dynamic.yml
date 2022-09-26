@@ -52,7 +52,7 @@ dynamic_collections:
         # Ip Man: Kung Fu Master, Four Kings, Master Z, Crisis Time, Legend is Born, Final Fight, The Grandmaster
         70068: 658009, 643413, 450001, 751391, 44249, 182127, 44865
         # Jurassic Park: Battle at Big Rock
-        328: 630332
+        328: 630322
         # Madagascar: Merry Madagascar, Madly Madagascar, Penguins Christmas Caper, Penguins of Madagascar    
         14740: 25472, 161143, 10258, 270946
         # Matrix: Animatrix
@@ -68,13 +68,13 @@ dynamic_collections:
         # Transformers: Bumblebee
         8650: 424783
       sort_title:
-        125574: Amazing Spider-Man, The
-        948485: Batman, The
-        263: Dark Knight, The
-        87251: Good Witch, The
-        2344: Matrix, The
-        1733: Mummy, The
-        627517: Wizard of Oz, The
+        125574: Amazing Spider-Man
+        948485: Batman
+        263: Dark Knight
+        87251: Good Witch
+        2344: Matrix
+        1733: Mummy
+        627517: Wizard of Oz
       collection_order:
         2344: alpha  # Matrix
         10: alpha    # Star Wars
