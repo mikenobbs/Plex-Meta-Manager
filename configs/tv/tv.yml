@@ -44,6 +44,7 @@ collections:
 
   Scooby-Doo! Animation:
     trakt_list_details: https://trakt.tv/users/mikenobbs/lists/scooby-doo-animation?sort=released,asc
+    tvdb_show: 73817
 
   Star Wars:
     template: {name: collection }
