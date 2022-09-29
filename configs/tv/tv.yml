@@ -51,5 +51,6 @@ collections:
     trakt_list: https://trakt.tv/users/hector-arruga/lists/stars-wars
 
   The Walking Dead:
-    template: {name: collection, show: "", sort: "Walking Dead" }
-    summary: 
+    template: {name: collection, sort: "Walking Dead" }
+    trakt_list: https://trakt.tv/users/acoucalancha/lists/the-walking-dead?sort=released,asc
+    summary: The Walking Dead is a zombie apocalypse media franchise based on the comic book series of the same name, created by writer Robert Kirkman and artist Tony Moore.
