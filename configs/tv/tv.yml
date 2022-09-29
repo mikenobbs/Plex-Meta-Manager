@@ -32,7 +32,9 @@ collections:
     summary: Doctor Who is a British science-fiction television programme broadcast by the BBC since 1963. The programme depicts the adventures of a Time Lord called the Doctor, an extraterrestrial being who appears to be human. The Doctor explores the universe in a time-travelling space ship called the TARDIS. The TARDIS exterior appears as a blue British police box, which was a common sight in Britain in 1963 when the series first aired. With various companions, the Doctor combats foes, works to save civilisations, and helps people in need.
 
   Marvel Cinematic Universe:
+    template: {name: collection } 
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
+    tvdb_show: 393201
     summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
 
   Planet Earth:
@@ -40,6 +42,13 @@ collections:
     trakt_list: https://trakt.tv/users/bobnxn/lists/planet-earth-stylee
     summary: Planet Earth is a television and film documentary franchise produced and broadcast by the BBC. The franchise began in 2001 with the success of The Blue Planet, and has spawned several series since.
 
+  Scooby-Doo! Animation:
+    trakt_list_details: https://trakt.tv/users/mikenobbs/lists/scooby-doo-animation?sort=released,asc
+
+  Star Wars:
+    template: {name: collection }
+    trakt_list: https://trakt.tv/users/hector-arruga/lists/stars-wars
+
   The Walking Dead:
-    template: {name: collection, show: "", sort: "Walking Dead, The" }
+    template: {name: collection, show: "", sort: "Walking Dead" }
     summary: 
