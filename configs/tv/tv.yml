@@ -31,7 +31,7 @@ collections:
     summary: The Buffyverse refers to the shared fictional universe in which the television series Buffy the Vampire Slayer and Angel are set. This term, originally coined by fans, has since been used even in the titles of published works, and adopted by Joss Whedon, the creator of the fictional universe.
 
   Clifford the Big Red Dog:
-    template: {name: collection, show: "" }
+    template: {name: collection, show: "8379, 208995" }
     summary:
   
   Dexter:
