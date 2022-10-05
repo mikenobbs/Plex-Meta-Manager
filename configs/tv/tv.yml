@@ -6,10 +6,12 @@ templates:
   collection:
     optional:
       - show
-      - list
+      - tvdb
+      - trakt
       - sort
     tmdb_show: <<show>>
-    tvdb_list_details: https://thetvdb.com/lists/<<list>>
+    tvdb_list_details: https://thetvdb.com/lists/<<tvdb>>
+    trakt_list_details: https://trakt.tv/users/<<trakt>>
     sort_title: <<sort>>
 
 collections:
@@ -18,18 +20,16 @@ collections:
     summary:
   
   Back in Time for...:
-    trakt_list_details: https://trakt.tv/users/mikenobbs/lists/back-in-time-for?sort=released,desc
+    template: {name: collection, trakt: mikenobbs/lists/back-in-time-for }
     
   Bosch:
-    template: {name: collection, show: "60585, 153657" }
-    summary:
+    template: {name: collection, tvdb: bosch }
 
   Breaking Bad:
-    template: {name: collection, show: "1396, 60059, 90746, 158704" }
-    summary: 
+    template: {name: collection, tvdb: breaking-bad }
 
   Buffyverse:
-    template: {name: collection, show: "95, 2426, 65316" }
+    template: {name: collection, tvdb: buffyverse }
     summary: The Buffyverse refers to the shared fictional universe in which the television series Buffy the Vampire Slayer and Angel are set. This term, originally coined by fans, has since been used even in the titles of published works, and adopted by Joss Whedon, the creator of the fictional universe.
 
   Clifford the Big Red Dog:
@@ -37,15 +37,15 @@ collections:
     summary:
   
   Dexter:
-    template: {name: collection, show: "1405, 49530, 131927" }
+    template: {name: collection, tvdb: dexter }
     summary: "Dexter is an American crime drama television series. Set in Miami, the series centers on Dexter Morgan, a forensic technician specializing in bloodstain pattern analysis for the fictional Miami Metro Police Department, who leads a secret parallel life as a vigilante serial killer, hunting down murderers who have not been adequately punished by the justice system due to corruption or legal technicalities. Eight years after the series finale Dexter returned in the limited series Dexter: New Blood."
 
   Doctor Who:
-    template: {name: collection, show: "121, 57243" }
+    template: {name: collection, tvdb: doctor-who }
     summary: Doctor Who is a British science-fiction television programme broadcast by the BBC since 1963. The programme depicts the adventures of a Time Lord called the Doctor, an extraterrestrial being who appears to be human. The Doctor explores the universe in a time-travelling space ship called the TARDIS, which appears as a blue British police box.
 
   Long Way:
-    template: {name: collection, list: 6760 }
+    template: {name: collection, tvdb: long-way }
   
   Marvel Cinematic Universe:
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
@@ -58,7 +58,7 @@ collections:
     summary: Planet Earth is a television and film documentary franchise produced and broadcast by the BBC. The franchise began in 2001 with the success of The Blue Planet, and has spawned several series since.
 
   Scooby-Doo! Animation:
-    trakt_list_details: https://trakt.tv/users/mikenobbs/lists/scooby-doo-animation?sort=released,asc
+    trakt_list_details: https://trakt.tv/users/mikenobbs/lists/scooby-doo-animation
     #tvdb_show: 73817
 
   Star Trek:
@@ -69,7 +69,7 @@ collections:
     trakt_list: https://trakt.tv/users/hector-arruga/lists/stars-wars
 
   The Walking Dead:
-    template: {name: collection, list: 70, sort: "Walking Dead" }
+    template: {name: collection, tvdb: the-walking-dead, sort: "Walking Dead" }
     summary: Fight the dead. Fear the living. The Walking Dead is a zombie apocalypse media franchise based on the comic book series of the same name, created by writer Robert Kirkman and artist Tony Moore.
     
   Tom & Jerry:
