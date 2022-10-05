@@ -6,8 +6,10 @@ templates:
   collection:
     optional:
       - show
+      - list
       - sort
     tmdb_show: <<show>>
+    tvdb_list_details: https://thetvdb.com/lists/<<list>>
     sort_title: <<sort>>
 
 collections:
@@ -43,8 +45,7 @@ collections:
     summary: Doctor Who is a British science-fiction television programme broadcast by the BBC since 1963. The programme depicts the adventures of a Time Lord called the Doctor, an extraterrestrial being who appears to be human. The Doctor explores the universe in a time-travelling space ship called the TARDIS, which appears as a blue British police box.
 
   Long Way:
-    template: {name: collection, show: "" }
-    summary:
+    template: {name: collection, list: 6760 }
   
   Marvel Cinematic Universe:
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
@@ -58,7 +59,7 @@ collections:
 
   Scooby-Doo! Animation:
     trakt_list_details: https://trakt.tv/users/mikenobbs/lists/scooby-doo-animation?sort=released,asc
-    tvdb_show: 73817
+    #tvdb_show: 73817
 
   Star Trek:
     trakt_list:
@@ -68,9 +69,8 @@ collections:
     trakt_list: https://trakt.tv/users/hector-arruga/lists/stars-wars
 
   The Walking Dead:
-    template: {name: collection, sort: "Walking Dead" }
-    trakt_list: https://trakt.tv/users/acoucalancha/lists/the-walking-dead?sort=released,asc
-    summary: The Walking Dead is a zombie apocalypse media franchise based on the comic book series of the same name, created by writer Robert Kirkman and artist Tony Moore.
+    template: {name: collection, list: 70, sort: "Walking Dead" }
+    summary: Fight the dead. Fear the living. The Walking Dead is a zombie apocalypse media franchise based on the comic book series of the same name, created by writer Robert Kirkman and artist Tony Moore.
     
   Tom & Jerry:
     trakt_list_details: 
