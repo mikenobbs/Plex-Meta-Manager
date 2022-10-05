@@ -2,11 +2,6 @@
 #                  Chart Collections                 #
 ######################################################
 
-#templates:
-  #collection:
-    #collection_mode: show_items
-    #sort_title: +<<collection_name>>
-
 templates:
   charts:
     smart_label:
