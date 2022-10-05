@@ -21,4 +21,3 @@ collections:
     template: {name: charts}
     imdb_chart: top_movies
     summary: The top 250 best movies of all time based on IMDb user ratings.
-    url_poster:
