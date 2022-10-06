@@ -29,7 +29,7 @@ collections:
     template: {name: collection, tvdb: band-of-brothers}
   
   The Big Bang Theory:
-    template: {name: collection, tvdb: the-big-bang=theory, sort: Big Bang Theory}
+    template: {name: collection, tvdb: the-big-bang-theory, sort: Big Bang Theory}
   
   The Blacklist:
     template: {name: collection, tvdb: the-blacklist, sort: Blacklist}
@@ -116,7 +116,7 @@ collections:
     summary: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.
   
   Star Wars:
-    template: {name: collection, tvdb: stars-wars}
+    template: {name: collection, tvdb: star-wars}
     summary: "An epic space-opera series, which depicts the adventures of various characters 'a long time ago in a galaxy far, far away….'"
 
   Supernatural:
