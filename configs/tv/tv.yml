@@ -15,62 +15,70 @@ templates:
     sort_title: <<sort>>
 
 collections:
-  American Horror Story:
-    template: {name: collection, show: "1413, 113036" }
-    summary:
+  American Story:
+    template: {name: collection, tvdb: 8411}
+    summary: American Story is an American anthology media franchise consisting of several television series. Each series follows a different genre of fiction, with each individual season conceived as a self-contained miniseries, following a different set of characters and settings, and a story line with its own "'beginning, middle, and end.'" Many actors appear in more than one season and series, often playing a new character.
   
   Back in Time for...:
-    template: {name: collection, trakt: mikenobbs/lists/back-in-time-for }
+    template: {name: collection, trakt: mikenobbs/lists/back-in-time-for}
     
   Bosch:
-    template: {name: collection, tvdb: bosch }
+    template: {name: collection, tvdb: bosch}
+    summary: Bosch is an American police procedural series starring Titus Welliver as Los Angeles Police Department detective Harry Bosch. The show takes its inspiration from the Michael Connelly book series.
 
+  The Boys:
+    template: {name: collection, tvdb: the-boys}
+    summary: The Boys is an American media franchise, consisting of action-drama/satirical black comedy superhero streaming television series which follow the residents of a world where superpowered individuals called Supes are recognized as heroes by the general public and work for a powerful corporation known as Vought International, which markets, monetizes, and (secretly) creates them, with most being selfish and corrupt outside of their heroic personas. Based on the comic book series of the same name
+  
   Breaking Bad:
-    template: {name: collection, tvdb: breaking-bad }
+    template: {name: collection, tvdb: breaking-bad}
+    summary: "In Breaking Bad, a terminally ill chemistry teacher, Walter White, teams with a former student, Jesse Pinkman, to manufacture crystal meth to secure his family's future. El Camino and Better Call Saul are a sequel and a prequel, respectively."
 
   Buffyverse:
-    template: {name: collection, tvdb: buffyverse }
-    summary: The Buffyverse refers to the shared fictional universe in which the television series Buffy the Vampire Slayer and Angel are set. This term, originally coined by fans, has since been used even in the titles of published works, and adopted by Joss Whedon, the creator of the fictional universe.
+    template: {name: collection, tvdb: buffyverse}
+    summary: The Buffyverse, a term, originally coined by fans, refers to the shared fictional universe in which the television series Buffy the Vampire Slayer and Angel are set.
 
   Clifford the Big Red Dog:
-    template: {name: collection, show: "8379, 208995" }
-    summary:
+    template: {name: collection, tvdb: 8749}
+    summary: "Clifford the Big Red Dog is based on an American children's book series first published in 1963, about the adventures of a precocious girl named Emily Elizabeth and her titular pet: a giant, red-furred dog named Clifford."
   
   Dexter:
-    template: {name: collection, tvdb: dexter }
+    template: {name: collection, tvdb: dexter}
     summary: "Dexter is an American crime drama television series. Set in Miami, the series centers on Dexter Morgan, a forensic technician specializing in bloodstain pattern analysis for the fictional Miami Metro Police Department, who leads a secret parallel life as a vigilante serial killer, hunting down murderers who have not been adequately punished by the justice system due to corruption or legal technicalities. Eight years after the series finale Dexter returned in the limited series Dexter: New Blood."
 
   Doctor Who:
-    template: {name: collection, tvdb: doctor-who }
+    template: {name: collection, tvdb: doctor-who}
     summary: Doctor Who is a British science-fiction television programme broadcast by the BBC since 1963. The programme depicts the adventures of a Time Lord called the Doctor, an extraterrestrial being who appears to be human. The Doctor explores the universe in a time-travelling space ship called the TARDIS, which appears as a blue British police box.
 
   Long Way:
-    template: {name: collection, tvdb: long-way }
+    template: {name: collection, tvdb: long-way}
   
   Marvel Cinematic Universe:
-    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
-    tvdb_show: 393201
+    template: {name: collection, tvdb: marvel-cinematic-universe}
     summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
 
   Planet Earth:
-    template: {name: collection, show: "82953, 96323, 16946, 115194, 95171" }
-    trakt_list: https://trakt.tv/users/bobnxn/lists/planet-earth-stylee
+    template: {name: collection, show: "82953, 96323, 16946, 115194, 95171", trakt: bobnxn/lists/planet-earth-stylee}
     summary: Planet Earth is a television and film documentary franchise produced and broadcast by the BBC. The franchise began in 2001 with the success of The Blue Planet, and has spawned several series since.
 
   Scooby-Doo! Animation:
-    trakt_list_details: https://trakt.tv/users/mikenobbs/lists/scooby-doo-animation
-    #tvdb_show: 73817
+    templat: {name: collection, trakt: mikenobbs/lists/scooby-doo-animation}
 
   Star Trek:
-    trakt_list:
-    summary:
+    template: {name: collection, tvdb: star-trek}
+    summary: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.
   
   Star Wars:
-    trakt_list: https://trakt.tv/users/hector-arruga/lists/stars-wars
+    template: {name: collection, tvdb: stars-wars)
+    summary: An epic space-opera series, which depicts the adventures of various characters "'a long time ago in a galaxy far, far away….'"
 
   The Walking Dead:
     template: {name: collection, tvdb: the-walking-dead, sort: "Walking Dead" }
     summary: Fight the dead. Fear the living. The Walking Dead is a zombie apocalypse media franchise based on the comic book series of the same name, created by writer Robert Kirkman and artist Tony Moore.
     
   Tom & Jerry:
-    trakt_list_details: 
+    template: {name: collection, trakt: mikenobbs/lists/tom-and-jerry}
+    
+  Walker:
+    template: {name: collection, tvdb: walker}
+    summary: Walker is an American action crime drama television series, It is a reboot of the 1990s western drama television series Walker, Texas Ranger.
