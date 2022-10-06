@@ -69,7 +69,7 @@ collections:
     summary: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.
   
   Star Wars:
-    template: {name: collection, tvdb: stars-wars)
+    template: {name: collection, tvdb: stars-wars}
     summary: An epic space-opera series, which depicts the adventures of various characters "'a long time ago in a galaxy far, far away….'"
 
   The Walking Dead:
