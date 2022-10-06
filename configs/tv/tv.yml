@@ -76,7 +76,7 @@ collections:
   
   Gilmore Girls:
     template: {name: collection, tvdb: gilmore-girls}
-    summary: Gilmore Girls is an American comedy-drama television series which has been voted one of the 100 greatest television shows of all time in Time magazine. A four-part miniseries revival Gilmore Girls: A Year in the Life aired 9 years after the origianl series finale.
+    summary: "Gilmore Girls is an American comedy-drama television series which has been voted one of the 100 greatest television shows of all time in Time magazine. A four-part miniseries revival Gilmore Girls: A Year in the Life aired 9 years after the origianl series finale."
   
   Harley Quinn:
     template: {name: collection, tvdb: harley-quinn}
@@ -84,18 +84,18 @@ collections:
   
   How I Met Your...:
     template: {name: collection, tvdb: how-i-met-your-mother}
-    summary: How I Met Your Mother/Father are a collection of sitcoms narated by an older version of the main character as they tell their children how they met their mother/father, respectfully.
+    summary: How I Met Your Mother/Father are a collection of sitcoms narated by an older version of the main character as they tell their children how they met their mother/father.
   
   Justified:
     template: {name: collection, tvdb: justified}
-    summary: Justified is an American Western crime drama television series based on novels by Elmore Leonard. Justified: City Primeval, is a limited sequel series.
+    summary: "Justified is an American Western crime drama television series based on novels by Elmore Leonard. Justified: City Primeval, is a limited sequel series."
   
   Long Way:
     template: {name: collection, tvdb: long-way}
   
   Marvel Cinematic Universe:
     template: {name: collection, tvdb: marvel-cinematic-universe}
-    summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
+    summary: "Marvel's mightiest heroes from across the galaxy gather in the Marvel Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over..."
 
   Planet Earth:
     template: {name: collection, show: "82953, 96323, 16946, 115194, 95171", trakt: bobnxn/lists/planet-earth-stylee}
@@ -121,7 +121,7 @@ collections:
 
   Supernatural:
     template: {name: collection, tvdb: supernatural}
-    summary: Supernatural is an American dark fantasy drama television series which follows the two Winchester brothers, Sam and Dean, as they hunt demons, ghosts, monsters, and other supernatural beings. The spin-off, The Winchesters, will explore how Sam amd Dean’s parents met.
+    summary: "Supernatural is an American dark fantasy drama television series which follows the two Winchester brothers, Sam and Dean, as they hunt demons, ghosts, monsters, and other supernatural beings. A spin-off, The Winchesters, will explore how Sam amd Dean's parents met."
   
   Tom & Jerry:
     template: {name: collection, trakt: mikenobbs/lists/tom-and-jerry}
