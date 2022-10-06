@@ -44,8 +44,8 @@ collections:
     summary: The Boys is an American media franchise based on the comic book series of the same name. Consisting of action-drama/satirical black comedy superhero streaming television series which follow the residents of a world where superpowered individuals called Supes are recognized as heroes by the general public and work for a powerful corporation known as Vought International, which markets, monetizes, and (secretly) creates them, with most being selfish and corrupt outside of their heroic personas.
   
   Breaking Bad:
-    template: {name: collection, tvdb: breaking-bad}
-    summary: "In Breaking Bad, a terminally ill chemistry teacher, Walter White, teams up with a former student, Jesse Pinkman, to manufacture crystal meth to secure his family's future. El Camino and Better Call Saul cover events that take place before and after the main show respectively."
+    template: {name: collection, tvdb: breaking-bad, show: "90746, 158704"}
+    summary: "Breaking Bad revolves around a terminally ill chemistry teacher, Walter White, who teams up with a former student, Jesse Pinkman, to manufacture crystal meth to secure his family's future. El Camino and Better Call Saul cover events that take place before and after the main show respectively."
 
   Buffyverse:
     template: {name: collection, tvdb: buffyverse}
@@ -57,7 +57,7 @@ collections:
   
   DC Animated Universe:
     template: {name: collection, tvdb: dc-animated-universe}
-    summary: The DC Animated Universe (DCAU) is a shared universe consisting primarily of superhero-based animated television series, based on characters that appear in DC Comics. The shared universe, much like the original DC Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters. The DCAU began with Batman: The Animated Series (1992–1995); it ended as a continuing TV series with Justice League Unlimited (2004–2006). The associated media franchise also includes theatrical and direct-to-video feature films, as well as shorts, comic books, video games, and other multimedia adaptations set in the same continuity.
+    summary: "The DC Animated Universe (DCAU) is a shared universe consisting primarily of superhero-based animated television series, based on characters that appear in DC Comics. The shared universe, much like the original DC Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters. The DCAU began with Batman: The Animated Series (1992–1995); it ended as a continuing TV series with Justice League Unlimited (2004–2006). The associated media franchise also includes theatrical and direct-to-video feature films, as well as shorts, comic books, video games, and other multimedia adaptations set in the same continuity."
   
   Dexter:
     template: {name: collection, tvdb: dexter}
@@ -106,7 +106,7 @@ collections:
     summary: "Pretty Little Liars is an American teen drama mystery thriller television series, loosely based on the novel series of the same name. It went on to spawn several spin-offs, Ravenswood, Pretty Little Liars: The Perfectionists, and Pretty Little Liars: Original Sin."
   
   Scooby-Doo! Animation:
-    templat: {name: collection, trakt: mikenobbs/lists/scooby-doo-animation}
+    template: {name: collection, trakt: mikenobbs/lists/scooby-doo-animation}
 
   Stargate:
     template: {name: collection, tvdb: stargate}
