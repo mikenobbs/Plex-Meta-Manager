@@ -53,6 +53,8 @@ dynamic_collections:
       movie:
         # Descendants: The Royal Wedding
         466463: 805411
+        # Harry Potter: 20th Anniversary
+        1241: 899082
         # Ice Age: Great Egg-Scapade, Mammoth Christmas
         8354: 387893, 79218
         # Ip Man: Kung Fu Master, Four Kings, Master Z, Crisis Time, Legend is Born, Final Fight, The Grandmaster
@@ -69,8 +71,10 @@ dynamic_collections:
         304: 402900
         # Oz: Return to Oz, Oz the Great and Powerful
         627517: 13155, 68728
+        # Resident Evil: Welcome to Racoon City
+        17255: 460458
         # Star Wars: Rogue One, Solo
-        10: 330456, 348350
+        10: 330459, 348350
         # Transformers: Bumblebee
         8650: 424783
       sort_title:
