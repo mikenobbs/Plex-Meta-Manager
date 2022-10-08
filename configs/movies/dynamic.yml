@@ -8,8 +8,10 @@ templates:
       - movie
       - sort_title
       - collection_order
+      - summary
     tmdb_collection_details: <<tmdb_collection>>
     tmdb_movie: <<movie>>
+    summary: <<summary>>
     sort_title: <<sort_title>>
     collection_order: <<collection_order>>
 
@@ -26,6 +28,9 @@ dynamic_collections:
         - 688042  # Hobbs & Shaw
       86860:      # Scooby-Doo
         - 633815  # The Mystery Begins
+      115575:     # Star Trek: Alternate Reality                                          
+        - 151     # Star Trek: The Original Series                                               
+        - 115570  # Star Trek: The Next Generation
       748:        # X-Men
         - 453993  # The Wolverine
         - 448150  # Deadpool
@@ -42,6 +47,7 @@ dynamic_collections:
       1733: The Mummy
       86860: Scooby-Doo!
       275402: SpongeBob SquarePants
+      115575: Star Trek
       627517: The Wizard of Oz
     template_variables:
       movie:
@@ -78,6 +84,8 @@ dynamic_collections:
       collection_order:
         2344: alpha  # Matrix
         10: alpha    # Star Wars
+      summary:
+        115575: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.   # Star Trek
     exclude:
       - 100693    # 101 Dalmatians (Animated)                                         
       - 124916    # 101 Dalmatians (Live-Action) 
@@ -130,10 +138,7 @@ dynamic_collections:
       - 912503    # Shang-Chi                                                                 
       - 724848    # Shazam!    
       - 334996    # Son of Batman
-      - 531241    # Spider-Man (Avengers)
-      - 115575    # Star Trek: Alternate Reality                                          
-      - 151       # Star Trek: The Original Series                                               
-      - 115570    # Star Trek: The Next Generation                                                                                                          
+      - 531241    # Spider-Man (Avengers)                                                                                                          
       - 531242    # Suicide Squad                                                              
       - 729425    # Team Thor         
       - 86311     # The Avengers
