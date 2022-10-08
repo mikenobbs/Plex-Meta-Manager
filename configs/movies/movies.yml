@@ -9,8 +9,10 @@ templates:
       - movie
       - sort
       - order
+      - tvdb
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
+    tvdb_list: https://thetvdb.com/lists/<<tvdb>>
     sort_title: <<sort>>
     collection_order: <<order>>
 
@@ -25,13 +27,15 @@ collections:
     imdb_list: https://www.imdb.com/list/ls054850259/
     summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
   Cloverfield:
-    template: {name: collection}
-    imdb_list: https://www.imdb.com/list/ls021933730/
+    template: {name: collection, tvdb: cloverfield}
     summary: Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space.
   The Cornetto Trilogy:
     template: {name: collection, sort: "Cornetto Trilogy" }
     imdb_list: https://www.imdb.com/list/ls068623110/
     summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
+  DCEU:
+    template: {name: collection, tvdb: dc-extended-universe}
+    summary:
   Final Fantasy:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls022264056/
@@ -47,6 +51,9 @@ collections:
   Middle-Earth:
     template: {name: collection, collection: "121938, 119", order: alpha }
     summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
+  MonsterVerse:
+    template: {name: collection, tvdb: monsterverse}
+    summary:
   Monty Python:
     template: {name: collection}
     imdb_list: https://www.imdb.com/list/ls072012494/
