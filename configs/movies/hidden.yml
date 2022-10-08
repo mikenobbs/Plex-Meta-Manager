@@ -1,0 +1,31 @@
+######################################################
+#              Hidden Movie Collections              #
+######################################################
+
+templates:
+  collection:
+    optional:
+      - movie
+    tmdb_movie: <<movie>>
+    minimum_items: 1
+    collection_mode: hide
+    sort_title: <<collection_name>>
+
+collections:
+  "Bob's Burgers":
+    template: {name: collection, movie: }
+    
+  Buffyverse:
+    template: {name: collection, movie: }
+  
+  Clifford the Big Red Dog:
+    template: {name: collection, movie: }
+  
+  Friends:
+    template: {name: collection, movie: }
+  
+  Paw Patrol:
+    template: {name: collection, movie: }
+    
+  The Simpsons:
+    template: {name: collection, movie: }
