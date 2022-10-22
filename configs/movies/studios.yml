@@ -32,8 +32,5 @@ collections:
     summary: Walt Disney Animation Studios, sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Walt Disney Studios lot in Burbank, California.
   Disney Live-Action:
     #template: { name: studio, studio: "Disney", exclude: animation}
-    trakt_list:
-      - https://trakt.tv/users/asterlea/lists/walt-disney-productions
-      - https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-1
-      - https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-2
+    trakt_list: https://trakt.tv/users/redheadjedi/lists/walt-disney-live-action-movies
     summary: Walt Disney Pictures is an American film production studio of The Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures.
