@@ -28,7 +28,7 @@ collections:
     template: {name: collection, sort: "Cornetto Trilogy" }
     imdb_list: https://www.imdb.com/list/ls068623110/
     summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
-  DCEU:
+  DCEU (2002):
     template: {name: collection, tvdb: dc-extended-universe}
     summary:
   Final Fantasy:
