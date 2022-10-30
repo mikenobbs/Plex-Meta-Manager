@@ -29,11 +29,17 @@ playlists:
     summary: Watch Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe, in chronological order.
 
   The Simpsons Top 100 Episodes:
-    template: {name: playlist, cache: 1, library: TV Shows, imdb: tt0096697, limit: 100}
+    template: {name: playlist, cache: 1, library: TV Shows}
+    imdb_list: 
+      url: https://www.imdb.com/search/title/?series=tt0096697&sort=user_rating,desc
+      limit: 100
     summary: Top 100 episodes of The Simpsons based on IMDb user rating.
 
   South Park Top 100 Episodes:
-    template: {name: playlist, cache: 1, library: TV Shows, imdb: tt0121955, limit: 100}
+    template: {name: playlist, cache: 1, library: TV Shows}
+    imdb_list: 
+      url: https://www.imdb.com/search/title/?series=tt0121955&sort=user_rating,desc
+      limit: 100
     summary: Top 100 episodes of South Park based on IMDb user rating.
 
   "Star Wars: The Clone Wars - Chronological Order":
