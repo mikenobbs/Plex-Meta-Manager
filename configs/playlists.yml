@@ -23,8 +23,6 @@ templates:
     - url: https://www.imdb.com/search/title/?series=<<imdb>>&sort=user_rating,desc
     - limit: <<limit>>
     imdb_id: <<imdb>>
-    sync_to_users: all
-    sync_mode: sync
     collection_order: custom
 
 playlists:  
