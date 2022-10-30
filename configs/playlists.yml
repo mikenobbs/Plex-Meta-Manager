@@ -4,9 +4,6 @@
 
 templates:
   playlist:
-    default:
-      limit: 100
-      summary: The top 100 episodes of <<imdb>> based on IMDb user ratings.
     optional:
       - cache
       - library
@@ -17,10 +14,8 @@ templates:
     cache_builders: <<cache>>
     libraries: <<library>>
     trakt_list: https://trakt.tv/users/<<user>>/lists/<<trakt>>
-    imdb_list: 
-      url: https://www.imdb.com/search/title/?series=<<imdb>>&sort=user_rating,desc
-      limit: <<limit>>
-    imdb_id: <<imdb>>
+    imdb_list: https://www.imdb.com/search/title/?series=<<imdb>>&sort=user_rating,desc
+    limit: <<limit>>
     collection_order: custom
 
 playlists:  
@@ -34,10 +29,12 @@ playlists:
 
   The Simpsons Top 100 Episodes:
     template: {name: playlist, cache: 1, library: TV Shows, sort: Simpsons, imdb: tt0096697}
+    summary: Top 100 episodes of The Simpsons based on IMDb users rating.
 
   South Park Top 100 Episodes:
     template: {name: playlist, cache: 1, library: TV Shows, imdb: tt0121955}
-    
+    summary: Top 100 episodes of South Park based on IMDb users rating.
+
   "Star Wars: The Clone Wars - Chronological Order":
     template: {name: playlist, cache: 365, library: TV Shows, user: tomfin46, trakt: star-wars-the-clone-wars-chronological-episode-order}
     summary: The entire Clone Wars saga, culminating in the fall of the Jedi, in chronological order.
