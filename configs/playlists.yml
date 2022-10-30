@@ -3,45 +3,37 @@
 ######################################################
 
 templates:
-  playlist:
-    optional:
-      - cache
-      - library
-      - trakt
-      - imdb
-      - limit
-      - user 
+  order:
     cache_builders: <<cache>>
     libraries: <<library>>
     trakt_list: https://trakt.tv/users/<<user>>/lists/<<trakt>>
+    collection_order: custom
+
+  top:
+    cache_builders: <<cache>>
+    libraries: <<library>>
     imdb_list: 
-      - url: https://www.imdb.com/search/title/?series=<<imdb>>&sort=user_rating,desc
-      - limit: <<limit>>
+      url: https://www.imdb.com/search/title/?series=<<imdb>>&sort=user_rating,desc
+      limit: 100
     collection_order: custom
 
 playlists:  
   Buffyverse - Chronological Order:
-    template: {name: playlist, cache: 365, library: TV Shows, user: psaul3, trakt: buffyverse-viewing-order}
+    template: {name: order, cache: 365, library: TV Shows, user: psaul3, trakt: buffyverse-viewing-order}
     summary: The Buffyverse in chronological order.
   
   Marvel Cinematic Universe - Chronological Order:
-    template: {name: playlist, cache: 1, library: "Movies, TV Shows", user: donxy, trakt: marvel-cinematic-universe}
+    template: {name: order, cache: 1, library: "Movies, TV Shows", user: donxy, trakt: marvel-cinematic-universe}
     summary: Watch Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe, in chronological order.
 
   The Simpsons Top 100 Episodes:
-    template: {name: playlist, cache: 1, library: TV Shows}
-    imdb_list: 
-      url: https://www.imdb.com/search/title/?series=tt0096697&sort=user_rating,desc
-      limit: 100
+    template: {name: top, cache: 1, library: TV Shows, imdb: tt0096697}
     summary: Top 100 episodes of The Simpsons based on IMDb user rating.
 
   South Park Top 100 Episodes:
-    template: {name: playlist, cache: 1, library: TV Shows}
-    imdb_list: 
-      url: https://www.imdb.com/search/title/?series=tt0121955&sort=user_rating,desc
-      limit: 100
+    template: {name: top, cache: 1, library: TV Shows, imdb: tt0121955}
     summary: Top 100 episodes of South Park based on IMDb user rating.
 
   "Star Wars: The Clone Wars - Chronological Order":
-    template: {name: playlist, cache: 365, library: TV Shows, user: tomfin46, trakt: star-wars-the-clone-wars-chronological-episode-order}
+    template: {name: order, cache: 365, library: TV Shows, user: tomfin46, trakt: star-wars-the-clone-wars-chronological-episode-order}
     summary: The entire Clone Wars saga, culminating in the fall of the Jedi, in chronological order.
