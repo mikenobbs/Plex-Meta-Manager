@@ -2,7 +2,7 @@
 #                Playlist Collections                #
 ######################################################
 
-template:
+templates:
   playlist:
     default:
       limit: 100
@@ -23,7 +23,6 @@ template:
     imdb_id: <<imdb>>
 
 playlists:  
-
   Buffyverse - Chronological Order:
     template: {name: playlist, cache: 365, library: TV Shows, user: psaul3, trakt: buffyverse-viewing-order}
     summary: The Buffyverse in chronological order.
@@ -34,11 +33,9 @@ playlists:
 
   The Simpsons Top 100 Episodes:
     template: {name: playlist, cache: 1, library: TV Shows, imdb: tt0096697}
-    summary: The top 100 episodes of The Simpsons based on IMDb user ratings.
 
   South Park Top 100 Episodes:
     template: {name: playlist, cache: 1, library: TV Shows, imdb: tt0121955}
-    summary: The top 100 episodes of South Park based on IMDb user ratings.
     
   "Star Wars: The Clone Wars - Chronological Order":
     template: {name: playlist, cache: 365, library: TV Shows, user: tomfin46, trakt: star-wars-the-clone-wars-chronological-episode-order}
