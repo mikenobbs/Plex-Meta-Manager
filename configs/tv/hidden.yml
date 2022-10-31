@@ -3,7 +3,7 @@
 ######################################################
 
 templates:
-  collection:
+  hidden:
     optional:
       - sort 
     tmdb_show: <<show>>
@@ -12,6 +12,30 @@ templates:
     sort_title: <<sort>>
 
 collections:
-  :
-    template: {name: collection, show:  }
+  "Bob's Burgers":
+    template: {name: hidden, show: 32726}
+  #Family Guy:
+    template: {name: hidden, show: 1434}
+  The Good Witch:
+    template: {name: hidden, show: 61864, sort: Good Witch}
+  #"Hey Arnold!":
+    template: {name: hidden, show: 537}
+  Jurassic Park:
+    template: {name: hidden, show: 93741}
+  Middle Earth:
+    template: {name: hidden, show: 84773}
+  "Monsters, Inc.":
+    template: {name: hidden, show: 90461}
+  Paw Patrol:
+    template: {name: hidden, show: 57532}
+  Pokémon:
+    template: {name: hidden, show: 60572}
+  The Simpsons:
+    template: {name: hidden, show:456, sort: Simpsons}
+  South Park:
+    template: {name: hidden, show: 2190}
+  SpongeBob SquarePants:
+    template: {name: hidden, show: 387}
+  Tangled:
+    template: {name: hidden, show: 70047}
   
