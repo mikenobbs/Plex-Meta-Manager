@@ -7,63 +7,60 @@ templates:
     optional:
       - collection
       - movie
-      - sort
-      - order
       - tvdb
+      - user
+      - trakt
+      - imdb
+      - sort 
+      - order
+      - radarr
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
-    tvdb_list: https://thetvdb.com/lists/<<tvdb>>
+    tvdb_list_details: https://thetvdb.com/lists/<<tvdb>>
+    trakt_list_details: https://trakt.tv/users/<<user>>/lists/<<trakt>>
+    imdb_list: https://www.imdb.com/list/<<imdb>>/
     sort_title: <<sort>>
     collection_order: <<order>>
+    radarr_add_missing: <<radarr>
 
 collections:
   Charlie Brown:
-    template: {name: collection}
-    imdb_list: https://www.imdb.com/list/ls054850259/
+    template: {name: collection, imdb: ls054850259}
     summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
   Cloverfield:
     template: {name: collection, tvdb: cloverfield}
-    summary: Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space.
+    #summary: Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space.
   The Cornetto Trilogy:
-    template: {name: collection, sort: "Cornetto Trilogy" }
-    imdb_list: https://www.imdb.com/list/ls068623110/
+    template: {name: collection, sort: "Cornetto Trilogy", imdb: ls068623110}
     summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
   DCEU:
-    template: {name: collection, tvdb: dc-extended-universe}
-    summary:
+    template: {name: collection, tvdb: dc-extended-universe, radarr: true}
+    #summary:
   Final Fantasy:
-    template: {name: collection}
-    imdb_list: https://www.imdb.com/list/ls022264056/
+    template: {name: collection, imdb: ls022264056}
     summary: A collection of films based off or closely associated with the Final Fantasy video games.
   The Man with No Name:
-    template: {name: collection, sort: "Man with No Name" }
-    imdb_list: https://www.imdb.com/list/ls023916334/
+    template: {name: collection, sort: "Man with No Name", imdb: ls023916334}
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
   Marvel Cinematic Universe:
-    template: {name: collection, movie: "413279, 441829, 505945" }
-    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
+    template: {name: collection, movie: "413279, 441829, 505945", user: donxy, trakt: marvel-cinematic-universe, radarr: true}
     summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
   Middle-Earth:
     template: {name: collection, collection: "121938, 119", order: alpha }
     summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
   MonsterVerse:
     template: {name: collection, tvdb: monsterverse}
-    summary:
+    #summary:
   Monty Python:
-    template: {name: collection}
-    imdb_list: https://www.imdb.com/list/ls072012494/
+    template: {name: collection, imdb: ls072012494}
     summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies
   #Pokémon:
-    #template: {name: collection}
-    #imdb_list: https://www.imdb.com/list/ls062687939/
+    #template: {name: collection, imdb: ls062687939}
     #summary: Pokémon is a media franchise created by video game designer Satoshi Tajiri that centers on fictional creatures called Pokémon. As of 2020, there have been 23 animated films and one live action film. The first nineteen animated films are based on the anime television series of the same name, with the original film being remade into the 22nd. The 20th, 21st and 23rd animated films are set in an alternate continuity to the anime.
   Stand-Up:
-    template: {name: collection}
-    trakt_list_details: https://trakt.tv/users/mikenobbs/lists/stand-up?sort=released,desc
-    radarr_add_missing: true
+    template: {name: collection, user: mikenobbs, trakt: stand-up, radarr: true}
   Unbreakable:
-    template: {name: collection}
-    imdb_list: https://www.imdb.com/list/ls022101006/
+    template: {name: collection, imdb: ls022101006}
     summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
   Wizarding World:
     template: {name: collection, collection: "1241, 435259", order: alpha }
