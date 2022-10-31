@@ -4,10 +4,15 @@
 
 templates:
   hidden:
+    optional:
+      - sort
+      - movie
+      - tmdb
     tmdb_movie: <<movie>>
+    tmdb_collection_details: <<tmdb>>
     minimum_items: 1
     collection_mode: hide
-    sort_title: <<collection_name>>
+    sort_title: <<sort>>
 
 collections:
   "Bob's Burgers":
@@ -18,7 +23,13 @@ collections:
     template: {name: hidden, movie: 585245}
   Friends:
     template: {name: hidden, movie: 691179}
+  "Monsters, Inc.":
+    template: {name: hidden, tmdb: 137696} 
   Paw Patrol:
     template: {name: hidden, movie: 675445}
   The Simpsons:
-    template: {name: hidden, movie: 35}
+    template: {name: hidden, movie: 35, sort: Simpsons}
+  South Park:
+    template: {name: hidden, movie: 9473}
+  Tangled:
+    template: {name: hidden, movie: "38757, 82881"}
