@@ -4,7 +4,7 @@
 
 templates:
   trakt:
-    trakt_list_details: <<trakt>>
+    trakt_list_details: <<trakt_user_lists>>
 
 dynamic_collections:
   #Create collections based on the Trakt lists associated with the authenticated user.
@@ -12,3 +12,4 @@ dynamic_collections:
     template: trakt
     type: trakt_user_lists
     data: me
+    exclude: stand-up
