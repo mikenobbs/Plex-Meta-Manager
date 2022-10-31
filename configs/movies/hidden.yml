@@ -12,18 +12,13 @@ templates:
 collections:
   "Bob's Burgers":
     template: {name: hidden, movie: 504827}
-    
   Buffyverse:
     template: {name: hidden, movie: 10206}
-  
   Clifford the Big Red Dog:
     template: {name: hidden, movie: 585245}
-  
   Friends:
     template: {name: hidden, movie: 691179}
-  
   Paw Patrol:
     template: {name: hidden, movie: 675445}
-    
   The Simpsons:
     template: {name: hidden, movie: 35}
