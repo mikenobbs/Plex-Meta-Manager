@@ -7,11 +7,12 @@ templates:
     optional:
       - show
       - tvdb
+      - user
       - trakt
       - sort
     tmdb_show: <<show>>
     tvdb_list_details: https://thetvdb.com/lists/<<tvdb>>
-    trakt_list_details: https://trakt.tv/users/<<trakt>>
+    trakt_list_details: https://trakt.tv/users/<<user>>/lists/<<trakt>>
     sort_title: <<sort>>
 
 collections:
