@@ -3,22 +3,22 @@
 ######################################################
 
 templates:
-  tmdb_collection:
+  tmdb:
     optional:
       - movie
-      - sort_title
-      - collection_order
+      - sort
+      - order
       - summary
-    tmdb_collection_details: <<tmdb_collection>>
+    tmdb_collection_details: <<tmdb>>
     tmdb_movie: <<movie>>
     summary: <<summary>>
-    sort_title: <<sort_title>>
-    collection_order: <<collection_order>>
+    sort_title: <<sort>>
+    collection_order: <<order>>
 
 dynamic_collections:
   TMDb Collections:
-    template: tmdb_collection
-    type: tmdb_collection
+    template: tmdb
+    type: tmdb
     addons: 
       8091:       # Alien
         - 135416  # Prometheus
@@ -78,7 +78,7 @@ dynamic_collections:
         10: 330459, 348350
         # Transformers: Bumblebee
         8650: 424783
-      sort_title:
+      sort:
         125574: Amazing Spider-Man
         948485: Batman
         263: Dark Knight
@@ -87,7 +87,7 @@ dynamic_collections:
         2344: Matrix
         1733: Mummy
         627517: Wizard of Oz
-      collection_order:
+      order:
         2344: alpha  # Matrix
         10: alpha    # Star Wars
       summary:
