@@ -9,7 +9,7 @@ templates:
       - sort
       - order
       - summary
-    tmdb_collection_details: <<tmdb>>
+    tmdb_collection_details: <<tmdb_collection>>
     tmdb_movie: <<movie>>
     summary: <<summary>>
     sort_title: <<sort>>
@@ -18,7 +18,7 @@ templates:
 dynamic_collections:
   TMDb Collections:
     template: tmdb
-    type: tmdb
+    type: tmdb_collection
     addons: 
       8091:       # Alien
         - 135416  # Prometheus
