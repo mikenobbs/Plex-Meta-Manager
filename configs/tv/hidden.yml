@@ -5,11 +5,11 @@
 templates:
   collection:
     optional:
-      - show
+      - sort 
     tmdb_show: <<show>>
     minimum_items: 1
     collection_mode: hide
-    sort_title: <<collection_name>>
+    sort_title: <<sort>>
 
 collections:
   :
