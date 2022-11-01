@@ -9,15 +9,15 @@ templates:
       - summary
       - sort
       - order
-      - mode
-      - minimum
+      - collection_mode
+      - minimum_items
     tmdb_collection_details: <<tmdb_collection>>
     tmdb_movie: <<movie>>
     summary: <<summary>>
     sort_title: <<sort>>
     collection_order: <<order>>
-    collection_mode: <<mode>>
-    minimum_items: <<minimum>>
+    collection_mode: hide
+    minimum_items: 1
 
 dynamic_collections:
   TMDb Collections:
@@ -80,6 +80,10 @@ dynamic_collections:
         17255: 460458
         # Star Wars: Rogue One, Solo
         10: 330459, 348350
+        # Thor: Team Thor, Team Thor 2, Team Daryl
+        131296: 413279, 441829, 505945
+        # Toy Story: Small Fry, Partysaurus, Hawaiian Vacation, Terror, Time Forgot, Lamp Life, Lightyear
+        10194: 82424, 130925, 77887, 213121, 256835, 594530, 718789
         # Transformers: Bumblebee
         8650: 424783
       sort:
@@ -96,67 +100,68 @@ dynamic_collections:
         10: alpha    # Star Wars
       summary:
         115575: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.   # Star Trek
+      collection_mode:
+        86027     # Aladdin
+        422834    # Ant-Man
+        573693    # Aquaman
+        87250     # Bambi
+        785583    # Batman the Long Halloween
+        153010    # Beauty and the Beast                                                
+        529892    # Black Panther
+        131295    # Captain America
+        623911    # Captain Marvel
+        87118     # Cars
+        618529    # Doctor Strange
+        531799    # Enchanted  
+        137697    # Finding Nemo
+        386382    # Frozen
+        284433    # Guardians of the Galaxy
+        97456     # The Hunchback of Notre Dame  
+        131292    # Iron Man
+        97460     # Lady and the Tramp
+        97461     # Lilo & Stitch                                                             
+        94032     # The Lion King
+        531331    # Maleficent
+        527439    # Mary Poppins
+        137696    # Monsters, Inc.
+        55422     # Peter Pan
+        53159     # The Santa Clause
+        912503    # Shang-Chi                                                                 
+        724848    # Shazam!
+        531241    # Spider-Man (Avengers)                                                                                                          
+        531242    # Suicide Squad 
+        86311     # The Avengers
+        468222    # The Incredibles
+        57971     # The Rescuers
+        131296    # Thor
+        10194     # Toy Story
+        468552    # Wonder Woman
+        404825    # Wreck-It Ralph
     exclude:
       - 100693    # 101 Dalmatians (Animated)                                         
       - 124916    # 101 Dalmatians (Live-Action) 
       - 748401    # Aladdin (Live Action)
-      - 86027     # Aladdin
       - 312735    # Annie
-      - 422834    # Ant-Man
-      - 573693    # Aquaman
-      - 87250     # Bambi
-      - 785583    # Batman the Long Halloween
-      - 153010    # Beauty and the Beast                                                
-      - 529892    # Black Panther
-      - 131295    # Captain America
-      - 623911    # Captain Marvel
-      - 87118     # Cars
       - 8819      # Casper                                                                   
       - 55419     # Cinderella                                                              
-      - 837007    # Cruella                
-      - 618529    # Doctor Strange
+      - 837007    # Cruella                 
       - 178117    # The Emperor's New Groove                                               
-      - 531799    # Enchanted  
-      - 137697    # Finding Nemo
       - 100970    # The Fox and the Hound
-      - 386382    # Frozen
       - 535313    # Godzilla
-      - 284433    # Guardians of the Galaxy
       - 978459    # Hercules (Disney)                                                       
-      - 97456     # The Hunchback of Notre Dame  
-      - 131292    # Iron Man
       - 285564    # Jarhead                                                       
       - 307637    # Jingle All the Way                                                     
-      - 97459     # The Jungle Book          
-      - 97460     # Lady and the Tramp
-      - 97461     # Lilo & Stitch                                                             
-      - 94032     # The Lion King                                                               
+      - 97459     # The Jungle Book                                                                          
       - 762512    # The Lion King (Reboot)                                                     
       - 33085     # The Little Mermaid             
-      - 531331    # Maleficent
       - 209131    # Man of Steel
-      - 527439    # Mary Poppins
-      - 137696    # Monsters, Inc.
       - 87236     # Mulan
-      - 55422     # Peter Pan
       - 136214    # Pocahontas                                                                
-      - 768140    # Pokémon: Detective Pikachu                                                
-      - 53159     # The Santa Clause                                                          
+      - 768140    # Pokémon: Detective Pikachu                                                                                                         
       - 1006443   # Scooby-Doo
       - 869205    # Scooby-Doo WWE
-      - 762458    # Scooby-Doo Zombie Island 
-      - 912503    # Shang-Chi                                                                 
-      - 724848    # Shazam!    
-      - 334996    # Son of Batman
-      - 531241    # Spider-Man (Avengers)                                                                                                          
-      - 531242    # Suicide Squad                                                              
-      - 729425    # Team Thor         
-      - 86311     # The Avengers
-      - 468222    # The Incredibles
-      - 57971     # The Rescuers
-      - 131296    # Thor
+      - 762458    # Scooby-Doo Zombie Island      
+      - 334996    # Son of Batman                                                             
+      - 729425    # Team Thor          
       - 123694    # Timon and Pumbaa
-      - 10194     # Toy Story
       - 109608    # Van Helsing
-      - 468552    # Wonder Woman
-      - 404825    # Wreck-It Ralph
