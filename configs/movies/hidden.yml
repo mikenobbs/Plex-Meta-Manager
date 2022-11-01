@@ -8,8 +8,11 @@ templates:
       - sort
       - movie
       - tmdb
+      - user
+      - trakt
     tmdb_movie: <<movie>>
     tmdb_collection_details: <<tmdb>>
+    trakt_list: https://trakt.tv/users/<<user>>/lists/<<trakt>>
     minimum_items: 1
     collection_mode: hide
     sort_title: <<sort>>
@@ -33,3 +36,5 @@ collections:
     template: {name: hidden, movie: 9473}
   Tangled:
     template: {name: hidden, movie: "38757, 82881"}
+  Toy Story:
+    template: {name: hidden, user: pandali, trakt: toy-story}
