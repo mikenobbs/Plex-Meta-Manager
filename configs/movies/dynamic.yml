@@ -6,14 +6,18 @@ templates:
   tmdb:
     optional:
       - movie
+      - summary
       - sort
       - order
-      - summary
+      - mode
+      - minimum
     tmdb_collection_details: <<tmdb_collection>>
     tmdb_movie: <<movie>>
     summary: <<summary>>
     sort_title: <<sort>>
     collection_order: <<order>>
+    collection_mode: <<mode>>
+    minimum_items: <<minimum>>
 
 dynamic_collections:
   TMDb Collections:
