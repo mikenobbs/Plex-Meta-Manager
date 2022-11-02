@@ -9,35 +9,35 @@ templates:
       - summary
       - sort
       - order
-      - collection_mode
-      - minimum_items
+      - mode
+      - minimum
     tmdb_collection_details: <<tmdb_collection>>
     tmdb_movie: <<movie>>
     summary: <<summary>>
     sort_title: <<sort>>
     collection_order: <<order>>
-    collection_mode: hide
-    minimum_items: 1
+    collection_mode: <<mode>>
+    minimum_items: <<minimum>>
 
 dynamic_collections:
   TMDb Collections:
     template: tmdb
     type: tmdb_collection
     addons: 
-      8091:       # Alien
-        - 135416  # Prometheus
-      86066:      # Despicable Me
-        - 544669  # Minions
-      9485:       # The Fast and the Furious
-        - 688042  # Hobbs & Shaw
-      86860:      # Scooby-Doo
-        - 633815  # The Mystery Begins
-      115575:     # Star Trek: Alternate Reality                                          
-        - 151     # Star Trek: The Original Series                                               
-        - 115570  # Star Trek: The Next Generation
-      748:        # X-Men
-        - 453993  # The Wolverine
-        - 448150  # Deadpool
+      8091:        # Alien
+        - 135416   # Prometheus
+      86066:       # Despicable Me
+        - 544669   # Minions
+      9485:        # The Fast and the Furious
+        - 688042   # Hobbs & Shaw
+      86860:       # Scooby-Doo
+        - 633815   # The Mystery Begins
+      115575:      # Star Trek: Alternate Reality                                          
+        - 151      # Star Trek: The Original Series                                               
+        - 115570   # Star Trek: The Next Generation
+      748:         # X-Men
+        - 453993   # The Wolverine
+        - 448150   # Deadpool
     remove_prefix: The
     remove_suffix: Collection
     title_override:
@@ -56,71 +56,56 @@ dynamic_collections:
       627517: The Wizard of Oz
     template_variables:
       movie:
-        # Descendants: The Royal Wedding
-        466463:    # Descendants
-          - 805411 # The Royal Wedding
-        # Harry Potter: 20th Anniversary
-        1241:      # Harry Potter
-          - 899082 # 20th Anniversary
-        # Ice Age: Great Egg-Scapade, Mammoth Christmas
-        8354:      # Ice Age
-          - 387893 # Egg-Scapade
-          - 79218  # Mammoth Christams
-        # Ip Man: Kung Fu Master, Four Kings, Master Z, Crisis Time, Legend is Born, Final Fight, The Grandmaster
-        70068:      # IP Man
-          - 658009  # Kung Fu Master
-          - 64341   # Four Kings
-          - 450001  # Master Z
-          - 751391  # Crisis Time
-          - 44249   # Legend is Born
-          - 182127  # Final Fight
-          - 44865   # The Grandmaster
-        # Jurassic Park: Battle at Big Rock
-        328:        # Jurassic Park
-          - 630322  # Battle at Big Rock
-        # Madagascar: Merry Madagascar, Madly Madagascar, Penguins Christmas Caper, Penguins of Madagascar    
-        14740:      # Madagascar
-          - 25472   # Merry
-          - 161143  # Madly
-          - 10258   # Penguins Christmas
-          - 270946  # Penguins
-        # Matrix: Animatrix
-        2344:       # The Matrix
-          - 55931   # Animatrix
-        # The Mummy: The Scorpion King
-        1733:       # The Mummy
-          - 9334    # Scorpion King
-        # Oceans: Oceans Eight
-        304:        # Oceans
-          - 402900  # Oceans Eight
-        # Oz: Return to Oz, Oz the Great and Powerful
-        627517:     # Wizard of Oz
-          - 13155   # Return to Oz
-          - 68728   # Oz the Great and Powerful
-        # Resident Evil: Welcome to Racoon City
-        17255:      # Eesident Evil
-          - 460458  # Welcome to Racoon City
-        # Star Wars: Rogue One, Solo
-        10:         # Star Wars
-          - 330459  # Rogue One 
-          - 348350  # Solo
-        # Thor: Team Thor, Team Thor 2, Team Daryl
-        131296:     # Thor
-          - 413279  # Team Thor
-          - 441829  # Team Thor 2
-          - 505945  # Team Daryl
-        # Toy Story: Small Fry, Partysaurus, Hawaiian Vacation, Terror, Time Forgot, Lamp Life, Lightyear
-        10194:      # Toy Story
-          - 82424   # Small Fry
-          - 130925  # Partysaurus Rex
-          - 77887   # Hawaiian Vacation
-          - 213121  # Terror
-          - 256835  # Time Forgot
-          - 594530  # Lamp Life
-          - 718789  # Lightyear
-        # Transformers: Bumblebee
-        8650:       # Transformers
-          - 424783  # Bumblebee
+        466463:        # Descendants
+          - 805411     # The Royal Wedding
+        1241:          # Harry Potter
+          - 899082     # 20th Anniversary
+        8354:          # Ice Age
+          - 387893     # Egg-Scapade
+          - 79218      # Mammoth Christams
+        70068:         # IP Man
+          - 658009     # Kung Fu Master
+          - 64341     # Four Kings
+          - 450001     # Master Z
+          - 751391     # Crisis Time
+          - 44249      # Legend is Born
+          - 182127     # Final Fight
+          - 44865      # The Grandmaster
+        328:           # Jurassic Park
+          - 630322     # Battle at Big Rock
+        14740:         # Madagascar
+          - 25472      # Merry Madagascar
+          - 161143     # Madly Madagascar
+          - 10258      # Penguins Christmas Caper
+          - 270946     # Penguins of Madagascar
+        2344:          # The Matrix
+          - 55931      # Animatrix
+        1733:          # The Mummy
+          - 9334       # Scorpion King
+        304:           # Ocean's
+          - 402900     # Ocean's Eight
+        627517:        # Wizard of Oz
+          - 13155      # Return to Oz
+          - 68728      # Oz the Great and Powerful
+        17255:         # Eesident Evil
+          - 460458     # Welcome to Racoon City
+        10:            # Star Wars
+          - 330459     # Rogue One 
+          - 348350     # Solo
+        131296:        # Thor
+          - 413279     # Team Thor
+          - 441829     # Team Thor 2
+          - 505945     # Team Daryl
+        10194:         # Toy Story
+          - 82424      # Small Fry
+          - 130925     # Partysaurus Rex
+          - 77887      # Hawaiian Vacation
+          - 213121     # Terror
+          - 256835     # Time Forgot
+          - 594530     # Lamp Life
+          - 718789     # Lightyear
+        8650:          # Transformers
+          - 424783     # Bumblebee
       sort:
         125574: Amazing Spider-Man
         948485: Batman
@@ -131,49 +116,49 @@ dynamic_collections:
         1733: Mummy
         627517: Wizard of Oz
       order:
-        2344: alpha  # Matrix
-        10: alpha    # Star Wars
+        2344: alpha     # Matrix
+        10: alpha       # Star Wars
       summary:
         115575: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.   # Star Trek
-      collection_mode:
-        86027     # Aladdin
-        422834    # Ant-Man
-        573693    # Aquaman
-        87250     # Bambi
-        785583    # Batman the Long Halloween
-        153010    # Beauty and the Beast                                                
-        529892    # Black Panther
-        131295    # Captain America
-        623911    # Captain Marvel
-        87118     # Cars
-        618529    # Doctor Strange
-        531799    # Enchanted  
-        137697    # Finding Nemo
-        386382    # Frozen
-        284433    # Guardians of the Galaxy
-        97456     # The Hunchback of Notre Dame  
-        131292    # Iron Man
-        97460     # Lady and the Tramp
-        97461     # Lilo & Stitch                                                             
-        94032     # The Lion King
-        531331    # Maleficent
-        527439    # Mary Poppins
-        137696    # Monsters, Inc.
-        55422     # Peter Pan
-        53159     # The Santa Clause
-        912503    # Shang-Chi                                                                 
-        724848    # Shazam!
-        531241    # Spider-Man (Avengers)                                                                                                          
-        531242    # Suicide Squad 
-        86311     # The Avengers
-        468222    # The Incredibles
-        57971     # The Rescuers
-        131296    # Thor
-        10194     # Toy Story
-        468552    # Wonder Woman
-        404825    # Wreck-It Ralph
-      minimum_items:
-        893731    # Paw Patrol
+      mode:
+        86027: hide     # Aladdin
+        422834: hide    # Ant-Man
+        573693: hide    # Aquaman
+        87250: hide     # Bambi
+        785583: hide    # Batman the Long Halloween
+        153010: hide    # Beauty and the Beast                                                
+        529892: hide    # Black Panther
+        131295: hide    # Captain America
+        623911: hide    # Captain Marvel
+        87118: hide     # Cars
+        618529: hide    # Doctor Strange
+        531799: hide    # Enchanted  
+        137697: hide    # Finding Nemo
+        386382: hide    # Frozen
+        284433: hide    # Guardians of the Galaxy
+        97456: hide     # The Hunchback of Notre Dame  
+        131292: hide    # Iron Man
+        97460: hide     # Lady and the Tramp
+        97461: hide     # Lilo & Stitch                                                             
+        94032: hide     # The Lion King
+        531331: hide    # Maleficent
+        527439: hide    # Mary Poppins
+        137696: hide    # Monsters, Inc.
+        55422: hide     # Peter Pan
+        53159: hide     # The Santa Clause
+        912503: hide    # Shang-Chi                                                                 
+        724848: hide    # Shazam!
+        531241: hide    # Spider-Man (Avengers)                                                                                                          
+        531242: hide    # Suicide Squad 
+        86311: hide     # The Avengers
+        468222: hide    # The Incredibles
+        57971: hide     # The Rescuers
+        131296: hide    # Thor
+        10194: hide     # Toy Story
+        468552: hide    # Wonder Woman
+        404825: hide    # Wreck-It Ralph
+      minimum:
+        893731: 1       # Paw Patrol
     exclude:
       - 100693    # 101 Dalmatians (Animated)                                         
       - 124916    # 101 Dalmatians (Live-Action) 
