@@ -57,35 +57,70 @@ dynamic_collections:
     template_variables:
       movie:
         # Descendants: The Royal Wedding
-        466463: 805411
+        466463:    # Descendants
+          - 805411 # The Royal Wedding
         # Harry Potter: 20th Anniversary
-        1241: 899082
+        1241:      # Harry Potter
+          - 899082 # 20th Anniversary
         # Ice Age: Great Egg-Scapade, Mammoth Christmas
-        8354: 387893, 79218
+        8354:      # Ice Age
+          - 387893 # Egg-Scapade
+          - 79218  # Mammoth Christams
         # Ip Man: Kung Fu Master, Four Kings, Master Z, Crisis Time, Legend is Born, Final Fight, The Grandmaster
-        70068: 658009, 643413, 450001, 751391, 44249, 182127, 44865
+        70068:      # IP Man
+          - 658009  # Kung Fu Master
+          - 64341   # Four Kings
+          - 450001  # Master Z
+          - 751391  # Crisis Time
+          - 44249   # Legend is Born
+          - 182127  # Final Fight
+          - 44865   # The Grandmaster
         # Jurassic Park: Battle at Big Rock
-        328: 630322
+        328:        # Jurassic Park
+          - 630322  # Battle at Big Rock
         # Madagascar: Merry Madagascar, Madly Madagascar, Penguins Christmas Caper, Penguins of Madagascar    
-        14740: 25472, 161143, 10258, 270946
+        14740:      # Madagascar
+          - 25472   # Merry
+          - 161143  # Madly
+          - 10258   # Penguins Christmas
+          - 270946  # Penguins
         # Matrix: Animatrix
-        2344: 55931
+        2344:.      # The Matrix
+          - 55931   # Animatrix
         # The Mummy: The Scorpion King
-        1733: 9334
+        1733:       # The Mummy
+          - 9334    # Scorpion King
         # Oceans: Oceans Eight
-        304: 402900
+        304:        # Oceans
+          - 402900  # Oceans Eight
         # Oz: Return to Oz, Oz the Great and Powerful
-        627517: 13155, 68728
+        627517:     # Wizard of Oz
+          - 13155   # Return to Oz
+          - 68728   # Oz the Great and Powerful
         # Resident Evil: Welcome to Racoon City
-        17255: 460458
+        17255:      # Eesident Evil
+          - 460458  # Welcome to Racoon City
         # Star Wars: Rogue One, Solo
-        10: 330459, 348350
+        10:         # Star Wars
+          - 330459  # Rogue One 
+          - 348350  # Solo
         # Thor: Team Thor, Team Thor 2, Team Daryl
-        131296: 413279, 441829, 505945
+        131296:     # Thor
+          - 413279  # Team Thor
+          - 441829  # Team Thor 2
+          - 505945  # Team Daryl
         # Toy Story: Small Fry, Partysaurus, Hawaiian Vacation, Terror, Time Forgot, Lamp Life, Lightyear
-        10194: 82424, 130925, 77887, 213121, 256835, 594530, 718789
+        10194:      # Toy Story
+          - 82424   # Small Fry
+          - 130925  # Partysaurus Rex
+          - 77887   # Hawaiian Vacation
+          - 213121  # Terror
+          - 256835  # Time Forgot
+          - 594530  # Lamp Life
+          - 718789  # Lightyear
         # Transformers: Bumblebee
-        8650: 424783
+        8650:       # Transformers
+          - 424783  # Bumblebee
       sort:
         125574: Amazing Spider-Man
         948485: Batman
@@ -137,6 +172,8 @@ dynamic_collections:
         10194     # Toy Story
         468552    # Wonder Woman
         404825    # Wreck-It Ralph
+      minimum_items:
+        893731    # Paw Patrol
     exclude:
       - 100693    # 101 Dalmatians (Animated)                                         
       - 124916    # 101 Dalmatians (Live-Action) 
