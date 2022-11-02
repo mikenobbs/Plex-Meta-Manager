@@ -16,9 +16,11 @@ templates:
           studio: <<studio>>
   studio:
     optional:
-      - radarr
+      - missing
+      - search
     trakt_list: https://trakt.tv/users/<<user>>/lists/<<trakt>>
-    radarr_add_missing: <<radarr>>
+    radarr_add_missing: <<missing>>
+    radarr_search: <<search>>
 
 collections:
   Studio Ghibli:
