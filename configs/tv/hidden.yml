@@ -14,11 +14,11 @@ templates:
 collections:
   "Bob's Burgers":
     template: {name: hidden, show: 32726}
-  #Family Guy:
+  Family Guy:
     template: {name: hidden, show: 1434}
   The Good Witch:
     template: {name: hidden, show: 61864, sort: Good Witch}
-  #"Hey Arnold!":
+  "Hey Arnold!":
     template: {name: hidden, show: 537}
   Jurassic Park:
     template: {name: hidden, show: 93741}
