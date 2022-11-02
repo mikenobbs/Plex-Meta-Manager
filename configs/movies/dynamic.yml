@@ -85,7 +85,7 @@ dynamic_collections:
           - 10258   # Penguins Christmas
           - 270946  # Penguins
         # Matrix: Animatrix
-        2344:.      # The Matrix
+        2344:       # The Matrix
           - 55931   # Animatrix
         # The Mummy: The Scorpion King
         1733:       # The Mummy
