@@ -33,7 +33,7 @@ collections:
   Pokémon:
     template: {name: hidden, show: 60572}
   The Simpsons:
-    template: {name: hidden, show:456, sort: Simpsons}
+    template: {name: hidden, show: 456, sort: Simpsons}
   South Park:
     template: {name: hidden, show: 2190}
   SpongeBob SquarePants:
