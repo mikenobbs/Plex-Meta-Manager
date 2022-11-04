@@ -1,5 +1,5 @@
 ######################################################
-#                 Dynamic Collections                #
+#              Trakt Dynamic Collections             #
 ######################################################
 
 templates:
@@ -12,4 +12,4 @@ dynamic_collections:
     template: trakt
     type: trakt_user_lists
     data: me
-    exclude: stand-up
+    exclude: Stand-Up
