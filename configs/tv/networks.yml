@@ -9,8 +9,8 @@ templates:
       validate: false
       any:
         network: <<network>>
-    summary: Collection of shows streaming on <<collection_name>>
-    sort_title: +<<collection_name>>
+    summary: Collection of shows streaming on <<collection_name>>.
+    sort_title: ++<<collection_name>>
 
 collections:
   Netflix:
