@@ -9,7 +9,7 @@ templates:
       all:
         label: <<smart_label>>
       validate: true
-    sort_title: +<<collection_name>>
+    sort_title: ++<<collection_name>>
 
 collections:
   IMDb Top 250:
