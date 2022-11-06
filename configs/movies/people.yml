@@ -9,7 +9,7 @@ templates:
       sort_by: release.asc
       validate: true
     tmdb_person: <<person>>
-    sort_title: +++<<collection_name>>
+    sort_title: ++<<collection_name>>
   actor:
     smart_filter:
       actor: tmdb
