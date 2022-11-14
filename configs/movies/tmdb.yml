@@ -65,7 +65,7 @@ dynamic_collections:
           - 79218      # Mammoth Christams
         70068:         # IP Man
           - 658009     # Kung Fu Master
-          - 64341     # Four Kings
+          - 643413     # Four Kings
           - 450001     # Master Z
           - 751391     # Crisis Time
           - 44249      # Legend is Born
@@ -108,12 +108,17 @@ dynamic_collections:
           - 424783     # Bumblebee
       sort:
         125574: Amazing Spider-Man
+        86311: Avengers
         948485: Batman
         263: Dark Knight
         87251: Good Witch
+        97456: Hunchback of Notre Dame
         131635: Hunger Games
+        468222: Incredibles
+        94032: Lion King
         2344: Matrix
         1733: Mummy
+        57971: Rescuers
         627517: Wizard of Oz
       order:
         2344: alpha     # Matrix
@@ -121,42 +126,42 @@ dynamic_collections:
       summary:
         115575: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.   # Star Trek
       mode:
-        86027: hide     # Aladdin
-        422834: hide    # Ant-Man
-        573693: hide    # Aquaman
-        87250: hide     # Bambi
-        785583: hide    # Batman the Long Halloween
-        153010: hide    # Beauty and the Beast                                                
-        529892: hide    # Black Panther
-        131295: hide    # Captain America
-        623911: hide    # Captain Marvel
-        87118: hide     # Cars
-        618529: hide    # Doctor Strange
-        531799: hide    # Enchanted  
-        137697: hide    # Finding Nemo
-        386382: hide    # Frozen
-        284433: hide    # Guardians of the Galaxy
-        97456: hide     # The Hunchback of Notre Dame  
-        131292: hide    # Iron Man
-        97460: hide     # Lady and the Tramp
-        97461: hide     # Lilo & Stitch                                                             
-        94032: hide     # The Lion King
-        531331: hide    # Maleficent
-        527439: hide    # Mary Poppins
-        137696: hide    # Monsters, Inc.
-        55422: hide     # Peter Pan
-        53159: hide     # The Santa Clause
-        912503: hide    # Shang-Chi                                                                 
-        724848: hide    # Shazam!
-        531241: hide    # Spider-Man (Avengers)                                                                                                          
-        531242: hide    # Suicide Squad 
-        86311: hide     # The Avengers
-        468222: hide    # The Incredibles
-        57971: hide     # The Rescuers
-        131296: hide    # Thor
-        10194: hide     # Toy Story
-        468552: hide    # Wonder Woman
-        404825: hide    # Wreck-It Ralph
+        #86027: hide     # Aladdin
+        #422834: hide    # Ant-Man
+        #573693: hide    # Aquaman
+        #87250: hide     # Bambi
+        #785583: hide    # Batman the Long Halloween
+        #153010: hide    # Beauty and the Beast                                                
+        #529892: hide    # Black Panther
+        #131295: hide    # Captain America
+        #623911: hide    # Captain Marvel
+        #87118: hide     # Cars
+        #618529: hide    # Doctor Strange
+        #531799: hide    # Enchanted  
+        #137697: hide    # Finding Nemo
+        #386382: hide    # Frozen
+        #284433: hide    # Guardians of the Galaxy
+        #97456: hide     # The Hunchback of Notre Dame  
+        #131292: hide    # Iron Man
+        #97460: hide     # Lady and the Tramp
+        #97461: hide     # Lilo & Stitch                                                             
+        #94032: hide     # The Lion King
+        #531331: hide    # Maleficent
+        #527439: hide    # Mary Poppins
+        #137696: hide    # Monsters, Inc.
+        #55422: hide     # Peter Pan
+        #53159: hide     # The Santa Clause
+        #912503: hide    # Shang-Chi                                                                 
+        #724848: hide    # Shazam!
+        #531241: hide    # Spider-Man (Avengers)                                                                                                          
+        #531242: hide    # Suicide Squad 
+        #86311: hide     # The Avengers
+        #468222: hide    # The Incredibles
+        #57971: hide     # The Rescuers
+        #131296: hide    # Thor
+        #10194: hide     # Toy Story
+        #468552: hide    # Wonder Woman
+        #404825: hide    # Wreck-It Ralph
       minimum:
         893731: 1       # Paw Patrol
     exclude:
