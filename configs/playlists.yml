@@ -18,7 +18,7 @@ templates:
 
 playlists:  
   Buffyverse - Chronological Order:
-    template: {name: order, cache: 365, library: TV Shows, user: psaul3, trakt: buffyverse-viewing-order}
+    template: {name: order, cache: 1, library: TV Shows, user: psaul3, trakt: buffyverse-viewing-order}
     summary: The Buffyverse in chronological order.
   Marvel Cinematic Universe - Chronological Order:
     template: {name: order, cache: 1, library: "Movies, TV Shows", user: donxy, trakt: marvel-cinematic-universe}
