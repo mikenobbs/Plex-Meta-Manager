@@ -125,7 +125,7 @@ dynamic_collections:
         10: alpha       # Star Wars
       summary:
         115575: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.   # Star Trek
-      mode:
+      #mode:
         #86027: hide     # Aladdin
         #422834: hide    # Ant-Man
         #573693: hide    # Aquaman
