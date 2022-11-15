@@ -26,15 +26,9 @@ collections:
     template: {name: hidden, movie: 585245}
   Friends:
     template: {name: hidden, movie: 691179}
-  "Monsters, Inc.":
-    template: {name: hidden, tmdb: 137696} 
-  Paw Patrol:
-    template: {name: hidden, movie: 675445}
   The Simpsons:
     template: {name: hidden, movie: 35, sort: Simpsons}
   South Park:
     template: {name: hidden, movie: 9473}
   Tangled:
     template: {name: hidden, movie: "38757, 82881"}
-  Toy Story:
-    template: {name: hidden, user: pandali, trakt: toy-story}
