@@ -55,6 +55,8 @@ dynamic_collections:
       627517: The Wizard of Oz
     template_variables:
       movie:
+        201873:        # Christmas Story
+          - 929340     # Christmas Story Christmas
         466463:        # Descendants
           - 805411     # The Royal Wedding
         1241:          # Harry Potter
@@ -109,6 +111,7 @@ dynamic_collections:
         125574: Amazing Spider-Man
         86311: Avengers
         948485: Batman
+        201873: Christmas Story
         263: Dark Knight
         87251: Good Witch
         97456: Hunchback of Notre Dame
