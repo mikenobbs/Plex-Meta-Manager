@@ -46,7 +46,9 @@ dynamic_collections:
       263: The Dark Knight
       9485: Fast & Furious
       87251: The Good Witch
+      121938: The Hobbit
       131635: The Hunger Games
+      119: The Lord of the Rings
       2344: The Matrix
       1733: The Mummy
       86860: Scooby-Doo!
@@ -105,17 +107,14 @@ dynamic_collections:
           - 424783     # Bumblebee
       sort:
         125574: Amazing Spider-Man
-        86311: Avengers
         948485: Batman
+        334996: Batman, Son of
         201873: Christmas Story
         263: Dark Knight
         87251: Good Witch
-        Hobbit
-        97456: Hunchback of Notre Dame
+        121938: Hobbit
         131635: Hunger Games
-        468222: Incredibles
-        94032: Lion King
-        Lord of the Rings
+        119: Lord of the Rings
         2344: Matrix
         1733: Mummy
         627517: Wizard of Oz
@@ -140,7 +139,7 @@ dynamic_collections:
       - 153010    # Beauty and the Beast                                                
       - 529892    # Black Panther
       - 131295    # Captain America
-      - 62391    # Captain Marvel
+      - 623911    # Captain Marvel
       - 87118     # Cars
       - 8819      # Casper                                                                   
       - 55419     # Cinderella                                                              
@@ -181,8 +180,7 @@ dynamic_collections:
       - 912503    # Shang-Chi                                                                 
       - 724848    # Shazam!
       - 531241    # Spider-Man (Avengers)                                                                                                          
-      - 531242    # Suicide Squad    
-  334996    # Son of Batman                                                             
+      - 531242    # Suicide Squad                                                                 
       - 729425    # Team Thor   
       - 131296    # Thor       
       - 123694    # Timon and Pumbaa
