@@ -1,0 +1,22 @@
+######################################################
+#                Seasonal Collections                #
+######################################################
+
+templates:
+  seasonal:
+    optional:
+      - trakt
+      - imdb 
+      - schedule
+    trakt_list: https://trakt.tv/users/<<trakt>>
+    imdb_list:
+    schedule: range(<<schedule>>)
+    summary: A collection of movies to celebrate the <<collection_name>> season.
+  
+
+collections:
+  🎅 Christmas:
+    template: {name: seasonal, schedule: 11/01-12/31
+
+https://trakt.tv/users/plexmetamanager/lists/christmas-extravaganza-non-tv-movie
+  
