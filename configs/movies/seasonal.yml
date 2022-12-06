@@ -8,15 +8,17 @@ templates:
       - trakt
       - imdb 
       - schedule
+    smart_filter:
+      
     trakt_list: https://trakt.tv/users/<<trakt>>
-    imdb_list:
+    imdb_list: <<imdb>>
     schedule: range(<<schedule>>)
-    summary: A collection of movies to celebrate the <<collection_name>> season.
-  
+    summary: A collection of movies to celebrate <<collection_name>>.
+    visible_library: true
+    visible_home: true
+    visible_shared: true
 
 collections:
-  🎅 Christmas:
-    template: {name: seasonal, schedule: 11/01-12/31
-
-https://trakt.tv/users/plexmetamanager/lists/christmas-extravaganza-non-tv-movie
+  Christmas:
+    template: {name: seasonal, trakt: plexmetamanager/lists/christmas-extravaganza-non-tv-movie, schedule: 11/01-12/31}
   
