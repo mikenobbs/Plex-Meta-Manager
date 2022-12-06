@@ -9,7 +9,8 @@ templates:
       - imdb 
       - schedule
     smart_filter:
-      
+      sort_by: random
+      validate: true
     trakt_list: https://trakt.tv/users/<<trakt>>
     imdb_list: <<imdb>>
     schedule: range(<<schedule>>)
