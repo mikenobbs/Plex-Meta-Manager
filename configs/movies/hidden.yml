@@ -30,5 +30,3 @@ collections:
     template: {name: hidden, movie: 35, sort: Simpsons}
   South Park:
     template: {name: hidden, movie: 9473}
-  Tangled:
-    template: {name: hidden, movie: "38757, 82881"}
