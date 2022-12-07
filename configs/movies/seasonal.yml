@@ -10,6 +10,7 @@ templates:
       - schedule
     smart_filter:
       all:
+        genre: Christmas
         sort_by: random
         validate: true
     trakt_list: https://trakt.tv/users/<<trakt>>
