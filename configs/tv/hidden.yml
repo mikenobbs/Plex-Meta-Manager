@@ -24,10 +24,8 @@ collections:
     template: {name: hidden, show: 537}
   Jurassic Park:
     template: {name: hidden, show: 93741}
-  Middle Earth:
+  Middle-Earth:
     template: {name: hidden, show: 84773}
-  "Monsters, Inc.":
-    template: {name: hidden, show: 90461}
   Paw Patrol:
     template: {name: hidden, show: 57532}
   Pokémon:
@@ -38,6 +36,3 @@ collections:
     template: {name: hidden, show: 2190}
   SpongeBob SquarePants:
     template: {name: hidden, show: 387}
-  Tangled:
-    template: {name: hidden, show: 70047}
-  
