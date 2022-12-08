@@ -8,11 +8,10 @@ templates:
       - trakt
       - imdb 
       - schedule
-    smart_filter:
+    smart_label:
+      sort_by: random
       all:
-        genre: Christmas
-        sort_by: random
-        validate: true
+        label: <<smart_label>>
     trakt_list: https://trakt.tv/users/<<trakt>>
     imdb_list: <<imdb>>
     schedule: range(<<schedule>>)
@@ -22,6 +21,6 @@ templates:
     visible_shared: true
 
 collections:
-  Christmas:
-    template: {name: seasonal, trakt: plexmetamanager/lists/christmas-extravaganza-non-tv-movie, schedule: 11/01-12/31}
+  Christmas as:
+    template: {name: seasonal, trakt: plexmetamanager/lists/christmas-extravaganza-non-tv-movie, schedule: 11/01-01/01}
   
