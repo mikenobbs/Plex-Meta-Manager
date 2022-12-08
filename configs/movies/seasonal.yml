@@ -21,6 +21,6 @@ templates:
     visible_shared: true
 
 collections:
-  Christmas as:
+  Christmas:
     template: {name: seasonal, trakt: plexmetamanager/lists/christmas-extravaganza-non-tv-movie, schedule: 11/01-01/01}
   
