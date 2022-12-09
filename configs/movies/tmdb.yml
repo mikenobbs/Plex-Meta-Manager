@@ -42,6 +42,7 @@ dynamic_collections:
     title_override:
       125574: The Amazing Spider-Man
       948485: The Batman
+      743824: The Christmas Chronicles 
       86066: Despicable Me & Minions
       263: The Dark Knight
       9485: Fast & Furious
@@ -52,6 +53,7 @@ dynamic_collections:
       2344: The Matrix
       1733: The Mummy
       86860: Scooby-Doo!
+      394204: The Snowman
       275402: SpongeBob SquarePants
       115575: Star Trek
       627517: The Wizard of Oz
@@ -109,6 +111,7 @@ dynamic_collections:
         125574: Amazing Spider-Man
         948485: Batman
         334996: Batman, Son of
+        743824: Christmas Chronicles
         201873: Christmas Story
         263: Dark Knight
         87251: Good Witch
@@ -117,6 +120,7 @@ dynamic_collections:
         119: Lord of the Rings
         2344: Matrix
         1733: Mummy
+        394204: Snowman
         627517: Wizard of Oz
       order:
         2344: alpha     # Matrix
