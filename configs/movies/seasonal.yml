@@ -15,7 +15,7 @@ templates:
     trakt_list: https://trakt.tv/users/<<trakt>>
     imdb_list: https://www.imdb.com/list/<<imdb>>/
     schedule: range(<<schedule>>)
-    summary: A collection of movies to celebrate <<collection_name>>.
+    summary: A collection of <<collection_name>> so celebrate 
     visible_library: true
     visible_home: true
     visible_shared: true
