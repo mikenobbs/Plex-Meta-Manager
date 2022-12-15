@@ -3,14 +3,6 @@
 ######################################################
 
 templates:
-  season:
-    sort_title: +++<<collection_name>>
-    collection_level: episode
-    delete_not_scheduled: true
-    visible_home: true
-    visible_shared: true 
-    
-templates:
   seasonal:
     optional:
       - trakt
@@ -20,19 +12,21 @@ templates:
       sort_by: random
       all:
         label: <<smart_label>>
+    collection_level: episode
+    builder_level: episode
     trakt_list: https://trakt.tv/users/<<trakt>>
     imdb_list: https://www.imdb.com/list/<<imdb>>/
     schedule: range(<<schedule>>)
-    summary: A collection of <<collection_name>> to celebrate the holiday.
-    visible_library: true
+    title_format: <<collection_name>> Episodes
+    summary: A collection of <<collection_name>> themed episodes to celebrate the holiday.
     visible_home: true
     visible_shared: true
     delete_not_scheduled: true
     sort_title: +++<<collection_name>>
   
-  Christmas Episodes:
+  Christmas:
     template: { name: Holidays, num: 1, season: christmas }
-    schedule: range(11/24-01/07)
+    schedule: range(11/01-01/01)
     trakt_list:
       - https://trakt.tv/users/uyn5hnpr2wdjwksh/lists/christmas-episodes
       - https://trakt.tv/users/philrivers/lists/christmas-episodes
@@ -41,11 +35,9 @@ templates:
       - https://www.imdb.com/search/keyword/?keywords=christmas-episode
     builder_level: episode
     plex_search:
-      all:
-        genre.not: Reality, Food, Documentary
-        any:    
-          episode_title: 
-           - Christmas
-           - Holiday
-    test: false
-  ```
+      #all:
+        #genre.not: Reality, Food, Documentary
+      any:    
+        episode_title: 
+          - Christmas
+          - Holiday
