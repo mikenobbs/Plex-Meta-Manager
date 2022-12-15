@@ -23,6 +23,7 @@ templates:
     delete_not_scheduled: true
     sort_title: +++<<collection_name>>
   
+collections: 
   Christmas:
     template: 
       name: seasonal
