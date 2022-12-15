@@ -33,7 +33,7 @@ collections:
         #- philrivers/lists/christmas-episodes
         #- b23ant/lists/christmas-episodes
       imdb:
-        - https://www.imdb.com/search/keyword/?keywords=christmas
+        - https://www.imdb.com/search/keyword/?keywords=christmas-episode
     builder_level: episode
     plex_search:
       #all:
