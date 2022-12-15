@@ -7,16 +7,15 @@ templates:
     optional:
       - trakt
       - imdb
-      - schedule
     smart_label:
       sort_by: random
       all:
         label: <<smart_label>>
-    collection_level: episode
+    builder_level: episode
     trakt_list: https://trakt.tv/users/<<trakt>>
     imdb_list: <<imdb>>
     schedule: range(<<schedule>>)
-    title_format: <<collection_name>> Episodes
+    title_override: <<collection_name>> Episodes
     summary: A collection of <<collection_name>> themed episodes to celebrate the holiday.
     visible_home: true
     visible_shared: true
@@ -34,7 +33,6 @@ collections:
         #- b23ant/lists/christmas-episodes
       imdb:
         - https://www.imdb.com/search/keyword/?keywords=christmas-episode
-    builder_level: episode
     plex_search:
       #all:
         #genre.not: Reality, Food, Documentary
