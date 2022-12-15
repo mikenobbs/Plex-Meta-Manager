@@ -14,7 +14,7 @@ templates:
         label: <<smart_label>>
     collection_level: episode
     trakt_list: https://trakt.tv/users/<<trakt>>
-    imdb_list: https://www.imdb.com/<<imdb>>
+    imdb_list: <<imdb>>
     schedule: range(<<schedule>>)
     title_format: <<collection_name>> Episodes
     summary: A collection of <<collection_name>> themed episodes to celebrate the holiday.
@@ -33,7 +33,7 @@ collections:
         #- philrivers/lists/christmas-episodes
         #- b23ant/lists/christmas-episodes
       imdb:
-        - search/keyword/?keywords=christmas-episode
+        - https://imdb.com/search/keyword/?keywords=christmas
     builder_level: episode
     plex_search:
       #all:
