@@ -28,10 +28,10 @@ collections:
     template: 
       name: seasonal
       schedule: 11/01-01/01
-      trakt:
-        - uyn5hnpr2wdjwksh/lists/christmas-episodes
-        - philrivers/lists/christmas-episodes
-        - b23ant/lists/christmas-episodes
+      #trakt:
+        #- uyn5hnpr2wdjwksh/lists/christmas-episodes
+        #- philrivers/lists/christmas-episodes
+        #- b23ant/lists/christmas-episodes
       imdb:
         - search/keyword/?keywords=christmas-episode
     builder_level: episode
