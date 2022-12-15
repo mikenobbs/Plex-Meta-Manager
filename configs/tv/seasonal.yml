@@ -15,7 +15,8 @@ templates:
     collection_level: episode
     builder_level: episode
     trakt_list: https://trakt.tv/users/<<trakt>>
-    imdb_list: https://www.imdb.com/list/<<imdb>>/
+    imdb_list: https://www.imdb.com/list/<<imdb_list>>/
+    imdb_list: https://www.imdb.com/search/keyword/?keywords=<<imdb_keyword>>
     schedule: range(<<schedule>>)
     title_format: <<collection_name>> Episodes
     summary: A collection of <<collection_name>> themed episodes to celebrate the holiday.
@@ -25,14 +26,15 @@ templates:
     sort_title: +++<<collection_name>>
   
   Christmas:
-    template: { name: Holidays, num: 1, season: christmas }
-    schedule: range(11/01-01/01)
-    trakt_list:
-      - https://trakt.tv/users/uyn5hnpr2wdjwksh/lists/christmas-episodes
-      - https://trakt.tv/users/philrivers/lists/christmas-episodes
-      - https://trakt.tv/users/b23ant/lists/christmas-episodes
-    imdb_list:
-      - https://www.imdb.com/search/keyword/?keywords=christmas-episode
+    template: 
+      name: seasonal
+      schedule: 11/01-01/01
+      trakt:
+        - uyn5hnpr2wdjwksh/lists/christmas-episodes
+        - philrivers/lists/christmas-episodes
+        - b23ant/lists/christmas-episodes
+      imdb_keyword:
+        - christmas-episode
     builder_level: episode
     plex_search:
       #all:
