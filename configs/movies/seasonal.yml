@@ -16,7 +16,7 @@ templates:
     imdb_list: https://www.imdb.com/list/<<imdb>>/
     schedule: range(<<schedule>>)
     title_format: <<collection_name>> Movies
-    summary: A collection of <<collection_name>> movies to celebrate the holiday.
+    summary: A collection of <<collection_name>> themed movies to celebrate the holiday.
     visible_library: true
     visible_home: true
     visible_shared: true
