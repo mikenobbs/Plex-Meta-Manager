@@ -15,7 +15,6 @@ templates:
     summary: <<summary>>
     sort_title: <<sort>>
     collection_order: <<order>>
-    collection_mode: hide_items
     minimum_items: <<minimum>>
 
 dynamic_collections:
@@ -40,6 +39,7 @@ dynamic_collections:
     remove_prefix: The
     remove_suffix: Collection
     title_override:
+      750822: The Addams Family
       125574: The Amazing Spider-Man
       948485: The Batman
       743824: The Christmas Chronicles 
@@ -59,8 +59,6 @@ dynamic_collections:
       627517: The Wizard of Oz
     template_variables:
       movie:
-        201873:        # Christmas Story
-          - 929340     # Christmas Story Christmas
         466463:        # Descendants
           - 805411     # The Royal Wedding
         1241:          # Harry Potter
@@ -108,6 +106,7 @@ dynamic_collections:
         8650:          # Transformers
           - 424783     # Bumblebee
       sort:
+        750822: Addams Family
         125574: Amazing Spider-Man
         948485: Batman
         334996: Batman, Son of
