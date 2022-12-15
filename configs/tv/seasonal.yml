@@ -6,14 +6,14 @@ templates:
   seasonal:
     optional:
       - trakt
-      - imdb 
+      - imdb_list
+      - imdb_keyword 
       - schedule
     smart_label:
       sort_by: random
       all:
         label: <<smart_label>>
     collection_level: episode
-    builder_level: episode
     trakt_list: https://trakt.tv/users/<<trakt>>
     imdb_list: https://www.imdb.com/list/<<imdb_list>>/
     imdb_list: https://www.imdb.com/search/keyword/?keywords=<<imdb_keyword>>
