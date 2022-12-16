@@ -15,18 +15,19 @@ templates:
     trakt_list: https://trakt.tv/users/<<trakt>>
     imdb_list: <<imdb>>
     schedule: range(<<schedule>>)
-    title_override: <<collection_name>> Episodes
-    summary: A collection of <<collection_name>> themed episodes to celebrate the holiday.
+    summary: A collection of <<season>> themed episodes to celebrate the holiday.
     visible_home: true
     visible_shared: true
     delete_not_scheduled: true
-    sort_title: +++<<collection_name>>
+    sort_title: +++<<collection_name>
+    asset_directory: assets/seasonal/<<season>>
   
 collections: 
-  Christmas:
+  Christmas Episodes:
     template: 
       name: seasonal
       schedule: 11/01-01/01
+      season: Christmas
       #trakt:
         #- uyn5hnpr2wdjwksh/lists/christmas-episodes
         #- philrivers/lists/christmas-episodes
