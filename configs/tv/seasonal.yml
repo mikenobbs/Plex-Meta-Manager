@@ -20,7 +20,6 @@ templates:
     visible_shared: true
     delete_not_scheduled: true
     sort_title: +++<<collection_name>
-    asset_directory: assets/seasonal/<<season>>
   
 collections: 
   Christmas Episodes:
