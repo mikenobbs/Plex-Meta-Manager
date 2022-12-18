@@ -26,6 +26,6 @@ collections:
     template: 
       name: seasonal
       schedule: 11/01-01/01
-      trakt: plexmetamanager/lists/christmas-extravaganza-non-tv-movie
+      #trakt: plexmetamanager/lists/christmas-extravaganza-non-tv-movie
       imdb: search/keyword/?keywords=christmas-movie
   
