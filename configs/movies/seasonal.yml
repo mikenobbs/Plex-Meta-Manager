@@ -14,17 +14,17 @@ templates:
     trakt_list: https://trakt.tv/users/<<trakt>>
     imdb_list: https://www.imdb.com/<<imdb>>
     schedule: range(<<schedule>>)
-    title_format: <<collection_name>> Movies
-    summary: A collection of <<collection_name>> themed movies, as well as movies that are associated with this time of year.
+    summary: A collection of <<season>> themed movies, as well as movies that are associated with this time of year.
     visible_library: true
     visible_home: true
     visible_shared: true
     sort_title: +++<<collection_name>>
 
 collections:
-  Christmas:
+  Christmas Movies:
     template: 
       name: seasonal
+      season: Christmas
       schedule: 11/01-01/01
       #trakt: plexmetamanager/lists/christmas-extravaganza-non-tv-movie
       imdb: search/keyword/?keywords=christmas-movie
