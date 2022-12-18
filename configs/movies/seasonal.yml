@@ -27,5 +27,4 @@ collections:
       season: Christmas
       schedule: 11/01-01/01
       #trakt: plexmetamanager/lists/christmas-extravaganza-non-tv-movie
-      imdb: search/keyword/?keywords=christmas-movie
-  
+      imdb: search/keyword/?keywords=christmas
