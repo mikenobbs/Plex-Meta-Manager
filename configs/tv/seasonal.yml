@@ -7,7 +7,7 @@ templates:
     optional:
       - trakt
       - imdb
-    smart_label: random
+    #smart_label: random
     builder_level: episode
     trakt_list: https://trakt.tv/users/<<trakt>>
     imdb_list: https://www.imdb.com/<<imdb>>
