@@ -12,7 +12,7 @@ templates:
       all:
         label: <<smart_label>>
     trakt_list: https://trakt.tv/users/<<trakt>>
-    imdb_list: https://www.imdb.com/list/<<imdb>>/
+    imdb_list: https://www.imdb.com/<<imdb>>
     schedule: range(<<schedule>>)
     title_format: <<collection_name>> Movies
     summary: A collection of <<collection_name>> themed movies, as well as movies that are normally on TV this time of year.
@@ -23,5 +23,9 @@ templates:
 
 collections:
   Christmas:
-    template: {name: seasonal, trakt: plexmetamanager/lists/christmas-extravaganza-non-tv-movie, schedule: 11/01-01/01}
+    template: 
+      name: seasonal
+      schedule: 11/01-01/01
+      trakt: plexmetamanager/lists/christmas-extravaganza-non-tv-movie
+      imdb: search/keyword/?keywords=christmas-movie
   
