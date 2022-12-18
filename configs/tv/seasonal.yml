@@ -31,8 +31,7 @@ collections:
         #- uyn5hnpr2wdjwksh/lists/christmas-episodes
         #- philrivers/lists/christmas-episodes
         #- b23ant/lists/christmas-episodes
-      imdb:
-        - search/keyword/?keywords=christmas-episode
+      imdb: search/keyword/?keywords=christmas-episode
     plex_search:
       #all:
         #genre.not: Reality, Food, Documentary
