@@ -15,7 +15,7 @@ templates:
     imdb_list: https://www.imdb.com/<<imdb>>
     schedule: range(<<schedule>>)
     title_format: <<collection_name>> Movies
-    summary: A collection of <<collection_name>> themed movies, as well as movies that are normally on TV this time of year.
+    summary: A collection of <<collection_name>> themed movies, as well as movies that are associated with this time of year.
     visible_library: true
     visible_home: true
     visible_shared: true
