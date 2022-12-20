@@ -12,6 +12,7 @@ templates:
     trakt_list: https://trakt.tv/users/<<trakt>>
     imdb_list: https://www.imdb.com/<<imdb>>
     schedule: range(<<schedule>>)
+    collection_order: custom
     summary: A collection of <<season>> themed episodes to celebrate the holiday.
     visible_home: true
     visible_shared: true
