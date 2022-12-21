@@ -31,6 +31,12 @@ collections:
       trakt: "uyn5hnpr2wdjwksh/lists/christmas-episodes, philrivers/lists/christmas-episodes, b23ant/lists/christmas-episodes"
       #imdb: search/keyword/?keywords=christmas-episode
     plex_search:
+      all:
+        genre.not:
+          - Thriller
+          - Horror
+          - Crime
+          - Reality
       any:    
         episode_title: 
           - Christmas
@@ -43,7 +49,7 @@ collections:
           - Jingle
           - Merry
           - Snowman
-        show_title
+        show_title:
           - Christmas
           - Xmas
           - Grinch
