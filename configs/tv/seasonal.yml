@@ -7,15 +7,22 @@ templates:
     optional:
       - trakt
       - imdb
-    smart_label: 
+      - exclude
+      - include
+      - episode
+      - show
+    smart_filter: 
       sort_by: random
       all:
-        label: <<smart_label>>
+        genre.not: <<exclude>>
+        genre: <<include>>
+        any:
+          episode_title: <<episode>>
+          show_title: <<show>>
     builder_level: episode
     trakt_list: <<trakt>>
     imdb_list: https://www.imdb.com/<<imdb>>
     schedule: range(<<schedule>>)
-    #collection_order: custom
     summary: A collection of <<season>> themed episodes to celebrate the holiday.
     visible_home: true
     visible_shared: true
@@ -33,35 +40,32 @@ collections:
         - https://trakt.tv/users/philrivers/lists/christmas-episodes 
         - https://trakt.tv/users/b23ant/lists/christmas-episodes
       #imdb: search/keyword/?keywords=christmas-episode
-    plex_search:
-      all:
-        genre.not:
-          - Thriller
-          - Horror
-          - Crime
-          - Reality
-        any:    
-          episode_title: 
-            - Christmas
-            - Xmas
-            - Grinch
-            - Santa
-            - Claus
-            - Reindeer
-            - Mistletoe
-            - Jingle
-            - Merry
-            - Snowman
-            - Snow
-          show_title:
-            - Christmas
-            - Xmas
-            - Grinch
-            - Santa
-            - Claus
-            - Reindeer
-            - Mistletoe
-            - Jingle
-            - Merry
-            - Snowman
-            - Snow
+      exclude:
+        - Thriller
+        - Horror
+        - Crime
+        - Reality    
+       episode: 
+        - Christmas
+        - Xmas
+        - Grinch
+        - Santa
+        - Claus
+        - Reindeer
+        - Mistletoe
+        - Jingle
+        - Merry
+        - Snowman
+        - Snow
+      show:
+        - Christmas
+        - Xmas
+        - Grinch
+        - Santa
+        - Claus
+        - Reindeer
+        - Mistletoe
+        - Jingle
+        - Merry
+        - Snowman
+        - Snow
