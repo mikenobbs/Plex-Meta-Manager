@@ -52,6 +52,7 @@ collections:
             - Jingle
             - Merry
             - Snowman
+            - Snow
           show_title:
             - Christmas
             - Xmas
@@ -62,4 +63,5 @@ collections:
             - Mistletoe
             - Jingle
             - Merry
-            - Snowma
+            - Snowman
+            - Snow
