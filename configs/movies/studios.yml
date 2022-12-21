@@ -13,7 +13,7 @@ templates:
       all:
         genre: <<include>>
         genre.not: <<exclude>>
-        label.not: <<ignore>>
+        collection.not: <<ignore>>
         any:
           studio: <<studio>>
   studio:
