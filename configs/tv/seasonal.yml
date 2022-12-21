@@ -12,7 +12,7 @@ templates:
       all:
         label: <<smart_label>>
     builder_level: episode
-    trakt_list: https://trakt.tv/users/<<trakt>>
+    trakt_list: <<trakt>>
     imdb_list: https://www.imdb.com/<<imdb>>
     schedule: range(<<schedule>>)
     #collection_order: custom
@@ -28,7 +28,10 @@ collections:
       name: seasonal
       schedule: 11/01-01/01
       season: Christmas
-      trakt: "uyn5hnpr2wdjwksh/lists/christmas-episodes, philrivers/lists/christmas-episodes, b23ant/lists/christmas-episodes"
+      trakt: 
+        - https://trakt.tv/users/uyn5hnpr2wdjwksh/lists/christmas-episodes
+        - https://trakt.tv/users/philrivers/lists/christmas-episodes 
+        - https://trakt.tv/users/b23ant/lists/christmas-episodes
       #imdb: search/keyword/?keywords=christmas-episode
     plex_search:
       all:
