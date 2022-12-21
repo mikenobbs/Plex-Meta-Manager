@@ -37,26 +37,26 @@ collections:
           - Horror
           - Crime
           - Reality
-      any:    
-        episode_title: 
-          - Christmas
-          - Xmas
-          - Grinch
-          - Santa
-          - Claus
-          - Reindeer
-          - Mistletoe
-          - Jingle
-          - Merry
-          - Snowman
-        show_title:
-          - Christmas
-          - Xmas
-          - Grinch
-          - Santa
-          - Claus
-          - Reindeer
-          - Mistletoe
-          - Jingle
-          - Merry
-          - Snowman
+        any:    
+          episode_title: 
+            - Christmas
+            - Xmas
+            - Grinch
+            - Santa
+            - Claus
+            - Reindeer
+            - Mistletoe
+            - Jingle
+            - Merry
+            - Snowman
+          show_title:
+            - Christmas
+            - Xmas
+            - Grinch
+            - Santa
+            - Claus
+            - Reindeer
+            - Mistletoe
+            - Jingle
+            - Merry
+            - Snowman
