@@ -12,7 +12,7 @@ templates:
       - episode
       - show
     smart_filter: 
-      sort_by: random
+      sort_by: release.asc
       all:
         genre.not: <<exclude>>
         genre: <<include>>
