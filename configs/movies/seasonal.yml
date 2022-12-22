@@ -7,7 +7,10 @@ templates:
     optional:
       - trakt
       - imdb 
-    smart_label: random
+    smart_label:
+      sort_by: title.asc
+      all:
+        label: <<smart_label>>
     trakt_list: https://trakt.tv/users/<<trakt>>
     imdb_list: https://www.imdb.com/<<imdb>>
     schedule: range(<<schedule>>)
@@ -23,5 +26,5 @@ collections:
       name: seasonal
       season: Christmas
       schedule: 11/01-01/01
-      #trakt: plexmetamanager/lists/christmas-extravaganza-non-tv-movie
-      imdb: search/keyword/?keywords=christmas
+      trakt: plexmetamanager/lists/christmas-extravaganza-non-tv-movie
+      #imdb: search/keyword/?keywords=christmas
