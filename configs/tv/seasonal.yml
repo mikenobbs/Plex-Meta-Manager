@@ -35,10 +35,10 @@ collections:
       name: seasonal
       schedule: 11/01-01/01
       season: Christmas
-      trakt: 
-        - https://trakt.tv/users/uyn5hnpr2wdjwksh/lists/christmas-episodes
-        - https://trakt.tv/users/philrivers/lists/christmas-episodes 
-        - https://trakt.tv/users/b23ant/lists/christmas-episodes
+      #trakt: 
+        #- https://trakt.tv/users/uyn5hnpr2wdjwksh/lists/christmas-episodes
+        #- https://trakt.tv/users/philrivers/lists/christmas-episodes 
+        #- https://trakt.tv/users/b23ant/lists/christmas-episodes
       #imdb: search/keyword/?keywords=christmas-episode
       exclude:
         - Thriller
