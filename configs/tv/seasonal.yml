@@ -11,14 +11,17 @@ templates:
       - include
       - episode
       - show
-    smart_label: release.asc
-    plex_search:
+    smart_label:
+      sort_by: show.asc
       all:
+        episode_label: <<smart_label>>
         genre.not: <<exclude>>
         genre: <<include>>
         any:
           episode_title: <<episode>>
           show_title: <<show>>
+    #plex_search:
+      #all:
     builder_level: episode
     trakt_list: <<trakt>>
     imdb_list: https://www.imdb.com/<<imdb>>
