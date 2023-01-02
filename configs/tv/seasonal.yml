@@ -26,7 +26,10 @@ templates:
     trakt_list: <<trakt>>
     imdb_list: https://www.imdb.com/<<imdb>>
     schedule: range(<<schedule>>)
-    summary: A collection of <<season>> themed episodes to celebrate the holiday.
+    summary: >-
+            A collection of <<season>> themed episodes and TV Shows.
+            
+            PLEASE NOTE, this is a timed collection and will be automatically removed at the end of the holiday.
     visible_home: true
     visible_shared: true
     delete_not_scheduled: true
