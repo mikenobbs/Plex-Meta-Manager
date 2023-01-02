@@ -18,6 +18,7 @@ templates:
     visible_library: true
     visible_home: true
     visible_shared: true
+    delete_not_scheduled: true
     sort_title: +++<<collection_name>>
 
 collections:
