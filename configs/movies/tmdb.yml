@@ -57,6 +57,7 @@ dynamic_collections:
       275402: SpongeBob SquarePants
       115575: Star Trek
       627517: The Wizard of Oz
+      683698: Zombies
     template_variables:
       movie:
         466463:        # Descendants
@@ -89,6 +90,11 @@ dynamic_collections:
           - 9334       # Scorpion King
         304:           # Ocean's
           - 402900     # Ocean's Eight
+        2150:          # Shrek
+          - 13394      # Shrek the Halls
+          - 25524      # Ghost of Lord Farquaad
+          - 48466      # Scared Shrekless
+          - 51256      # Shrektacular
         627517:        # Wizard of Oz
           - 13155      # Return to Oz
           - 68728      # Oz the Great and Powerful
@@ -157,7 +163,7 @@ dynamic_collections:
       - 386382    # Frozen
       - 535313    # Godzilla
       - 284433    # Guardians of the Galaxy
-      - 978459    # Hercules (Disney)  
+      - 978459    # Hercules
       - 97456     # The Hunchback of Notre Dame  
       - 468222    # The Incredibles
       - 131292    # Iron Man                                                     
