@@ -16,13 +16,7 @@ templates:
       limit: 100
     collection_order: custom
 
-playlists:  
-  Buffyverse - Chronological Order:
-    template: {name: order, cache: 1, library: TV Shows, user: psaul3, trakt: buffyverse-viewing-order}
-    summary: The Buffyverse in chronological order.
-  Marvel Cinematic Universe - Chronological Order:
-    template: {name: order, cache: 1, library: "Movies, TV Shows", user: donxy, trakt: marvel-cinematic-universe}
-    summary: Watch Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe, in chronological order.
+playlists:
   The Simpsons Top 100 Episodes:
     template: {name: top, cache: 1, library: TV Shows, imdb: tt0096697}
     summary: Top 100 episodes of The Simpsons based on IMDb user rating.
