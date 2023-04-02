@@ -41,7 +41,8 @@ collections:
     template: {name: studio-search, studio: Disney, include: animation, ignore: "Disney Pixar, Disney Live-Action"}
     summary: Walt Disney Animation Studios, sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Walt Disney Studios lot in Burbank, California.
   Marvel Cinematic Universe:
-    template: {name: studio-search, studio: Marvel Studios}
+    tvdb_list: https://thetvdb.com/lists/marvel-cinematic-universe
+    radarr_add_missing: true
     summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
   Studio Ghibli:
     template: {name: studio, user: asterlea, trakt: studio-ghibli}
