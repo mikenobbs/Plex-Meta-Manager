@@ -34,16 +34,15 @@ collections:
   DCEU:
     template: {name: collection, tvdb: dc-extended-universe, radarr: true}
     #summary:
+  DC Universe Animated Original Movies:
+    template: {name: collection, user: kulkoff, trakt: dc-animated-original-movies}
+    summary: The DC Universe Animated Original Movies are a series of American direct-to-video superhero animated films based on DC Comics characters and stories.
   Final Fantasy:
     template: {name: collection, imdb: ls022264056}
     summary: A collection of films based off or closely associated with the Final Fantasy video games.
   The Man with No Name:
     template: {name: collection, sort: "Man with No Name", imdb: ls023916334}
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more movies. Theses three movies are consistently listed among the best rated Western films in history.
-  #Marvel Cinematic Universe:
-    #template: {name: collection, movie: "413279, 441829, 505945", user: donxy, trakt: marvel-cinematic-universe}
-    #summary: Marvel’s mightiest heroes from across the galaxy gather in Marvel’s Cinematic Universe. Divided into phases, Phase 3 culminates in our heroes facing off against the Mad Titan, Thanos, in a battle that will decide the fate of the universe. But the story is far from over...
-    #radarr_add_missing: true
   Middle-Earth:
     template: {name: collection, collection: "121938, 119", order: alpha }
     summary: Based on The Hobbit and The Lord of the Rings Trilogy, Peter Jackson's epic six-part saga brings Tolkien's Middle-Earth to life.
