@@ -55,9 +55,6 @@ collections:
   #Pokémon:
     #template: {name: collection, imdb: ls062687939}
     #summary: Pokémon is a media franchise created by video game designer Satoshi Tajiri that centers on fictional creatures called Pokémon. As of 2020, there have been 23 animated films and one live action film. The first nineteen animated films are based on the anime television series of the same name, with the original film being remade into the 22nd. The 20th, 21st and 23rd animated films are set in an alternate continuity to the anime.
-  Power Rangers:
-    template: {name: collection, user: jmpichardo, trakt: power-rangers}
-    #summary:
   Unbreakable:
     template: {name: collection, imdb: ls022101006}
     summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
