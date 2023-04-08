@@ -46,10 +46,12 @@ dynamic_collections:
       86066: Despicable Me & Minions
       263: The Dark Knight
       9485: Fast & Furious
+      230: The Godfather
       87251: The Good Witch
       121938: The Hobbit
       131635: The Hunger Games
       119: The Lord of the Rings
+      110021: The Magnificent Seven
       2344: The Matrix
       1733: The Mummy
       735384: Poirot
@@ -85,6 +87,8 @@ dynamic_collections:
           - 161143     # Madly Madagascar
           - 10258      # Penguins Christmas Caper
           - 270946     # Penguins of Madagascar
+        110021:        # Magnificent Seven
+          - 333484     # Magnificent Seven (2016)
         2344:          # The Matrix
           - 55931      # Animatrix
         1733:          # The Mummy
@@ -124,10 +128,12 @@ dynamic_collections:
         743824: Christmas Chronicles
         201873: Christmas Story
         263: Dark Knight
+        230: Godfather
         87251: Good Witch
         121938: Hobbit
         131635: Hunger Games
         119: Lord of the Rings
+        110021: Magnificent Seven
         2344: Matrix
         1733: Mummy
         394204: Snowman
@@ -137,7 +143,7 @@ dynamic_collections:
       summary:
         115575: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.   # Star Trek
       minimum:
-        893731: 1       # Paw Patrol
+        893731: 1       # PAW Patrol
     exclude:
       - 100693    # 101 Dalmatians (Animated)                                         
       - 124916    # 101 Dalmatians (Live-Action) 
