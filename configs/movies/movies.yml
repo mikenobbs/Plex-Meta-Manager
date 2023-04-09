@@ -40,9 +40,6 @@ collections:
   Final Fantasy:
     template: {name: collection, imdb: ls022264056}
     summary: A collection of films based off or closely associated with the Final Fantasy video games.
-  The Magnificent Seven:
-    template: {name: collection, sort: "Magnificent Seven", movie: "966, 333484"}
-    #summary:
   The Man with No Name:
     template: {name: collection, sort: "Man with No Name", imdb: ls023916334}
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more movies. Theses three movies are consistently listed among the best rated Western films in history.
