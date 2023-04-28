@@ -22,8 +22,6 @@ collections:
     template: {name: hidden, movie: 504827}
   Buffyverse:
     template: {name: hidden, movie: 10206}
-  Clifford the Big Red Dog:
-    template: {name: hidden, movie: 585245}
   Friends:
     template: {name: hidden, movie: 691179}
   The Simpsons:
