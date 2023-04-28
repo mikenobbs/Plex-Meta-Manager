@@ -28,8 +28,6 @@ dynamic_collections:
         - 135416   # Prometheus
       86066:       # Despicable Me
         - 544669   # Minions
-      9485:        # The Fast and the Furious
-        - 688042   # Hobbs & Shaw
       86860:       # Scooby-Doo
         - 633815   # The Mystery Begins
       115575:      # Star Trek: Alternate Reality                                          
@@ -69,6 +67,8 @@ dynamic_collections:
       movie:
         466463:        # Descendants
           - 805411     # The Royal Wedding
+        9485:          # Fast & Furious
+          - 384018     # Hobbs & Shaw
         1241:          # Harry Potter
           - 899082     # 20th Anniversary
         8354:          # Ice Age
@@ -147,12 +147,8 @@ dynamic_collections:
       summary:
         115575: Space... the final frontier. Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series.   # Star Trek
       mode:
-
         893731: hide    # PAW Patrol
-
         1079241: hide   # Clifford the Big Red Dog
-
-  
       minimum:
         893731: 1       # PAW Patrol
         1079241: 1      # Clifford the Big Red Dog
